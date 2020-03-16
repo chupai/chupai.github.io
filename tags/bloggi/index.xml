@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Bloggi on 竹白記事本</title>
+    <link>http://example.org/tags/bloggi/</link>
+    <description>Recent content in Bloggi on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://example.org/tags/bloggi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Bloggi - 支援 Markdown 語法的簡易部落格</title>
+        <link>http://example.org/posts/200205_bloggi/</link>
+        <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Wed, 05 Feb 2020 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/200205_bloggi/</guid>
+        <description>前言 之前都是使用 Blogger 來放筆記，但 Blogger 沒辦法使用 Markdown 語法，所以筆記幾乎都使用 HackMD 來寫作，有空時才會將文章轉好丟到 Blogger 上，如果文章作修改要同步很麻煩。 最近</description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Bloggi</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

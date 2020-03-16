@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Hugo on 竹白記事本</title>
+    <link>http://example.org/categories/hugo/</link>
+    <description>Recent content in Hugo on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://example.org/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Hugo 建立 Blog</title>
+        <link>http://example.org/posts/200316_hugo/</link>
+        <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 16 Mar 2020 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/200316_hugo/</guid>
+        <description>前言 這週是 六角鼠年鐵人賽 第七週，挑戰剛開始時，我的文章是放在 Bloggi，而且第一週文章就是 Bloggi 如何使用（明顯混分😂），但後來想想，Blogg</description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

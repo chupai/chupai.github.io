@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on 竹白記事本</title>
-    <link>http://example.org/tags/</link>
+    <link>https://chupai.github.io/tags/</link>
     <description>Recent content in Tags on 竹白記事本</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
@@ -16,7 +16,7 @@
     <copyright>Copyright © {year} 竹白記事本</copyright>
     <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://chupai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>Hugo</title>
-        <link>http://example.org/tags/hugo/</link>
+        <link>https://chupai.github.io/tags/hugo/</link>
         <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>http://example.org/tags/hugo/</guid>
+        <guid>https://chupai.github.io/tags/hugo/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -42,11 +42,11 @@
       
       <item>
         <title>w3HexSchool</title>
-        <link>http://example.org/tags/w3hexschool/</link>
+        <link>https://chupai.github.io/tags/w3hexschool/</link>
         <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>http://example.org/tags/w3hexschool/</guid>
+        <guid>https://chupai.github.io/tags/w3hexschool/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -60,11 +60,11 @@
       
       <item>
         <title>Lodash</title>
-        <link>http://example.org/tags/lodash/</link>
+        <link>https://chupai.github.io/tags/lodash/</link>
         <pubDate>Fri, 13 Mar 2020 01:27:53 +0800</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>http://example.org/tags/lodash/</guid>
+        <guid>https://chupai.github.io/tags/lodash/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -78,11 +78,11 @@
       
       <item>
         <title>Vue</title>
-        <link>http://example.org/tags/vue/</link>
+        <link>https://chupai.github.io/tags/vue/</link>
         <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>http://example.org/tags/vue/</guid>
+        <guid>https://chupai.github.io/tags/vue/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -96,11 +96,11 @@
       
       <item>
         <title>Vue Transition</title>
-        <link>http://example.org/tags/vue-transition/</link>
+        <link>https://chupai.github.io/tags/vue-transition/</link>
         <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>http://example.org/tags/vue-transition/</guid>
+        <guid>https://chupai.github.io/tags/vue-transition/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -114,11 +114,11 @@
       
       <item>
         <title>GSAP3</title>
-        <link>http://example.org/tags/gsap3/</link>
+        <link>https://chupai.github.io/tags/gsap3/</link>
         <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>http://example.org/tags/gsap3/</guid>
+        <guid>https://chupai.github.io/tags/gsap3/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -132,11 +132,11 @@
       
       <item>
         <title>TweenMax</title>
-        <link>http://example.org/tags/tweenmax/</link>
+        <link>https://chupai.github.io/tags/tweenmax/</link>
         <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>http://example.org/tags/tweenmax/</guid>
+        <guid>https://chupai.github.io/tags/tweenmax/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -150,11 +150,11 @@
       
       <item>
         <title>Flex</title>
-        <link>http://example.org/tags/flex/</link>
+        <link>https://chupai.github.io/tags/flex/</link>
         <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>http://example.org/tags/flex/</guid>
+        <guid>https://chupai.github.io/tags/flex/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -168,11 +168,11 @@
       
       <item>
         <title>Swiper</title>
-        <link>http://example.org/tags/swiper/</link>
+        <link>https://chupai.github.io/tags/swiper/</link>
         <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>http://example.org/tags/swiper/</guid>
+        <guid>https://chupai.github.io/tags/swiper/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -186,11 +186,11 @@
       
       <item>
         <title>Bloggi</title>
-        <link>http://example.org/tags/bloggi/</link>
+        <link>https://chupai.github.io/tags/bloggi/</link>
         <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>http://example.org/tags/bloggi/</guid>
+        <guid>https://chupai.github.io/tags/bloggi/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>

@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Hugo on 竹白記事本</title>
-    <link>http://example.org/categories/hugo/</link>
+    <link>https://chupai.github.io/categories/hugo/</link>
     <description>Recent content in Hugo on 竹白記事本</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
@@ -16,7 +16,7 @@
     <copyright>Copyright © {year} 竹白記事本</copyright>
     <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://example.org/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://chupai.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>Hugo 建立 Blog</title>
-        <link>http://example.org/posts/200316_hugo/</link>
+        <link>https://chupai.github.io/posts/200316_hugo/</link>
         <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Mon, 16 Mar 2020 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/200316_hugo/</guid>
+        <guid>https://chupai.github.io/posts/200316_hugo/</guid>
         <description>前言 這週是 六角鼠年鐵人賽 第七週，挑戰剛開始時，我的文章是放在 Bloggi，而且第一週文章就是 Bloggi 如何使用（明顯混分😂），但後來想想，Blogg</description>
         
         <dc:creator>竹白</dc:creator>

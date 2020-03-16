@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>w3HexSchool六角鼠年鐵人賽 on 竹白記事本</title>
-    <link>http://example.org/series/w3hexschool%E5%85%AD%E8%A7%92%E9%BC%A0%E5%B9%B4%E9%90%B5%E4%BA%BA%E8%B3%BD/</link>
+    <link>https://chupai.github.io/series/w3hexschool%E5%85%AD%E8%A7%92%E9%BC%A0%E5%B9%B4%E9%90%B5%E4%BA%BA%E8%B3%BD/</link>
     <description>Recent content in w3HexSchool六角鼠年鐵人賽 on 竹白記事本</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
@@ -16,7 +16,7 @@
     <copyright>Copyright © {year} 竹白記事本</copyright>
     <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://example.org/series/w3hexschool%E5%85%AD%E8%A7%92%E9%BC%A0%E5%B9%B4%E9%90%B5%E4%BA%BA%E8%B3%BD/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://chupai.github.io/series/w3hexschool%E5%85%AD%E8%A7%92%E9%BC%A0%E5%B9%B4%E9%90%B5%E4%BA%BA%E8%B3%BD/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>Hugo 建立 Blog</title>
-        <link>http://example.org/posts/200316_hugo/</link>
+        <link>https://chupai.github.io/posts/200316_hugo/</link>
         <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Mon, 16 Mar 2020 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/200316_hugo/</guid>
+        <guid>https://chupai.github.io/posts/200316_hugo/</guid>
         <description>前言 這週是 六角鼠年鐵人賽 第七週，挑戰剛開始時，我的文章是放在 Bloggi，而且第一週文章就是 Bloggi 如何使用（明顯混分😂），但後來想想，Blogg</description>
         
         <dc:creator>竹白</dc:creator>
@@ -64,15 +64,15 @@
       
       <item>
         <title>Lodash - JS 實用工具函式庫</title>
-        <link>http://example.org/posts/200315__lodash/</link>
+        <link>https://chupai.github.io/posts/200315__lodash/</link>
         <pubDate>Fri, 13 Mar 2020 01:27:53 +0800</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Fri, 13 Mar 2020 01:27:53 +0800</atom:modified>
-        <guid>http://example.org/posts/200315__lodash/</guid>
+        <guid>https://chupai.github.io/posts/200315__lodash/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第六週，上週剛好接觸到 Lodash，就簡單紀錄一下。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
-        <media:content url="http://example.org/images/covers/200313_lodash.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://chupai.github.ioimages/covers/200313_lodash.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -104,11 +104,11 @@
       
       <item>
         <title>Vue Transition 筆記</title>
-        <link>http://example.org/posts/200307__vue-transition/</link>
+        <link>https://chupai.github.io/posts/200307__vue-transition/</link>
         <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Sat, 07 Mar 2020 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/200307__vue-transition/</guid>
+        <guid>https://chupai.github.io/posts/200307__vue-transition/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第五週，紀錄一下 Vue Transition 用法。。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
@@ -144,11 +144,11 @@
       
       <item>
         <title>GSAP3 - 專門處理動畫與特效的 JS 套件</title>
-        <link>http://example.org/posts/200229__gsap3/</link>
+        <link>https://chupai.github.io/posts/200229__gsap3/</link>
         <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Sat, 29 Feb 2020 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/200229__gsap3/</guid>
+        <guid>https://chupai.github.io/posts/200229__gsap3/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第四週，之前沒碰過 TweenMax，但 GSAP 已經升級 GSAP3，就簡單研究一下 GSAP3。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
@@ -188,11 +188,11 @@
       
       <item>
         <title>Flexbox 筆記</title>
-        <link>http://example.org/posts/200220__flex/</link>
+        <link>https://chupai.github.io/posts/200220__flex/</link>
         <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Thu, 20 Feb 2020 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/200220__flex/</guid>
+        <guid>https://chupai.github.io/posts/200220__flex/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第三週，不知道要寫啥，就重新整理了一下 Flexbox 的筆記。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
@@ -228,11 +228,11 @@
       
       <item>
         <title>Swiper - 不需要使用到 jQuery 的輪播套件</title>
-        <link>http://example.org/posts/200212__swiper/</link>
+        <link>https://chupai.github.io/posts/200212__swiper/</link>
         <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Wed, 12 Feb 2020 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/200212__swiper/</guid>
+        <guid>https://chupai.github.io/posts/200212__swiper/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第二週，就簡單的整理 Swiper 如何使用。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
@@ -268,11 +268,11 @@
       
       <item>
         <title>Bloggi - 支援 Markdown 語法的簡易部落格</title>
-        <link>http://example.org/posts/200205_bloggi/</link>
+        <link>https://chupai.github.io/posts/200205_bloggi/</link>
         <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Wed, 05 Feb 2020 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/200205_bloggi/</guid>
+        <guid>https://chupai.github.io/posts/200205_bloggi/</guid>
         <description>前言 之前都是使用 Blogger 來放筆記，但 Blogger 沒辦法使用 Markdown 語法，所以筆記幾乎都使用 HackMD 來寫作，有空時才會將文章轉好丟到 Blogger 上，如果文章作修改要同步很麻煩。 最近</description>
         
         <dc:creator>竹白</dc:creator>

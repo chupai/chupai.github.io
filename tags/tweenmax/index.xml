@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>TweenMax on 竹白記事本</title>
-    <link>http://example.org/tags/tweenmax/</link>
+    <link>https://chupai.github.io/tags/tweenmax/</link>
     <description>Recent content in TweenMax on 竹白記事本</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
@@ -16,7 +16,7 @@
     <copyright>Copyright © {year} 竹白記事本</copyright>
     <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/tweenmax/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://chupai.github.io/tags/tweenmax/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>GSAP3 - 專門處理動畫與特效的 JS 套件</title>
-        <link>http://example.org/posts/200229__gsap3/</link>
+        <link>https://chupai.github.io/posts/200229__gsap3/</link>
         <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Sat, 29 Feb 2020 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/200229__gsap3/</guid>
+        <guid>https://chupai.github.io/posts/200229__gsap3/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第四週，之前沒碰過 TweenMax，但 GSAP 已經升級 GSAP3，就簡單研究一下 GSAP3。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>

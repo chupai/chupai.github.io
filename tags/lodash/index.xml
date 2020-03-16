@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Lodash on 竹白記事本</title>
-    <link>http://example.org/tags/lodash/</link>
+    <link>https://chupai.github.io/tags/lodash/</link>
     <description>Recent content in Lodash on 竹白記事本</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
@@ -16,7 +16,7 @@
     <copyright>Copyright © {year} 竹白記事本</copyright>
     <lastBuildDate>Fri, 13 Mar 2020 01:27:53 +0800</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/lodash/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://chupai.github.io/tags/lodash/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,15 +24,15 @@
       
       <item>
         <title>Lodash - JS 實用工具函式庫</title>
-        <link>http://example.org/posts/200315__lodash/</link>
+        <link>https://chupai.github.io/posts/200315__lodash/</link>
         <pubDate>Fri, 13 Mar 2020 01:27:53 +0800</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Fri, 13 Mar 2020 01:27:53 +0800</atom:modified>
-        <guid>http://example.org/posts/200315__lodash/</guid>
+        <guid>https://chupai.github.io/posts/200315__lodash/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第六週，上週剛好接觸到 Lodash，就簡單紀錄一下。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
-        <media:content url="http://example.org/images/covers/200313_lodash.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://chupai.github.ioimages/covers/200313_lodash.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

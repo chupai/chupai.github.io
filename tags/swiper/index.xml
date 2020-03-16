@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Swiper on 竹白記事本</title>
-    <link>http://example.org/tags/swiper/</link>
+    <link>https://chupai.github.io/tags/swiper/</link>
     <description>Recent content in Swiper on 竹白記事本</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
@@ -16,7 +16,7 @@
     <copyright>Copyright © {year} 竹白記事本</copyright>
     <lastBuildDate>Wed, 12 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/swiper/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://chupai.github.io/tags/swiper/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>Swiper - 不需要使用到 jQuery 的輪播套件</title>
-        <link>http://example.org/posts/200212__swiper/</link>
+        <link>https://chupai.github.io/posts/200212__swiper/</link>
         <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Wed, 12 Feb 2020 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/200212__swiper/</guid>
+        <guid>https://chupai.github.io/posts/200212__swiper/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第二週，就簡單的整理 Swiper 如何使用。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>

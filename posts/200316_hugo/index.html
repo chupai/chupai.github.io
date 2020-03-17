@@ -1713,7 +1713,7 @@ draft: true
 </ul>
 <h3 id="1-建立-repository">1. 建立 repository</h3>
 <p>在 GitHub 建立一個 repository，命名為：<code>帳號.github.io</code>。</p>
-<h3 id="2-設定-baseurl">2. 設定 <code>baseURL</code></h3>
+<h3 id="2-設定-baseurl">2. 設定 baseURL</h3>
 <p>將 <code>config.toml</code> 配置檔內的 <code>baseURL</code> 設為：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1723,7 +1723,7 @@ draft: true
 <pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">baseURL</span> <span class="p">=</span> <span class="s2">&#34;http://帳號.github.io/&#34;</span>
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="3-建立-public-資料夾">3. 建立 <code>public/</code> 資料夾</h3>
+</div><h3 id="3-建立-public-資料夾">3. 建立 public 資料夾</h3>
 <pre><code>hugo
 </code></pre><p>執行 <code>hugo</code> 就會產生 <code>public/</code> 的資料夾。</p>
 <h3 id="4-上傳">4. 上傳</h3>
@@ -1736,8 +1736,7 @@ git push -u origin master
 </code></pre><p>接下來可能會讓你輸入你的 Github 帳號和密碼，之後就可以去 Github 和 <code>http://帳號.github.io</code> 查看是否成功。</p>
 <h3 id="5-更新">5. 更新</h3>
 <p>之後添加文章，只需要重新編譯 Hugo，重新提交到 Github 即可。</p>
-<pre><code>git status
-git add . 
+<pre><code>git add . 
 git commit -m &quot;本次更新的說明&quot;
 git push origin master
 </code></pre><h2 id="新增留言板">新增留言板</h2>
@@ -3080,8 +3079,8 @@ document.addEventListener('DOMContentLoaded', function () {
     <li><a href="#發佈到-github-pages-上">發佈到 Github Pages 上</a>
       <ul>
         <li><a href="#1-建立-repository">1. 建立 repository</a></li>
-        <li><a href="#2-設定-baseurl">2. 設定 <code>baseURL</code></a></li>
-        <li><a href="#3-建立-public-資料夾">3. 建立 <code>public/</code> 資料夾</a></li>
+        <li><a href="#2-設定-baseurl">2. 設定 baseURL</a></li>
+        <li><a href="#3-建立-public-資料夾">3. 建立 public 資料夾</a></li>
         <li><a href="#4-上傳">4. 上傳</a></li>
         <li><a href="#5-更新">5. 更新</a></li>
       </ul>

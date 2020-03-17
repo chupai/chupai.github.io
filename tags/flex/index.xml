@@ -23,12 +23,12 @@
 
       
       <item>
-        <title>Flexbox 筆記</title>
-        <link>https://chupai.github.io/posts/200220__flex/</link>
+        <title>CSS筆記 - Flexbox</title>
+        <link>https://chupai.github.io/posts/200220_flex/</link>
         <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Thu, 20 Feb 2020 00:00:00 +0000</atom:modified>
-        <guid>https://chupai.github.io/posts/200220__flex/</guid>
+        <guid>https://chupai.github.io/posts/200220_flex/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第三週，不知道要寫啥，就重新整理了一下 Flexbox 的筆記。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
@@ -42,6 +42,10 @@
             
           
             
+              <category>CSS排版</category>
+            
+          
+            
               <category>w3HexSchool</category>
             
           
@@ -49,7 +53,7 @@
         
           
             
-              <category>CSS排版</category>
+              <category>CSS筆記</category>
             
           
         

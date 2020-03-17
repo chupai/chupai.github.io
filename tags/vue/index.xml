@@ -23,12 +23,12 @@
 
       
       <item>
-        <title>Vue Transition 筆記</title>
-        <link>https://chupai.github.io/posts/200307__vue-transition/</link>
+        <title>Vue筆記 - Transition</title>
+        <link>https://chupai.github.io/posts/200307_vue-transition/</link>
         <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Sat, 07 Mar 2020 00:00:00 +0000</atom:modified>
-        <guid>https://chupai.github.io/posts/200307__vue-transition/</guid>
+        <guid>https://chupai.github.io/posts/200307_vue-transition/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第五週，紀錄一下 Vue Transition 用法。。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>

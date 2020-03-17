@@ -85,11 +85,11 @@
       
       <item>
         <title>Lodash - JS 實用工具函式庫</title>
-        <link>https://chupai.github.io/posts/200315__lodash/</link>
+        <link>https://chupai.github.io/posts/200315_lodash/</link>
         <pubDate>Fri, 13 Mar 2020 01:27:53 +0800</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Fri, 13 Mar 2020 01:27:53 +0800</atom:modified>
-        <guid>https://chupai.github.io/posts/200315__lodash/</guid>
+        <guid>https://chupai.github.io/posts/200315_lodash/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第六週，上週剛好接觸到 Lodash，就簡單紀錄一下。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
@@ -110,7 +110,7 @@
         
           
             
-              <category>JS工具</category>
+              <category>JS函式庫</category>
             
           
         
@@ -124,12 +124,12 @@
       </item>
       
       <item>
-        <title>Vue Transition 筆記</title>
-        <link>https://chupai.github.io/posts/200307__vue-transition/</link>
+        <title>Vue筆記 - Transition</title>
+        <link>https://chupai.github.io/posts/200307_vue-transition/</link>
         <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Sat, 07 Mar 2020 00:00:00 +0000</atom:modified>
-        <guid>https://chupai.github.io/posts/200307__vue-transition/</guid>
+        <guid>https://chupai.github.io/posts/200307_vue-transition/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第五週，紀錄一下 Vue Transition 用法。。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
@@ -165,11 +165,11 @@
       
       <item>
         <title>GSAP3 - 專門處理動畫與特效的 JS 套件</title>
-        <link>https://chupai.github.io/posts/200229__gsap3/</link>
+        <link>https://chupai.github.io/posts/200229_gsap3/</link>
         <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Sat, 29 Feb 2020 00:00:00 +0000</atom:modified>
-        <guid>https://chupai.github.io/posts/200229__gsap3/</guid>
+        <guid>https://chupai.github.io/posts/200229_gsap3/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第四週，之前沒碰過 TweenMax，但 GSAP 已經升級 GSAP3，就簡單研究一下 GSAP3。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
@@ -194,7 +194,7 @@
         
           
             
-              <category>網頁動態效果</category>
+              <category>JS函式庫</category>
             
           
         
@@ -208,12 +208,12 @@
       </item>
       
       <item>
-        <title>Flexbox 筆記</title>
-        <link>https://chupai.github.io/posts/200220__flex/</link>
+        <title>CSS筆記 - Flexbox</title>
+        <link>https://chupai.github.io/posts/200220_flex/</link>
         <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Thu, 20 Feb 2020 00:00:00 +0000</atom:modified>
-        <guid>https://chupai.github.io/posts/200220__flex/</guid>
+        <guid>https://chupai.github.io/posts/200220_flex/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第三週，不知道要寫啥，就重新整理了一下 Flexbox 的筆記。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
@@ -227,6 +227,10 @@
             
           
             
+              <category>CSS排版</category>
+            
+          
+            
               <category>w3HexSchool</category>
             
           
@@ -234,7 +238,7 @@
         
           
             
-              <category>CSS排版</category>
+              <category>CSS筆記</category>
             
           
         
@@ -249,11 +253,11 @@
       
       <item>
         <title>Swiper - 不需要使用到 jQuery 的輪播套件</title>
-        <link>https://chupai.github.io/posts/200212__swiper/</link>
+        <link>https://chupai.github.io/posts/200212_swiper/</link>
         <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Wed, 12 Feb 2020 00:00:00 +0000</atom:modified>
-        <guid>https://chupai.github.io/posts/200212__swiper/</guid>
+        <guid>https://chupai.github.io/posts/200212_swiper/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第二週，就簡單的整理 Swiper 如何使用。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
@@ -274,7 +278,7 @@
         
           
             
-              <category>網頁動態效果</category>
+              <category>JS函式庫</category>
             
           
         

@@ -24,11 +24,11 @@
       
       <item>
         <title>Swiper - 不需要使用到 jQuery 的輪播套件</title>
-        <link>https://chupai.github.io/posts/200212__swiper/</link>
+        <link>https://chupai.github.io/posts/200212_swiper/</link>
         <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Wed, 12 Feb 2020 00:00:00 +0000</atom:modified>
-        <guid>https://chupai.github.io/posts/200212__swiper/</guid>
+        <guid>https://chupai.github.io/posts/200212_swiper/</guid>
         <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第二週，就簡單的整理 Swiper 如何使用。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
@@ -49,7 +49,7 @@
         
           
             
-              <category>網頁動態效果</category>
+              <category>JS函式庫</category>
             
           
         

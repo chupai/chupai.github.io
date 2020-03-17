@@ -1215,6 +1215,15 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="這週是 六角鼠年鐵人賽 第七週，Hugo 建立 Blog。">
 
+  
+    <meta property="og:image" content="https://chupai.github.io/images/covers/200316_hugo.png">
+    <meta property="og:image:url" content="https://chupai.github.io/images/covers/200316_hugo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:app:name:iphone" content="竹白記事本">
+    <meta property="twitter:title" content="Hugo 建立 Blog">
+    <meta property="twitter:description" content="這週是 六角鼠年鐵人賽 第七週，Hugo 建立 Blog。">
+  
+
 <meta name="generator" content="Hugo 0.67.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
@@ -1244,6 +1253,7 @@
     "url" : "https://chupai.github.io/posts/200316_hugo/",
     "description": "這週是 六角鼠年鐵人賽 第七週，Hugo 建立 Blog。",
     "keywords": ["Hugo","w3HexSchool"],
+    "image" : "https://chupai.github.io/images/covers/200316_hugo.png",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://chupai.github.io"
@@ -1258,7 +1268,31 @@
 
     
   
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-160835374-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
   
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-160835374-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 
 
 
@@ -1280,19 +1314,6 @@
   
 
 
-
-  <script>
-    
-    var baiduAnalyticsId = JSON.parse("\"UA-160835374-1\"");
-
-    var _hmt = _hmt || [];
-    (function () {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?" + baiduAnalyticsId;
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
 
 
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:300,400,500,700,900&display=swap&subset=chinese-traditional" rel="stylesheet">
@@ -1514,7 +1535,7 @@
 <div class="single__infos">
   <time class="single__info" title="創建日期">📅&nbsp;2020年03月16日 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="閱讀時長"> ☕&nbsp;1&nbsp;分鐘 </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="閱讀時長"> ☕&nbsp;6&nbsp;分鐘 </span>
   
   <span class="single__info">
     
@@ -1534,9 +1555,292 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <h2 id="前言">前言</h2>
-<p>這週是 <strong>六角鼠年鐵人賽</strong> 第七週，挑戰剛開始時，我的文章是放在 <a href="https://chupainotebook.bloggi.co/">Bloggi</a>，而且第一週文章就是 <strong><a href="https://chupainotebook.bloggi.co/bloggi-markdown">Bloggi 如何使用</a></strong>（明顯混分😂），但後來想想，Bloggi 沒有留言、沒有備份、嵌入 CodePen 會跑版，為了避免之後不必要的麻煩，還是用自己建立一個 Blog 吧。</p>
+      <p>這週是 <strong>六角鼠年鐵人賽</strong> 第七週，挑戰剛開始時，我的文章是放在 <a href="https://chupainotebook.bloggi.co/">Bloggi</a>，而且第一週文章就是 <strong><a href="https://chupainotebook.bloggi.co/bloggi-markdown">Bloggi 如何使用</a></strong>（明顯混分😂），但後來想想，Bloggi 沒有留言、沒有備份、嵌入 CodePen 會跑版，為了避免之後不必要的麻煩，還是用自己建立一個 Blog 吧。</p>
 
+
+
+
+  
+
+
+
+  <div class="featured-image__wrapper">
+    <img src="/images/covers/200316_hugo.png" alt="Featured Image" class="featured-image" style="width: ;height: ;">
+  </div>
+
+<h2 id="github-pages">GitHub Pages</h2>
+<p>架設部落格最頭痛的問題就是放網站的空間，通常架設網站不是自己用 NAS 來架設，就是花錢租主機空間。</p>
+<p>以上兩種方法都是需要一定的花費，但是透過 GitHub Pages 來架站，則完全免費，但也有一定的 <strong><a href="https://help.github.com/en/github/working-with-github-pages/about-github-pages">條件</a></strong>：</p>
+<ul>
+<li>網站大小不能超過 1 GB</li>
+<li>網站每月流量不能超過 100 GB</li>
+<li>一小時內的網站更新不得超過 10 次</li>
+</ul>
+<p>以上限制對一般需求一定夠用，而且 GitHub 是著名的軟體原始碼代管服務，有一定的穩定性。</p>
+<p>要說唯一的缺點，就是 GitHub Pages 只能架設「靜態網站」，因此無法架設 Wordpress 之類的部落格。</p>
+<p>這時候就需要使用到 <strong>靜態網頁產生器</strong> 來建立 Blog。</p>
+<h3 id="1-熱門靜態網頁產生器">1. 熱門靜態網頁產生器</h3>
+<ul>
+<li><a href="https://dev.to/cookieduster_n/top-5-static-site-generators-for-2020-28ni">Top 5 Static Site Generators for 2020</a></li>
+<li><a href="https://www.creativebloq.com/features/10-best-static-site-generators">10 best static site generators</a></li>
+</ul>
+<h2 id="hugo-簡介">Hugo 簡介</h2>
+<blockquote>
+<p><a href="http://gohugo.io/">Hugo 官網</a></p>
+</blockquote>
+<p>Hugo 是一個用 Go 語言編寫的靜態網站生成器，最大的優點就是編譯速度相對於 Jekyll、Hexo 簡直是飛快。</p>
+<ul>
+<li>基於 go 語言開發，沒有錯綜複雜的依賴關係</li>
+<li>社區活躍</li>
+<li>功能完善</li>
+<li>前端語言支持的種類豐富</li>
+<li>整體框架靈活易懂</li>
+<li>修改即時預覽</li>
+</ul>
+<p>近期有越來越多人因為 Hugo 的編譯速度，將部落格從 Hexo 搬移到 Hugo，不過 Hugo 也有一個很大的缺點，就是相對 Hexo 來說，Blog 的主題太少，也是有人因為 Hexo 有喜歡的主題而捨棄 Hugo。</p>
+<h2 id="搭建-hugo">搭建 Hugo</h2>
+<h3 id="1-前置作業">1. 前置作業</h3>
+<p>MacOS 可以直接使用 Homebrew 安裝 Hugo。</p>
+<pre><code>brew install hugo
+</code></pre><p>在 Windsow 環境必須先下載 <strong><a href="https://github.com/gohugoio/hugo/releases">hugo_extended_0.67.0_Windows-64bit.zip</a></strong>。</p>
+<p>解壓縮後，會有一個 <code>hugo.exe</code> 檔案。創建一個新資料夾：<code>C:\hugo</code>，並將 <code>hugo.exe</code> 檔案放到裡面。</p>
+<p>接下來配置環境變數，點選本機（右鍵） &gt; 內容 &gt; 進階系統設定 &gt; 環境變數 &gt; Path &gt; 編輯 &gt; 新增路徑：<code>C:\hugo</code>。</p>
+<h3 id="2-建立一個專案">2. 建立一個專案</h3>
+<p>開啟終端機並切換到 <code>hugo/</code> 資料夾下，執行以下命令：</p>
+<pre><code>hugo new site myBlog
+</code></pre><p><code>myblog</code> 可以替換成任意名稱。</p>
+<p>機器上會產生一個 <code>myBlog</code> 資料夾，結構如下：</p>
+<pre><code class="language-code" data-lang="code">myBlog/
+│
+├── archetypes/
+│ │
+│ └─ default.md  # 預設 markdown
+├── content/     # 頁面、文章（markdown）
+├── data/        # 資料庫
+├── layouts/     # 自定義的樣板
+├── static/      # 靜態資源
+├── themes/      # 網站的主題
+└── config.toml  # 網站的配置
+</code></pre><h3 id="3-加入主題">3. 加入主題</h3>
+<p>因為 Hugo 預設沒有任何主題的，因此必須在 <strong><a href="https://themes.gohugo.io/">Hugo Themes</a></strong> 選擇一個來套用。</p>
+<p>記得先安裝 <a href="https://git-scm.com/">git</a> 工具，接下來在 <code>myBlog/</code> 資料夾下加入 git 版控：</p>
+<pre><code>git init
+</code></pre><p>從 Github 下載主題並將其添加到 <code>theme</code> 目錄中：</p>
+<pre><code>git submodule add https://github.com/AmazingRise/hugo-theme-diary.git themes/diary
+</code></pre><p>如果沒安裝 <code>git</code>：</p>
+<ul>
+<li>可以直接下載該主題最新版本，並解壓縮；</li>
+<li>將資料夾重新命名 並將其移至 <code>themes</code> 資料夾。</li>
+</ul>
+<p>最後開啟跟目錄下的 <code>config.toml</code> 檔案，設定使用主題：</p>
+<pre><code>theme = &quot;diary&quot;
+</code></pre><p>或是將 <code>theme/</code> 內的 <code>config.toml</code> 取代根目錄的。</p>
+<p>最基本的主題安裝流程大概是這樣。</p>
+<p>但要注意，因為 <code>config</code> 配置檔，支援 <code>toml</code>、<code>yaml</code>、<code>json</code> 三種格式，也可以放在 <code>config/</code> 資料夾內，然後拆分不同模組的配置。所以並不是每個主題的安裝方式都相同，因此最好詳細閱讀每個主題下方的說明。</p>
+<h3 id="4-新增頁面">4. 新增頁面</h3>
+<p><code>hugo new</code> 會根據 <code>archetypes/</code> 資料夾下的 <code>default.md</code> 產生在 <code>content/</code> 資料夾下。</p>
+<pre><code>hugo new [路徑]頁面名.md
+</code></pre><p>單頁面，一般會放在 <code>content/</code> 資料夾下，例如：</p>
+<pre><code>hugo new about.md
+</code></pre><p>文章一般會放在 <code>content/posts/</code> 內，例如：</p>
+<pre><code>hugo new posts/my-first-post.md
+</code></pre><p>不同的主題，會有不同的資料夾結構，單頁面與文章的 Front Matter 設定也都不相同，因此可以查看主題文件說明。</p>
+<h3 id="5-本地端測試">5. 本地端測試</h3>
+<p>預覽草稿 Draft：</p>
+<pre><code>hugo server -D
+</code></pre><p>預覽（不包含草稿）：</p>
+<pre><code>hugo server
+</code></pre><p>預覽網址：<code>http://localhost:1313/</code></p>
+<p>建議在本地測試時，<code>config.toml</code> 設定檔內的 <code>baseURL</code> 先設為空值。</p>
+<h2 id="自定義">自定義</h2>
+<h3 id="1-front-matter">1. Front Matter</h3>
+<p><a href="https://gohugo.io/content-management/front-matter">Front-matter</a> 是 <code>md</code> 檔案最上方的分隔區域，用於指定個別檔案的變數。</p>
+<p>預設使用 <code>yaml</code> 格式，使用 <code>---</code> 分隔：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">---
+title: &#34;{{ replace .Name &#34;-&#34; &#34; &#34; | title }}&#34;
+date: {{ .Date }}
+draft: true
+---
+</code></pre></td></tr></table>
+</div>
+</div><p>另外還支持 <code>toml</code>、<code>json</code> 格式，分別使用 <code>+++</code> 與 <code>{}</code> 分隔。</p>
+<p>預設屬性分別為：</p>
+<ul>
+<li><code>title</code>：標題名，使用 <code>hugo new</code> 建立會與檔名相同。</li>
+<li><code>date</code>：日期，使用 <code>hugo new</code> 建立為目前時間。</li>
+<li><code>draft</code>：草稿，如果是 <code>true</code> 生成網站時，不包括此頁面。</li>
+</ul>
+<h4 id="11-常用-front-matter-屬性">1.1 常用 Front Matter 屬性</h4>
+<p>另外，列出其他 Hugo 支持的常用 Front Matter 屬性：</p>
+<ul>
+<li><code>description</code>：內容描述，主要用於 SEO 優化。</li>
+<li><code>tags</code>：標籤。</li>
+<li><code>categories</code>：分類。</li>
+<li><code>keywords</code>：關鍵字。</li>
+<li><code>url</code>：文章 url 名稱，預設使用檔案名稱。</li>
+<li><code>weight</code>：列表頁的文章排序，越小越靠前，無設定則依照時間排序。</li>
+</ul>
+<p>其他屬性，主要看你用的主題所對應到板模上的變數，主題的文件都會詳細說明。</p>
+<h4 id="12-archetypes">1.2 Archetypes</h4>
+<p>Archetypes 意思為原型，可以當作是生成 <code>md</code> 檔案的模板。</p>
+<p>當我們使用 <code>hugo new</code> 建立 <code>md</code> 檔案時，會根據 <code>archetypes/</code> 資料夾下的模板來建立。</p>
+<p>舉例來說，如果 <code>archetypes/</code> 下有一個 <code>about.md</code>，那麼以下指令就會根據它來產生檔案。</p>
+<pre><code>hugo new about.md
+</code></pre><p>如果沒有相同的檔名，會根據 <code>default.md</code> 來產生檔案。</p>
+<h3 id="2-config">2. Config</h3>
+<p>Hugo 將整個網站的設定配置都集中在 <code>config.toml</code> 檔中，預設為 <code>toml</code> 格式，一樣支持另外兩種格式（<code>yaml</code>、<code>json</code>）。</p>
+<blockquote>
+<p>完整 Hugo Config 可以詳閱官方文件 <a href="https://gohugo.io/getting-started/configuration/">Configure Hugo</a>。</p>
+</blockquote>
+<h2 id="發佈到-github-pages-上">發佈到 Github Pages 上</h2>
+<blockquote>
+<p><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Host on GitHub</a></p>
+</blockquote>
+<p>事前準備：</p>
+<ul>
+<li>安裝 Git 2.8 以上</li>
+<li>GitHub 帳號</li>
+<li>Hugo 網站</li>
+</ul>
+<h3 id="1-建立-repository">1. 建立 repository</h3>
+<p>在 GitHub 建立一個 repository，命名為：<code>帳號.github.io</code>。</p>
+<h3 id="2-設定-baseurl">2. 設定 <code>baseURL</code></h3>
+<p>將 <code>config.toml</code> 配置檔內的 <code>baseURL</code> 設為：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">baseURL</span> <span class="p">=</span> <span class="s2">&#34;http://帳號.github.io/&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="3-建立-public-資料夾">3. 建立 <code>public/</code> 資料夾</h3>
+<pre><code>hugo
+</code></pre><p>執行 <code>hugo</code> 就會產生 <code>public/</code> 的資料夾。</p>
+<h3 id="4-上傳">4. 上傳</h3>
+<p>在 <code>public/</code> 資料夾下執行以下命令：</p>
+<pre><code>git init
+git remote add origin https://github.com/帳號/帳號.github.io.git
+git add .
+git commit -m &quot;my Blog&quot;
+git push -u origin master
+</code></pre><p>接下來可能會讓你輸入你的 Github 帳號和密碼，之後就可以去 Github 和 <code>http://帳號.github.io</code> 查看是否成功。</p>
+<h3 id="5-更新">5. 更新</h3>
+<p>之後添加文章，只需要重新編譯 Hugo，重新提交到 Github 即可。</p>
+<pre><code>git status
+git add . 
+git commit -m &quot;本次更新的說明&quot;
+git push origin master
+</code></pre><h2 id="新增留言板">新增留言板</h2>
+<p>因為是靜態網頁，所以留言板就區要依賴第三方。</p>
+<p><a href="https://disqus.com/">Disqus</a> 是整合性留言管理系統，用來管理各種社群的留言平台。</p>
+<h3 id="1-註冊帳號">1. 註冊帳號</h3>
+<p>註冊帳號並取得 shortname。</p>
+<p>流程蠻簡單的，如果不清楚，可以自行搜尋一下教學流程，這裡就不多做說明。</p>
+<p>Language 如果選擇 Chinese 只有簡體。</p>
+<h3 id="2-在-hugo-啟用">2. 在 Hugo 啟用</h3>
+<p>假設你的主題已經預設 Disqus 留言板了，那麼只需要在<code>config.toml</code> 配置檔填入 Disqus 的 shortname。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">disqusShortname</span> <span class="p">=</span> <span class="s2">&#34;yourdiscussshortname&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>如果沒有，就需要將官方提供的檔案加到你的網站中。</p>
+<p>在 <code>layouts/partials/</code> 資料夾下，加入 <code>disqus.html</code> 檔案：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;disqus_thread&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/javascript&#34;</span><span class="p">&gt;</span>
+
+<span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Don&#39;t ever inject Disqus on localhost--it creates unwanted
+</span><span class="c1"></span>    <span class="c1">// discussions from &#39;localhost:1313&#39; on your Disqus account...
+</span><span class="c1"></span>    <span class="k">if</span> <span class="p">(</span><span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">hostname</span> <span class="o">==</span> <span class="s2">&#34;localhost&#34;</span><span class="p">)</span>
+        <span class="k">return</span><span class="p">;</span>
+
+    <span class="kd">var</span> <span class="nx">dsq</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;script&#39;</span><span class="p">);</span> <span class="nx">dsq</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="s1">&#39;text/javascript&#39;</span><span class="p">;</span> <span class="nx">dsq</span><span class="p">.</span><span class="nx">async</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">disqus_shortname</span> <span class="o">=</span> <span class="s1">&#39;{{ .Site.DisqusShortname }}&#39;</span><span class="p">;</span>
+    <span class="nx">dsq</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="s1">&#39;//&#39;</span> <span class="o">+</span> <span class="nx">disqus_shortname</span> <span class="o">+</span> <span class="s1">&#39;.disqus.com/embed.js&#39;</span><span class="p">;</span>
+    <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s1">&#39;head&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="o">||</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s1">&#39;body&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]).</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">dsq</span><span class="p">);</span>
+<span class="p">})();</span>
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">noscript</span><span class="p">&gt;</span>Please enable JavaScript to view the <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://disqus.com/?ref_noscript&#34;</span><span class="p">&gt;</span>comments powered by Disqus.<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">noscript</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://disqus.com/&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;dsq-brlink&#34;</span><span class="p">&gt;</span>comments powered by <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;logo-disqus&#34;</span><span class="p">&gt;</span>Disqus<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>如果要在本地端測試 Disqus，可以將 <code>if (window.location.hostname == &quot;localhost&quot;) return;</code> 註解掉。</p>
+<p>最後開啟你主題內的 <code>layouts/_default/</code> 資料夾中的 <code>single.html</code> 在適當位置貼上下面這段：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html">{{ partial &#34;disqus.html&#34; . }}
+</code></pre></td></tr></table>
+</div>
+</div><p>這樣就完成了。</p>
+<h2 id="google-analytics">Google Analytics</h2>
+<h3 id="1-建立帳戶">1. 建立帳戶</h3>
+<p>前往 <a href="https://analytics.google.com/">Google Analytics</a>，可以使用 Google 帳號，直接註冊。</p>
+<p>建立帳戶取得 Tracking ID。</p>
+<h3 id="2-hugo-設定">2. Hugo 設定</h3>
+<p>在 <code>config.toml</code> 加入 Tracking ID：</p>
+<pre><code>googleAnalytics = &quot;UA-XXXXX-Y&quot;
+</code></pre><p>在主題內的 <code>layouts/partials/</code> 資料夾中的 <code>head.html</code> 在適當位置貼上下面這段：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html">{{ template &#34;_internal/google_analytics_async.html&#34; . }}
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="容易遇到的問題">容易遇到的問題</h2>
+<h3 id="1-markdown-圖片路徑">1. Markdown 圖片路徑</h3>
+<p>在 Markdown 圖片路徑中，是以 <code>static/</code> 為根目錄寫全路徑。</p>
+<p>圖片位置：<code>/static/imgae/cover/post1.png</code>，那麼在 Markdown 中寫作：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">![<span class="nt">圖片說明</span>](<span class="na">/imgae/cover/post1.png</span>)
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="總結">總結</h2>
+<p>目前就先記錄到這，之後如果有用到 Hugo 其他功能再補上。</p>
+<p>文章部分，之後會慢慢把 Blogger 的舊文搬過來，還有 Hackmd 的筆記整理後丟過來 🙂</p>
     </article>
     
     <script>
@@ -2696,15 +3000,6 @@ document.addEventListener('DOMContentLoaded', function () {
             
     
     
-  
-  
-    
-      <a href="https://chupai.github.io/posts//index.xml" type="application/rss+xml" title="RSS" aria-label="RSS Feed Link">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle fill="currentColor" cx="6.18" cy="17.82" r="2.18"/><path fill="currentColor" d="M5.59 10.23c-.84-.14-1.59.55-1.59 1.4 0 .71.53 1.28 1.23 1.4 2.92.51 5.22 2.82 5.74 5.74.12.7.69 1.23 1.4 1.23.85 0 1.54-.75 1.41-1.59-.68-4.2-3.99-7.51-8.19-8.18zm-.03-5.71C4.73 4.43 4 5.1 4 5.93c0 .73.55 1.33 1.27 1.4 6.01.6 10.79 5.38 11.39 11.39.07.73.67 1.28 1.4 1.28.84 0 1.5-.73 1.42-1.56-.73-7.34-6.57-13.19-13.92-13.92z"/></svg>
-      </a>
-    
-  
-
   </div>
 </div>
 
@@ -2761,7 +3056,54 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="toc toc__outer " data-dir="ltr" data-folding="false" data-ani="true">
           <nav id="TableOfContents">
   <ul>
-    <li><a href="#前言">前言</a></li>
+    <li><a href="#github-pages">GitHub Pages</a>
+      <ul>
+        <li><a href="#1-熱門靜態網頁產生器">1. 熱門靜態網頁產生器</a></li>
+      </ul>
+    </li>
+    <li><a href="#hugo-簡介">Hugo 簡介</a></li>
+    <li><a href="#搭建-hugo">搭建 Hugo</a>
+      <ul>
+        <li><a href="#1-前置作業">1. 前置作業</a></li>
+        <li><a href="#2-建立一個專案">2. 建立一個專案</a></li>
+        <li><a href="#3-加入主題">3. 加入主題</a></li>
+        <li><a href="#4-新增頁面">4. 新增頁面</a></li>
+        <li><a href="#5-本地端測試">5. 本地端測試</a></li>
+      </ul>
+    </li>
+    <li><a href="#自定義">自定義</a>
+      <ul>
+        <li><a href="#1-front-matter">1. Front Matter</a></li>
+        <li><a href="#2-config">2. Config</a></li>
+      </ul>
+    </li>
+    <li><a href="#發佈到-github-pages-上">發佈到 Github Pages 上</a>
+      <ul>
+        <li><a href="#1-建立-repository">1. 建立 repository</a></li>
+        <li><a href="#2-設定-baseurl">2. 設定 <code>baseURL</code></a></li>
+        <li><a href="#3-建立-public-資料夾">3. 建立 <code>public/</code> 資料夾</a></li>
+        <li><a href="#4-上傳">4. 上傳</a></li>
+        <li><a href="#5-更新">5. 更新</a></li>
+      </ul>
+    </li>
+    <li><a href="#新增留言板">新增留言板</a>
+      <ul>
+        <li><a href="#1-註冊帳號">1. 註冊帳號</a></li>
+        <li><a href="#2-在-hugo-啟用">2. 在 Hugo 啟用</a></li>
+      </ul>
+    </li>
+    <li><a href="#google-analytics">Google Analytics</a>
+      <ul>
+        <li><a href="#1-建立帳戶">1. 建立帳戶</a></li>
+        <li><a href="#2-hugo-設定">2. Hugo 設定</a></li>
+      </ul>
+    </li>
+    <li><a href="#容易遇到的問題">容易遇到的問題</a>
+      <ul>
+        <li><a href="#1-markdown-圖片路徑">1. Markdown 圖片路徑</a></li>
+      </ul>
+    </li>
+    <li><a href="#總結">總結</a></li>
   </ul>
 </nav>
         </div>

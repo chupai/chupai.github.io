@@ -29,10 +29,10 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Mon, 16 Mar 2020 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/200316_hugo/</guid>
-        <description>前言 這週是 六角鼠年鐵人賽 第七週，挑戰剛開始時，我的文章是放在 Bloggi，而且第一週文章就是 Bloggi 如何使用（明顯混分😂），但後來想想，Blogg</description>
+        <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第七週，挑戰剛開始時，我的文章是放在 &lt;a href=&#34;https://chupainotebook.bloggi.co/&#34;&gt;Bloggi&lt;/a&gt;，而且第一週文章就是 &lt;strong&gt;&lt;a href=&#34;https://chupainotebook.bloggi.co/bloggi-markdown&#34;&gt;Bloggi 如何使用&lt;/a&gt;&lt;/strong&gt;（明顯混分😂），但後來想想，Bloggi 沒有留言、沒有備份、嵌入 CodePen 會跑版，為了避免之後不必要的麻煩，還是用自己建立一個 Blog 吧。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
-        
+        <media:content url="https://chupai.github.ioimages/covers/200316_hugo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

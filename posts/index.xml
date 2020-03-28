@@ -14,13 +14,53 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Vue筆記 - 表單驗證套件 VeeValidate</title>
+        <link>https://chupai.github.io/posts/200328_vee-validate/</link>
+        <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sat, 28 Mar 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200328_vee-validate/</guid>
+        <description>這週是 六角鼠年鐵人賽 第八週，紀錄 Vue 表單驗證套件 - Vee Validate 操作方法。 前言 VeeValidate 官網 VeeValidate 是專用於 Vue.js 的表單驗證套件。它有很多預設驗證規則，也支持自定義驗證規</description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>VeeValidate</category>
+            
+          
+            
+              <category>Vue</category>
+            
+          
+        
+        
+          
+            
+              <category>Vue筆記</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Hugo 建立 Blog</title>
@@ -109,7 +149,7 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Sat, 07 Mar 2020 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/200307_vue-transition/</guid>
-        <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第五週，紀錄一下 Vue Transition 用法。。&lt;/p&gt;</description>
+        <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第五週，紀錄一下 Vue Transition 用法。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
         

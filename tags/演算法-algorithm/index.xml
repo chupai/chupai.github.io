@@ -6,30 +6,30 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Vue Transition on 竹白記事本</title>
-    <link>https://chupai.github.io/tags/vue-transition/</link>
-    <description>Recent content in Vue Transition on 竹白記事本</description>
+    <title>演算法 Algorithm on 竹白記事本</title>
+    <link>https://chupai.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95-algorithm/</link>
+    <description>Recent content in 演算法 Algorithm on 竹白記事本</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sat, 07 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://chupai.github.io/tags/vue-transition/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://chupai.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95-algorithm/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
       
       <item>
-        <title>Vue筆記 - Transition</title>
-        <link>https://chupai.github.io/posts/200307_vue-transition/</link>
-        <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+        <title>【JavaScript 學演算法】- 何謂演算法？</title>
+        <link>https://chupai.github.io/posts/200404_algorithm/</link>
+        <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
-        <atom:modified>Sat, 07 Mar 2020 00:00:00 +0000</atom:modified>
-        <guid>https://chupai.github.io/posts/200307_vue-transition/</guid>
-        <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第五週，紀錄一下 Vue Transition 用法。&lt;/p&gt;</description>
+        <atom:modified>Sat, 04 Apr 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200404_algorithm/</guid>
+        <description>這週是 六角鼠年鐵人賽 第九週，接下來幾週大概是我學習演算法筆記，既然是學前端，當然就是使用 JavaScript 來實作。 何謂演算法？ 演算法，英文名稱 Algorit</description>
         
         <dc:creator>竹白</dc:creator>
         
@@ -38,11 +38,7 @@
         
           
             
-              <category>Vue Transition</category>
-            
-          
-            
-              <category>Vue</category>
+              <category>演算法 Algorithm</category>
             
           
             
@@ -53,7 +49,7 @@
         
           
             
-              <category>Vue筆記</category>
+              <category>JavaScript 學演算法</category>
             
           
         

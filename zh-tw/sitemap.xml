@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://chupai.github.io/posts/200404_algorithm/</loc>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chupai.github.io/tags/</loc>
     <lastmod>2020-04-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -44,11 +49,6 @@
   
   <url>
     <loc>https://chupai.github.io/series/w3hexschool%E5%85%AD%E8%A7%92%E9%BC%A0%E5%B9%B4%E9%90%B5%E4%BA%BA%E8%B3%BD/</loc>
-    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/posts/200404_algorithm/</loc>
     <lastmod>2020-04-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -128,12 +128,12 @@
   </url>
   
   <url>
-    <loc>https://chupai.github.io/categories/js%E5%87%BD%E5%BC%8F%E5%BA%AB/</loc>
+    <loc>https://chupai.github.io/tags/lodash/</loc>
     <lastmod>2020-03-13T01:27:53+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chupai.github.io/tags/lodash/</loc>
+    <loc>https://chupai.github.io/categories/lodash/</loc>
     <lastmod>2020-03-13T01:27:53+08:00</lastmod>
   </url>
   
@@ -154,6 +154,11 @@
   
   <url>
     <loc>https://chupai.github.io/tags/gsap3/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/categories/gsap3/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -188,12 +193,17 @@
   </url>
   
   <url>
-    <loc>https://chupai.github.io/tags/swiper/</loc>
+    <loc>https://chupai.github.io/posts/200212_swiper/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chupai.github.io/posts/200212_swiper/</loc>
+    <loc>https://chupai.github.io/tags/swiper.js/</loc>
+    <lastmod>2020-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/categories/swiper.js/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
   </url>
   

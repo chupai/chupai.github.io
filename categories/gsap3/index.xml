@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>TweenMax on 竹白記事本</title>
-    <link>https://chupai.github.io/tags/tweenmax/</link>
-    <description>Recent content in TweenMax on 竹白記事本</description>
+    <title>GSAP3 on 竹白記事本</title>
+    <link>https://chupai.github.io/categories/gsap3/</link>
+    <description>Recent content in GSAP3 on 竹白記事本</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
@@ -16,7 +16,7 @@
     <copyright>Copyright © {year} 竹白記事本</copyright>
     <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://chupai.github.io/tags/tweenmax/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://chupai.github.io/categories/gsap3/index.xml" rel="self" type="application/rss+xml" />
     
     
     

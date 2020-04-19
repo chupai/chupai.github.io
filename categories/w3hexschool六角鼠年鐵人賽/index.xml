@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>文章列表 on 竹白記事本</title>
-    <link>https://chupai.github.io/posts/</link>
-    <description>Recent content in 文章列表 on 竹白記事本</description>
+    <title>w3HexSchool六角鼠年鐵人賽 on 竹白記事本</title>
+    <link>https://chupai.github.io/categories/w3hexschool%E5%85%AD%E8%A7%92%E9%BC%A0%E5%B9%B4%E9%90%B5%E4%BA%BA%E8%B3%BD/</link>
+    <description>Recent content in w3HexSchool六角鼠年鐵人賽 on 竹白記事本</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
@@ -16,7 +16,7 @@
     <copyright>Copyright © {year} 竹白記事本</copyright>
     <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://chupai.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://chupai.github.io/categories/w3hexschool%E5%85%AD%E8%A7%92%E9%BC%A0%E5%B9%B4%E9%90%B5%E4%BA%BA%E8%B3%BD/index.xml" rel="self" type="application/rss+xml" />
     
     
     

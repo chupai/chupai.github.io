@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>演算法 Algorithm on 竹白記事本</title>
-    <link>https://chupai.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95-algorithm/</link>
-    <description>Recent content in 演算法 Algorithm on 竹白記事本</description>
+    <title>JavaScript 學演算法 on 竹白記事本</title>
+    <link>https://chupai.github.io/series/javascript-%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95/</link>
+    <description>Recent content in JavaScript 學演算法 on 竹白記事本</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
@@ -16,7 +16,7 @@
     <copyright>Copyright © {year} 竹白記事本</copyright>
     <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://chupai.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95-algorithm/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://chupai.github.io/series/javascript-%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     
     
     

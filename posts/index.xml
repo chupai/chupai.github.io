@@ -14,13 +14,133 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>JavaScript 學演算法（四）- 陣列 Array </title>
+        <link>https://chupai.github.io/posts/200426_ds_array/</link>
+        <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sun, 26 Apr 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200426_ds_array/</guid>
+        <description>&lt;p&gt;這週是 六角鼠年鐵人賽 第十二週，要來簡單說明，最基本的資料結構「陣列 Array」。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200426_ds_array.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>演算法 Algorithm</category>
+            
+          
+            
+              <category>資料結構</category>
+            
+          
+            
+              <category>陣列 Array</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript 學演算法</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>迭代陣列</title>
+        <link>https://chupai.github.io/posts/200425_js_array_iterate/</link>
+        <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sat, 25 Apr 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200425_js_array_iterate/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200425_js_array_iterate.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>陣列 Array</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>陣列</title>
+        <link>https://chupai.github.io/posts/200424_js_array/</link>
+        <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Fri, 24 Apr 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200424_js_array/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200424_js_array.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>陣列 Array</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>JavaScript 學演算法（三）- 資料結構概述</title>
@@ -39,6 +159,10 @@
           
             
               <category>演算法 Algorithm</category>
+            
+          
+            
+              <category>資料結構</category>
             
           
             
@@ -440,6 +564,36 @@
           
             
               <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>JavaScript筆記 目錄</title>
+        <link>https://chupai.github.io/posts/190620_javascript/</link>
+        <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Thu, 20 Jun 2019 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/190620_javascript/</guid>
+        <description>&lt;p&gt;JavaScript筆記 目錄&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/190620_javascript.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
             
           
         

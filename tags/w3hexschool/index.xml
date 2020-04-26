@@ -14,13 +14,61 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/w3hexschool/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>JavaScript 學演算法（四）- 陣列 Array </title>
+        <link>https://chupai.github.io/posts/200426_ds_array/</link>
+        <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sun, 26 Apr 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200426_ds_array/</guid>
+        <description>&lt;p&gt;這週是 六角鼠年鐵人賽 第十二週，要來簡單說明，最基本的資料結構「陣列 Array」。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200426_ds_array.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>演算法 Algorithm</category>
+            
+          
+            
+              <category>資料結構</category>
+            
+          
+            
+              <category>陣列 Array</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript 學演算法</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>JavaScript 學演算法（三）- 資料結構概述</title>
@@ -39,6 +87,10 @@
           
             
               <category>演算法 Algorithm</category>
+            
+          
+            
+              <category>資料結構</category>
             
           
             

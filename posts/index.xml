@@ -14,13 +14,61 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>JavaScript 學演算法（六）- 堆疊 ＆ 佇列</title>
+        <link>https://chupai.github.io/posts/200504_ds_stack_queue/</link>
+        <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 04 May 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200504_ds_stack_queue/</guid>
+        <description>&lt;p&gt;這週是 六角鼠年鐵人賽 第十四週，讓我們來看只關注頭尾的資料結構「堆疊」和「佇列」。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200504_ds_stack_queue.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>資料結構</category>
+            
+          
+            
+              <category>堆疊</category>
+            
+          
+            
+              <category>佇列</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript 學演算法</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>JavaScript 學演算法（五）- 鏈結串列 Linked list </title>
@@ -36,10 +84,6 @@
         
         
         
-          
-            
-              <category>演算法 Algorithm</category>
-            
           
             
               <category>資料結構</category>
@@ -84,10 +128,6 @@
         
         
         
-          
-            
-              <category>演算法 Algorithm</category>
-            
           
             
               <category>資料結構</category>

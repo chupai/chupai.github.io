@@ -14,13 +14,61 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/w3hexschool/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>JavaScript 學演算法（七）- 集合 &amp; 映射</title>
+        <link>https://chupai.github.io/posts/200517_ds_set_map/</link>
+        <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sun, 17 May 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200517_ds_set_map/</guid>
+        <description>&lt;p&gt;這週是 六角鼠年鐵人賽 第十五週，這週來看具有不重父元素特性的資料結構，「集合」 &amp;amp;「 映射」。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2005017_ds_set_map.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>資料結構</category>
+            
+          
+            
+              <category>集合</category>
+            
+          
+            
+              <category>映射</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript 學演算法</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>JavaScript 學演算法（六）- 堆疊 ＆ 佇列</title>

@@ -14,13 +14,177 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/categories/javascript%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>日期時間</title>
+        <link>https://chupai.github.io/posts/200516_js_date/</link>
+        <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sat, 16 May 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200516_js_date/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200516_js_date.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>日期時間</category>
+            
+          
+            
+              <category>Date 物件</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>物件字面值擴充功能</title>
+        <link>https://chupai.github.io/posts/200515_js_object_literal_extension/</link>
+        <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Fri, 15 May 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200515_js_object_literal_extension/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200515_js_object_literal_extension.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>物件字面值擴充功能</category>
+            
+          
+            
+              <category>ES6</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>解構指定</title>
+        <link>https://chupai.github.io/posts/200514_js_destructuring_assignment-copy/</link>
+        <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Thu, 14 May 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200514_js_destructuring_assignment-copy/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200514_js_destructuring_assignment.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>解構指定</category>
+            
+          
+            
+              <category>ES6</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>展開／其餘運算子</title>
+        <link>https://chupai.github.io/posts/200513_js_spread_and_rest_operator/</link>
+        <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Wed, 13 May 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200513_js_spread_and_rest_operator/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200513_js_spread_and_rest_operator.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>展開運算子</category>
+            
+          
+            
+              <category>其餘運算子</category>
+            
+          
+            
+              <category>ES6</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>迭代陣列</title>

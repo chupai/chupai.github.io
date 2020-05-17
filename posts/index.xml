@@ -14,13 +14,65 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>JavaScript 學演算法（八）- 排序演算法</title>
+        <link>https://chupai.github.io/posts/200518_sort_algorithm/</link>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 18 May 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200518_sort_algorithm/</guid>
+        <description>&lt;p&gt;這週是六角鼠年鐵人賽第十六週，資料結構先暫停一下，換換口味，來看排序。排序演算法（Sort Algorithm）是基礎演算法之一，是一種能將一串資料依照特定排序方式進行排列的一種演算法。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200518_sort_algorithm.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>排序演算法</category>
+            
+          
+            
+              <category>氣泡排序</category>
+            
+          
+            
+              <category>插入排序</category>
+            
+          
+            
+              <category>選擇排序</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript 學演算法</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>JavaScript 學演算法（七）- 集合 &amp; 映射</title>

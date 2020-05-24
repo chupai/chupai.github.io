@@ -1722,8 +1722,8 @@ if (!doNotTrack) {
 <li>元素數量。</li>
 <li>執行 <code>n - 1</code> 輪（最後一次只剩自己，所以不比較）。</li>
 <li>交換 <code>n - 1 - i</code> 次（兩兩互相比較，所以 -1，並扣除每輪已經排好的元素，所以減 <code>i</code>）。</li>
-<li>比較大小</li>
-<li>元素交換位置</li>
+<li>比較大小。</li>
+<li>元素交換位置。</li>
 </ol>
 <p>交換位置也可以使用 ES6 的解構指定（destructuring assignment）：</p>
 <div class="highlight"><div class="chroma">
@@ -1990,7 +1990,7 @@ min 3
 <li>將左側的值往後移。</li>
 <li>將要判斷元素的值插入正確位置上。</li>
 </ol>
-<h2 id="4-總結">4. 總結</h2>
+<h3 id="4-總結">4. 總結</h3>
 <p>這三種簡單演算法複雜度基本上差不多：</p>
 <table>
 <thead>
@@ -2194,6 +2194,13 @@ min 3
       </a>
     
     <div class="grow"></div>
+    
+      <a href="https://chupai.github.io/posts/200525_sort_algorithm_merge_sort/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">JavaScript 學演算法（九）- 合併排序</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
     
   
 </nav>
@@ -2633,39 +2640,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha256-F/Xda58SPdcUCr&#43;xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha256-90d2pnfw0r4K8CZAWPko4rpFXQsZvJhTBGYNkipDprI=" crossorigin="anonymous"></script>
 
 
 
 
-  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    MathJax.Hub.Config({
-      tex2jax: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$']],
-        processEscapes: true,
-        processEnvironments: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        TeX: {
-          equationNumbers: { autoNumber: "AMS" },
-          extensions: ["AMSmath.js", "AMSsymbols.js"]
-        }
-      }
-    });
-    MathJax.Hub.Queue(function () {
-      
-      
-      
-      var all = MathJax.Hub.getAllJax(), i;
-      for (i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-      }
-    });
-
-    MathJax.Hub.Config({
-      
-      TeX: { equationNumbers: { autoNumber: "AMS" } }
-    });
-  </script>
 
 
 
@@ -3026,7 +3007,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     
     
-    var lib = JSON.parse("[\"mathjax\"]");
+    var lib = JSON.parse("[\"katex\"]");
 
     if (lib && lib.includes('mermaid')) {
       
@@ -3321,9 +3302,9 @@ document.addEventListener('DOMContentLoaded', function () {
         <li><a href="#1-氣泡排序bubble-sort">1. 氣泡排序（Bubble Sort）</a></li>
         <li><a href="#2-選擇排序selection-sort">2. 選擇排序（Selection Sort）</a></li>
         <li><a href="#3-插入排序insertion-sort">3. 插入排序（Insertion Sort）</a></li>
+        <li><a href="#4-總結">4. 總結</a></li>
       </ul>
     </li>
-    <li><a href="#4-總結">4. 總結</a></li>
   </ul>
 </nav>
         </div>

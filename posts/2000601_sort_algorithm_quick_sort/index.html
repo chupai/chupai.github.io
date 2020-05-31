@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>JavaScript 學演算法（一）- 何謂演算法？ – 竹白記事本</title>
+    <title>JavaScript 學演算法（十）- 快速排序 – 竹白記事本</title>
     
 
 
@@ -543,7 +543,7 @@
 
   
     
-    var permalink = JSON.parse("\"https://chupai.github.io/posts/200404_algorithm/\"");
+    var permalink = JSON.parse("\"https://chupai.github.io/posts/2000601_sort_algorithm_quick_sort/\"");
     var searchResults = null;
     var searchMenu = null;
     var searchText = null;
@@ -1195,33 +1195,33 @@
 
 
     
-<meta name="description" content="這週是 六角鼠年鐵人賽 第九週，接下來幾週大概用記錄我學習演算法的筆記，既然是學前端，當然就是使用 JavaScript。" />
+<meta name="description" content="快速排序（Quick Sort） 是實用性很高的排序法，與合併排序一樣是使用 分治法的應用。" />
 
-<meta name="keywords" content="演算法 Algorithm,JavaScript 學演算法,竹白">
+<meta name="keywords" content="演算法 Algorithm,排序演算法,合併排序,竹白">
 
 
-<meta name="keywords" content="演算法 Algorithm,w3HexSchool">
+<meta name="keywords" content="排序演算法,排序演算法,合併排序,w3HexSchool">
 
-<meta name="created" content="2020-04-04T00:00:00&#43;0000">
-<meta name="modified" content="2020-04-04T00:00:00&#43;0000">
-<meta property="article:published_time" content="2020-04-04T00:00:00&#43;0000">
+<meta name="created" content="2020-06-01T00:00:00&#43;0000">
+<meta name="modified" content="2020-06-01T00:00:00&#43;0000">
+<meta property="article:published_time" content="2020-06-01T00:00:00&#43;0000">
 
 <meta name="author" content="竹白">
 
 
 <meta property="og:site_name" content="竹白記事本">
-<meta property="og:title" content="JavaScript 學演算法（一）- 何謂演算法？">
-<meta property="og:url" content="https://chupai.github.io/posts/200404_algorithm/">
+<meta property="og:title" content="JavaScript 學演算法（十）- 快速排序">
+<meta property="og:url" content="https://chupai.github.io/posts/2000601_sort_algorithm_quick_sort/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="這週是 六角鼠年鐵人賽 第九週，接下來幾週大概用記錄我學習演算法的筆記，既然是學前端，當然就是使用 JavaScript。">
+<meta property="og:description" content="快速排序（Quick Sort） 是實用性很高的排序法，與合併排序一樣是使用 分治法的應用。">
 
   
-    <meta property="og:image" content="https://chupai.github.io/images/covers/200404_algorithm.png">
-    <meta property="og:image:url" content="https://chupai.github.io/images/covers/200404_algorithm.png">
+    <meta property="og:image" content="https://chupai.github.io/images/covers/2000601_sort_algorithm_quick_sort.png">
+    <meta property="og:image:url" content="https://chupai.github.io/images/covers/2000601_sort_algorithm_quick_sort.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="竹白記事本">
-    <meta property="twitter:title" content="JavaScript 學演算法（一）- 何謂演算法？">
-    <meta property="twitter:description" content="這週是 六角鼠年鐵人賽 第九週，接下來幾週大概用記錄我學習演算法的筆記，既然是學前端，當然就是使用 JavaScript。">
+    <meta property="twitter:title" content="JavaScript 學演算法（十）- 快速排序">
+    <meta property="twitter:description" content="快速排序（Quick Sort） 是實用性很高的排序法，與合併排序一樣是使用 分治法的應用。">
   
 
 <meta name="generator" content="Hugo 0.67.0" />
@@ -1233,7 +1233,7 @@
 
 <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
 
-<link rel="canonical" href="https://chupai.github.io/posts/200404_algorithm/">
+<link rel="canonical" href="https://chupai.github.io/posts/2000601_sort_algorithm_quick_sort/">
 
 <link rel="manifest" href="/manifest.json">
 
@@ -1247,13 +1247,13 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "JavaScript 學演算法（一）- 何謂演算法？",
-    "datePublished": "2020-04-04T00:00:00Z",
-    "dateModified": "2020-04-04T00:00:00Z",
-    "url" : "https://chupai.github.io/posts/200404_algorithm/",
-    "description": "這週是 六角鼠年鐵人賽 第九週，接下來幾週大概用記錄我學習演算法的筆記，既然是學前端，當然就是使用 JavaScript。",
-    "keywords": ["演算法 Algorithm","w3HexSchool"],
-    "image" : "https://chupai.github.io/images/covers/200404_algorithm.png",
+    "headline": "JavaScript 學演算法（十）- 快速排序",
+    "datePublished": "2020-06-01T00:00:00Z",
+    "dateModified": "2020-06-01T00:00:00Z",
+    "url" : "https://chupai.github.io/posts/2000601_sort_algorithm_quick_sort/",
+    "description": "快速排序（Quick Sort） 是實用性很高的排序法，與合併排序一樣是使用 分治法的應用。",
+    "keywords": ["排序演算法","排序演算法","合併排序","w3HexSchool"],
+    "image" : "https://chupai.github.io/images/covers/2000601_sort_algorithm_quick_sort.png",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://chupai.github.io"
@@ -1306,7 +1306,7 @@ if (!doNotTrack) {
   <script>
     var dataLayer = window.dataLayer = window.dataLayer || [];
     dataLayer.push({
-      page:'JavaScript 學演算法（一）- 何謂演算法？',
+      page:'JavaScript 學演算法（十）- 快速排序',
       categories:'only examples about your dataLayer'
     });
   </script>
@@ -1517,7 +1517,7 @@ if (!doNotTrack) {
   
   <li  class="is-active" >
     
-      <span>JavaScript 學演算法（一）- 何謂演算法？</span>
+      <span>JavaScript 學演算法（十）- 快速排序</span>
     
   </li>
   
@@ -1529,13 +1529,13 @@ if (!doNotTrack) {
   <div class="single ">
     <div class="single__nojs">請啟用 Javascript 查看內容</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">JavaScript 學演算法（一）- 何謂演算法？</h2>
+    <h2 class="single__title" data-ani="true">JavaScript 學演算法（十）- 快速排序</h2>
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="創建日期">📅&nbsp;2020年04月04日 </time>
+  <time class="single__info" title="創建日期">📅&nbsp;2020年06月01日 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="閱讀時長"> ☕&nbsp;2&nbsp;分鐘 </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="閱讀時長"> ☕&nbsp;4&nbsp;分鐘 </span>
   
   <span class="single__info">
     
@@ -1549,13 +1549,15 @@ if (!doNotTrack) {
 
   <li><a href="https://chupai.github.io/tags/w3hexschool/" class="single__tag" title="w3HexSchool">#w3HexSchool</a></li>
 
-  <li><a href="https://chupai.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95-algorithm/" class="single__tag" title="演算法 Algorithm">#演算法 Algorithm</a></li>
+  <li><a href="https://chupai.github.io/tags/%E5%90%88%E4%BD%B5%E6%8E%92%E5%BA%8F/" class="single__tag" title="合併排序">#合併排序</a></li>
+
+  <li><a href="https://chupai.github.io/tags/%E6%8E%92%E5%BA%8F%E6%BC%94%E7%AE%97%E6%B3%95/" class="single__tag" title="排序演算法">#排序演算法</a></li>
 
 </ul>
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <p>這週是 六角鼠年鐵人賽 第九週，接下來幾週大概是我學習演算法筆記，既然是學前端，當然就是使用 JavaScript 來實作。</p>
+      <p>這週是六角鼠年鐵人賽第十八週，這週簡單說明 <strong>快速排序（Quick Sort）</strong>。</p>
 
 
 
@@ -1565,67 +1567,368 @@ if (!doNotTrack) {
 
 
   <div class="featured-image__wrapper">
-    <img src="/images/covers/200404_algorithm.png" alt="Featured Image" class="featured-image" style="width: ;height: ;">
+    <img src="/images/covers/2000601_sort_algorithm_quick_sort.png" alt="Featured Image" class="featured-image" style="width: ;height: ;">
   </div>
 
-<h2 id="何謂演算法">何謂演算法？</h2>
-<p><strong>演算法</strong>，英文名稱 <strong>Algorithm</strong>，中國稱為 <strong>算法</strong>。</p>
-<blockquote>
-<p>演算法，簡單來就是一套解決問題的方法。</p>
-</blockquote>
-<p>要簡單明瞭何謂演算法，推薦觀看這個影片：<a href="https://www.youtube.com/watch?v=6hfOvs8pY1k&amp;feature=emb_title">人腦也可以執行演算法 - David J. Malan</a>。</p>
-<h3 id="1-演算法與程式">1. 演算法與程式</h3>
-<p>演算法通常是電腦所執行的，但演算法在電腦誕生之前就存在，演算法是數學家所提出來的。</p>
-<p>電腦看起來很聰明，但其實電腦只會做 0 跟 1 的運算，而我們就是透過 <strong>程式</strong>，把現實世界需要解決的問題變成數學問題，丟給電腦來幫我們做運算處理，而這個解題的方法就是演算法。</p>
-<p>所以說，演算法是用以執行計算或完成作業的程序，所有步驟都要能用數學方式表現，而程式是實作演算法的方式。也就是說：</p>
-<ul>
-<li>演算法相當於「思考程序」</li>
-<li>程式相當於為了表現演算法的「語言」</li>
-</ul>
-<h3 id="2-演算法的表示方式">2. 演算法的表示方式</h3>
-<ul>
-<li>設計程式時，通常會使用 <strong>虛擬碼 pseudocode</strong> 來表示；</li>
-<li>設計電子電路，會使用 <strong>流程圖</strong> 來表示；</li>
-<li>而為了理解演算法，會使用文字與圖片來輔助說明。</li>
-</ul>
-<h2 id="演算法的定義">演算法的定義</h2>
-<p><strong>演算法</strong> 是對特定問題求解步驟的一種描述，一般演算法嚴謹的條件必須符合五個標準：</p>
+<h2 id="快速排序quick-sort">快速排序（Quick Sort）</h2>
+<p><strong>快速排序（Quick Sort）</strong> 是實用性很高的排序法，與合併排序一樣是使用 <a href="https://zh.wikipedia.org/wiki/%E5%88%86%E6%B2%BB%E6%B3%95"><strong>分治法</strong></a> 的應用。</p>
+<p>操作流程：</p>
 <ol>
-<li>輸入（Input）：至少有零個或以上的輸入（可以沒輸入或多個輸入）。</li>
-<li>輸出（Output）：至少有一個或以上回傳結果（經過演算法計算獲得）。</li>
-<li>確定性/明確性（Definiteness）：每一個指令步驟必須明確而不造成混淆。在一定條件下，相同的輸入只能有唯一結果。</li>
-<li>有限性（Finiteness）：在有限步驟後一定會結束（完成或終止），確保不會進入無窮迴圈。</li>
-<li>可行性/有效性（Effectiveness）：步驟清楚可行，能使用數學運算出結果（表示能夠實現）。</li>
+<li>快速排序是從數列中隨機選擇一個數作為 <strong>基準（pivot）</strong>。</li>
+<li>將比基準小的移至 <strong>基準</strong> 左邊，形成左區塊</li>
+<li>將比基準大的移至 <strong>基準</strong> 右邊，形成右區塊</li>
+<li>分別對左邊和右邊的區塊重複前項 3 操作（遞迴），直到區塊中只剩一個元素。</li>
 </ol>
-<h2 id="一個好的演算法">一個好的演算法</h2>
-<p>一個演算法如果要設計好，必須達到以下目標：</p>
+<h2 id="演算法實作">演算法實作</h2>
+<h3 id="1-簡單好懂版本">1. 簡單好懂版本</h3>
+<p>此版本使用遞迴結構，並使用額外空間儲存比較後的元素，不會改變原陣列。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">quickSort</span><span class="p">(</span><span class="nx">arr</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="nx">n</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">n</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">arr</span><span class="p">;</span> <span class="p">}</span> <span class="c1">// 1
+</span><span class="c1"></span>  
+  <span class="kr">const</span> <span class="nx">pivot</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>  <span class="c1">// 2
+</span><span class="c1"></span>  <span class="kr">const</span> <span class="p">[</span><span class="nx">leftArr</span><span class="p">,</span> <span class="nx">rightArr</span><span class="p">]</span> <span class="o">=</span> <span class="p">[[],</span> <span class="p">[]];</span>
+
+   <span class="c1">// 3
+</span><span class="c1"></span>  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">n</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">pivot</span> <span class="o">&gt;</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">i</span><span class="p">])</span> <span class="p">{</span>
+      <span class="nx">leftArr</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="nx">rightArr</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="c1">// 4
+</span><span class="c1"></span>  <span class="k">return</span> <span class="p">[...</span><span class="nx">quickSort</span><span class="p">(</span><span class="nx">leftArr</span><span class="p">),</span> <span class="nx">pivot</span><span class="p">,</span> <span class="p">...</span><span class="nx">quickSort</span><span class="p">(</span><span class="nx">rightArr</span><span class="p">)];</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><ol>
+<li>遞迴停止條件：如果陣列內只剩一個元素就停止或陣列為空，也可以寫成 <code>n &lt;= 1</code>。</li>
+<li>選擇第一個元素作為基準。</li>
+<li>比較元素，將元素分為左右兩邊。</li>
+<li>遞迴、合併（小的放基準前面，大的放後面），也可以寫成 <code>quickSort(left).concat([pivot], quickSort(rightArr))</code>。</li>
+</ol>
+<p>此版本雖然簡單好懂，但空間複雜度不佳，會消耗大量記憶體。</p>
+<h3 id="2-原地in-place劃分版本">2. 原地（in-place）劃分版本</h3>
+<p>原地（in-place）劃分版本是使用交換位置來劃分兩個區塊。</p>
+<p>將第一個元素作為 <strong>基準</strong>，比較元素後，會分成兩個區塊：</p>
 <ul>
-<li>正確性（correctness）：不含語法錯誤，對各種需求的輸入數據都能滿足。</li>
-<li>可讀性（readability）：簡潔易懂。</li>
-<li>健壯性（robustness）：非法數據被輸入時，不會引起演算法崩潰、出錯。</li>
-<li>效率與低存儲量需求：即，演算法執行時間短 或 演算法記憶體使用量低。</li>
+<li>左邊區塊：比基準小的元素</li>
+<li>右邊區塊：比基準大的元素，包含等於</li>
 </ul>
-<h2 id="總結">總結</h2>
-<p>這週就簡敘述何謂演算法，下週將說明如何分析演算法的好壞。</p>
-<h2 id="目錄">目錄</h2>
-<p>前言：</p>
+<p>流程：</p>
+<ol>
+<li>右邊區塊第一個元素預設為第二個位置。</li>
+<li>當遇到比基準小的值，會與右邊區塊的第一個值交換位置。</li>
+<li>全部比較完畢後，基準與左邊區塊最後一個元素交換位置。</li>
+</ol>
+<iframe height="600" style="width: 100%;" scrolling="no" title="快速排序 - 劃分操作：第一個元素為基準" src="https://codepen.io/CHUPAIWANG/embed/gOadmMG?height=299&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/CHUPAIWANG/pen/gOadmMG'>快速排序 - 劃分操作：第一個元素為基準</a> by CHUPAIWANG
+  (<a href='https://codepen.io/CHUPAIWANG'>@CHUPAIWANG</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+<p>劃分操作：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">partition</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">end</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="nx">swap</span> <span class="o">=</span> <span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">[</span><span class="nx">arr</span><span class="p">[</span><span class="nx">a</span><span class="p">],</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">b</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[</span><span class="nx">arr</span><span class="p">[</span><span class="nx">b</span><span class="p">],</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">a</span><span class="p">]];</span>  <span class="c1">// 1
+</span><span class="c1"></span>  
+  <span class="kr">const</span> <span class="nx">pivot</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">start</span><span class="p">];</span>      <span class="c1">// 2
+</span><span class="c1"></span>  <span class="kd">let</span> <span class="nx">firstRightIndex</span> <span class="o">=</span> <span class="nx">start</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// 3
+</span><span class="c1"></span>
+  <span class="c1">// 4
+</span><span class="c1"></span>  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="nx">start</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="nx">end</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// 5
+</span><span class="c1"></span>    <span class="k">if</span> <span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="nx">pivot</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">swap</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">i</span><span class="p">,</span> <span class="nx">firstRightIndex</span><span class="p">);</span>
+      <span class="nx">firstRightIndex</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="kr">const</span> <span class="nx">lastLeftIndex</span> <span class="o">=</span> <span class="nx">firstRightIndex</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>  <span class="c1">// 6
+</span><span class="c1"></span>  <span class="nx">swap</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">lastLeftIndex</span><span class="p">);</span>
+  
+  <span class="k">return</span> <span class="nx">lastLeftIndex</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><ol>
+<li>陣列交換位置函式</li>
+<li>將第一元素作為基準元素。</li>
+<li>紀錄目前左邊區塊的第一元素位置，預設為基準元素的下一個。</li>
+<li>從第二個元素開始遍歷至最後一個。</li>
+<li>遇到比基準小的元素就交換，並遞增紀錄變數 <code>firstRightIndex</code>。</li>
+<li><code>firstMaxIndex - 1</code> 右邊區塊的第一元素位置的前一個就是左邊區塊最後一個元素。</li>
+<li>最後回傳目前基準元素的位置，因為已經交換位置了，所以回傳 <code>lastLeftIndex</code>。</li>
+</ol>
+<p>接下來回到函式本體：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">quickSort</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">end</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span><span class="p">(</span> <span class="nx">start</span> <span class="o">&gt;=</span> <span class="nx">end</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">arr</span><span class="p">;</span> <span class="p">}</span>  <span class="c1">// 1
+</span><span class="c1"></span>  <span class="kr">const</span> <span class="nx">pivotIndex</span> <span class="o">=</span> <span class="nx">partition</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">end</span><span class="p">);</span>  <span class="c1">// 2
+</span><span class="c1"></span>  <span class="c1">// 3
+</span><span class="c1"></span>  <span class="nx">quickSort</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">pivotIndex</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+  <span class="nx">quickSort</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">pivotIndex</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="nx">end</span><span class="p">);</span>
+  
+  <span class="k">return</span> <span class="nx">arr</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><ol>
+<li>停止歸遞條件</li>
+<li>執行劃分操作</li>
+<li>歸遞</li>
+</ol>
+<p>最終程式碼：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">quickSort</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">end</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">start</span> <span class="o">&gt;=</span> <span class="nx">end</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">arr</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="kr">const</span> <span class="nx">pivotIndex</span> <span class="o">=</span> <span class="nx">partition</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">end</span><span class="p">);</span>
+  <span class="nx">quickSort</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">pivotIndex</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+  <span class="nx">quickSort</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">pivotIndex</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="nx">end</span><span class="p">);</span>
+  <span class="k">return</span> <span class="nx">arr</span><span class="p">;</span>
+
+  <span class="kd">function</span> <span class="nx">partition</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">end</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">swap</span> <span class="o">=</span> <span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">([</span><span class="nx">arr</span><span class="p">[</span><span class="nx">a</span><span class="p">],</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">b</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[</span><span class="nx">arr</span><span class="p">[</span><span class="nx">b</span><span class="p">],</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">a</span><span class="p">]]);</span>
+    <span class="kr">const</span> <span class="nx">pivot</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">start</span><span class="p">];</span>
+    <span class="kd">let</span> <span class="nx">firstRightIndex</span> <span class="o">=</span> <span class="nx">start</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="nx">start</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="nx">end</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="nx">pivot</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">swap</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">i</span><span class="p">,</span> <span class="nx">firstRightIndex</span><span class="p">);</span>
+        <span class="nx">firstRightIndex</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="kr">const</span> <span class="nx">lastLeftIndex</span> <span class="o">=</span> <span class="nx">firstRightIndex</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="nx">swap</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">lastLeftIndex</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">lastLeftIndex</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="3-優化基準的選擇">3. 優化基準的選擇</h3>
+<p>快速排序時間複雜最佳的情況必須剛好 <strong>基準</strong> 為數列的中間值，如果選取到最小或最大值，則會是最糟的情況。那麼我們選擇第一個元素作為 <strong>基準</strong>，如果數列已是排序狀態，就會導致演算法時間複雜度是最糟結果。</p>
+<p>為了避免這種極端的 <strong>基準</strong> 出現，比較常見的做法為選取中間位置或是隨機選取作為 <strong>基準</strong>，選取到最小或最大值的機率會降低。</p>
+<p>取中間位置的元素，再比較前需先將元素換到開頭。</p>
+<iframe height="650" style="width: 100%;" scrolling="no" title="快速排序 - 劃分操作：中間元素為基準" src="https://codepen.io/CHUPAIWANG/embed/jObebWV?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/CHUPAIWANG/pen/jObebWV'>快速排序 - 劃分操作：中間元素為基準</a> by CHUPAIWANG
+  (<a href='https://codepen.io/CHUPAIWANG'>@CHUPAIWANG</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">partition</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">end</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="nx">swap</span> <span class="o">=</span> <span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">[</span><span class="nx">arr</span><span class="p">[</span><span class="nx">a</span><span class="p">],</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">b</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[</span><span class="nx">arr</span><span class="p">[</span><span class="nx">b</span><span class="p">],</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">a</span><span class="p">]];</span>
+  
+  <span class="kr">const</span> <span class="nx">mid</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">((</span><span class="nx">start</span> <span class="o">+</span> <span class="nx">end</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">);</span>  <span class="c1">// 1
+</span><span class="c1"></span>  <span class="kr">const</span> <span class="nx">pivot</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">mid</span><span class="p">];</span>
+  <span class="kd">let</span> <span class="nx">firstRightIndex</span> <span class="o">=</span> <span class="nx">start</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+  
+  <span class="nx">swap</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">mid</span><span class="p">,</span> <span class="nx">start</span><span class="p">);</span>  <span class="c1">// 2
+</span><span class="c1"></span>  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="nx">start</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="nx">end</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="nx">pivot</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">swap</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">i</span><span class="p">,</span> <span class="nx">firstRightIndex</span><span class="p">);</span>
+      <span class="nx">firstRightIndex</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="kr">const</span> <span class="nx">lastLeftIndex</span> <span class="o">=</span> <span class="nx">firstRightIndex</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+  <span class="nx">swap</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">lastLeftIndex</span><span class="p">);</span>
+  
+  <span class="k">return</span> <span class="nx">lastLeftIndex</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><ol>
+<li>取中間位置索引。</li>
+<li>將基準元素先換至開頭。</li>
+</ol>
+<p>隨機選取基準：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// 1 改成
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">pivotIndex</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="p">(</span><span class="nx">end</span> <span class="o">-</span> <span class="nx">start</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nx">start</span><span class="p">);</span>
+<span class="kr">const</span> <span class="nx">pivot</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">pivotIndex</span><span class="p">];</span>
+<span class="c1">// 2 改成
+</span><span class="c1"></span><span class="nx">swap</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">pivotIndex</span><span class="p">,</span> <span class="nx">start</span><span class="p">);</span>
+</code></pre></td></tr></table>
+</div>
+</div><iframe height="650" style="width: 100%;" scrolling="no" title="快速排序 - 劃分操作：隨機選取基準" src="https://codepen.io/CHUPAIWANG/embed/XWmxmaY?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/CHUPAIWANG/pen/XWmxmaY'>快速排序 - 劃分操作：隨機選取基準</a> by CHUPAIWANG
+  (<a href='https://codepen.io/CHUPAIWANG'>@CHUPAIWANG</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+<p>除了選取中間位置元素和隨機選取元素作為 <strong>基準</strong>，另外還有其他避免極端情況的優化方式：</p>
+<ol>
+<li>三數中位數 Median of three</li>
+<li>中位數的中位數 Median of medians</li>
+</ol>
+<h3 id="4-迭代結構">4. 迭代結構</h3>
+<p>跟合併排序一樣，當資料數量非常非常大時，歸遞結構的操作很容易導致 <strong><a href="https://zh.wikipedia.org/wiki/%E5%A0%86%E7%96%8A%E6%BA%A2%E4%BD%8D">堆疊溢位</a></strong>，因此可以改寫成迭代結構。</p>
+<p>我們可以用陣列模擬堆疊空間，將待劃分區塊的 <code>start</code> 和 <code>end</code> 保存在裡面。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">quickSort1</span><span class="p">(</span><span class="nx">arr</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="nx">stack</span> <span class="o">=</span> <span class="p">[];</span>
+  <span class="nx">stack</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+  <span class="nx">stack</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">arr</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+
+  <span class="k">while</span> <span class="p">(</span><span class="nx">stack</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">end</span> <span class="o">=</span> <span class="nx">stack</span><span class="p">.</span><span class="nx">pop</span><span class="p">();</span>
+    <span class="kr">const</span> <span class="nx">start</span> <span class="o">=</span> <span class="nx">stack</span><span class="p">.</span><span class="nx">pop</span><span class="p">();</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="nx">start</span> <span class="o">&lt;</span> <span class="nx">end</span><span class="p">)</span> <span class="p">{</span>
+      <span class="kr">const</span> <span class="nx">pivotIndex</span> <span class="o">=</span> <span class="nx">partition</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">end</span><span class="p">);</span>
+      <span class="nx">stack</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">start</span><span class="p">);</span>
+      <span class="nx">stack</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">pivotIndex</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+      <span class="nx">stack</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">pivotIndex</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+      <span class="nx">stack</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">end</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">arr</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="分析">分析</h2>
+<p>簡易分析，若每次都會將數列剛好劃分成一半，反覆劃分直到剩一個元素，需要操作 $\log_{2}n$ 次。每次劃分操作每個元素都會執行比較，也就是 $n$ 次，因此整體執行時間約為 $n \log_{2} n$。</p>
+<p>但 <strong>基準</strong> 如果選取到最小或最大值，每次劃分元素都會集中一邊，需要操作 $n$ 次 才會剩一個元素。因此整體執行時間會變成為 $n^2$。</p>
 <ul>
-<li><a href="/posts/200404_algorithm">何謂演算法？</a></li>
-<li><a href="/posts/200406_analysis_of_algorithms">演算法分析</a></li>
+<li>不穩定排序</li>
+<li>時間複雜度
+<ul>
+<li>最佳：$O(n \log n)$</li>
+<li>最差：$O(n^2)$</li>
+<li>平均：$O(n \log n)$</li>
 </ul>
-<p>資料結構：</p>
-<ul>
-<li><a href="/posts/200419_data_structure">資料結構概述</a></li>
-<li><a href="/posts/200426_ds_array">陣列 Array</a></li>
-<li><a href="/posts/200427_ds_linkedlist">鏈結串列 Linked list</a></li>
-<li><a href="/posts/200504_ds_stack_queue">堆疊 ＆ 佇列</a></li>
-<li><a href="/posts/200517_ds_set_map">集合 &amp; 映射</a></li>
-</ul>
-<p>排序演算法：</p>
-<ul>
-<li><a href="/posts/200518_sort_algorithm">排序演算法</a></li>
-<li><a href="/posts/200525_sort_algorithm_merge_sort">合併排序</a></li>
-<li><a href="/posts/2000601_sort_algorithm_quick_sort">快速排序</a></li>
+</li>
+<li>空間複雜度為：根據實現的方式不同而不同</li>
 </ul>
     </article>
     
@@ -1744,26 +2047,46 @@ if (!doNotTrack) {
     <section class="related">
     
     
+    <h1 class="related__title">
+      相關內容
+    </h1>
+    <ul class="related-ul">
+        
+        <li>
+          <a href="/posts/200525_sort_algorithm_merge_sort/" class="related__link">JavaScript 學演算法（九）- 合併排序</a>
+        </li>
+        
+        <li>
+          <a href="/posts/200518_sort_algorithm/" class="related__link">JavaScript 學演算法（八）- 排序演算法</a>
+        </li>
+        
+        <li>
+          <a href="/posts/200517_ds_set_map/" class="related__link">JavaScript 學演算法（七）- 集合 &amp; 映射</a>
+        </li>
+        
+        <li>
+          <a href="/posts/200504_ds_stack_queue/" class="related__link">JavaScript 學演算法（六）- 堆疊 ＆ 佇列</a>
+        </li>
+        
+        <li>
+          <a href="/posts/200427_ds_linkedlist/" class="related__link">JavaScript 學演算法（五）- 鏈結串列 Linked list </a>
+        </li>
+        
+    </ul>
+    
   </section>
     <div class="grow"></div>
 <nav class="pagination-single">
   
     
-      <a href="https://chupai.github.io/posts/200328_vee-validate/" class="pagination-single__left">
+      <a href="https://chupai.github.io/posts/200525_sort_algorithm_merge_sort/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">Vue筆記 - 表單驗證套件 VeeValidate</div>      
+        <div class="pagination-single__left-title">JavaScript 學演算法（九）- 合併排序</div>      
       </a>
     
     <div class="grow"></div>
-    
-      <a href="https://chupai.github.io/posts/200406_analysis_of_algorithms/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">JavaScript 學演算法（二）- 演算法分析</div>
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
-        </div>
-      </a>
     
   
 </nav>
@@ -2203,6 +2526,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha256-F/Xda58SPdcUCr&#43;xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha256-90d2pnfw0r4K8CZAWPko4rpFXQsZvJhTBGYNkipDprI=" crossorigin="anonymous"></script>
+
 
 
 
@@ -2566,7 +2893,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     
     
-    var lib = JSON.parse("null");
+    var lib = JSON.parse("[\"katex\"]");
 
     if (lib && lib.includes('mermaid')) {
       
@@ -2849,16 +3176,16 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="toc toc__outer " data-dir="ltr" data-folding="false" data-ani="true">
           <nav id="TableOfContents">
   <ul>
-    <li><a href="#何謂演算法">何謂演算法？</a>
+    <li><a href="#快速排序quick-sort">快速排序（Quick Sort）</a></li>
+    <li><a href="#演算法實作">演算法實作</a>
       <ul>
-        <li><a href="#1-演算法與程式">1. 演算法與程式</a></li>
-        <li><a href="#2-演算法的表示方式">2. 演算法的表示方式</a></li>
+        <li><a href="#1-簡單好懂版本">1. 簡單好懂版本</a></li>
+        <li><a href="#2-原地in-place劃分版本">2. 原地（in-place）劃分版本</a></li>
+        <li><a href="#3-優化基準的選擇">3. 優化基準的選擇</a></li>
+        <li><a href="#4-迭代結構">4. 迭代結構</a></li>
       </ul>
     </li>
-    <li><a href="#演算法的定義">演算法的定義</a></li>
-    <li><a href="#一個好的演算法">一個好的演算法</a></li>
-    <li><a href="#總結">總結</a></li>
-    <li><a href="#目錄">目錄</a></li>
+    <li><a href="#分析">分析</a></li>
   </ul>
 </nav>
         </div>

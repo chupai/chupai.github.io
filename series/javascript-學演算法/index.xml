@@ -14,13 +14,61 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/series/javascript-%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>JavaScript 學演算法（十一）- 希爾排序</title>
+        <link>https://chupai.github.io/posts/2006/sort_algorithm_shell_sort/</link>
+        <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 08 Jun 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2006/sort_algorithm_shell_sort/</guid>
+        <description>&lt;p&gt;這週是六角鼠年鐵人賽第十九週，這週來說明 &lt;strong&gt;希爾排序（Shell Sort）&lt;/strong&gt;。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200608_sort_algorithm_shell_sort.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>排序演算法</category>
+            
+          
+            
+              <category>排序演算法</category>
+            
+          
+            
+              <category>希爾排序</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript 學演算法</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>JavaScript 學演算法（十）- 快速排序</title>
@@ -46,7 +94,7 @@
             
           
             
-              <category>合併排序</category>
+              <category>快速排序</category>
             
           
             

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>二元樹 on 竹白記事本</title>
+    <link>https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%A8%B9/</link>
+    <description>Recent content in 二元樹 on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%A8%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>JavaScript 學演算法（十二）- 樹 &amp; 二元樹</title>
+        <link>https://chupai.github.io/posts/2006/ds_tree_and_binary_tree/</link>
+        <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 15 Jun 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2006/ds_tree_and_binary_tree/</guid>
+        <description>&lt;p&gt;這週是六角鼠年鐵人賽第二十週，經典的排序演算法還有一個 &lt;strong&gt;堆積排序&lt;/strong&gt;，再說明堆積排序前，先來看之前還沒提到的樹狀資料結構，之後才比較好理解 &lt;strong&gt;堆積排序&lt;/strong&gt;。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200615_ds_tree_and_binary_tree.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>資料結構</category>
+            
+          
+            
+              <category>樹</category>
+            
+          
+            
+              <category>二元樹</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript 學演算法</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -14,7 +14,7 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,62 @@
         
       
 
+      
+      <item>
+        <title>JavaScript 學演算法（十五）- AVL-Tree</title>
+        <link>https://chupai.github.io/posts/2007/ds_avl-tree/</link>
+        <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 06 Jul 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2007/ds_avl-tree/</guid>
+        <description>這週是六角鼠年鐵人賽第二十三週。 二元搜尋樹最大的問題就是，它會出現極端情況，傾斜某一邊，因此它的新增、搜尋、刪除操作最差時間複雜度為 $O(n</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200706_ds_avl-tree.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>資料結構</category>
+            
+          
+            
+              <category>二元搜尋樹</category>
+            
+          
+            
+              <category>二元樹</category>
+            
+          
+            
+              <category>AVL-Tree</category>
+            
+          
+            
+              <category>平衡樹</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript 學演算法</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>JavaScript 學演算法（十四）- 二元搜尋樹</title>

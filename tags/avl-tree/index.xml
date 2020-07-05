@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>AVL-Tree on 竹白記事本</title>
+    <link>https://chupai.github.io/tags/avl-tree/</link>
+    <description>Recent content in AVL-Tree on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://chupai.github.io/tags/avl-tree/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>JavaScript 學演算法（十五）- AVL-Tree</title>
+        <link>https://chupai.github.io/posts/2007/ds_avl-tree/</link>
+        <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 06 Jul 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2007/ds_avl-tree/</guid>
+        <description>這週是六角鼠年鐵人賽第二十三週。 二元搜尋樹最大的問題就是，它會出現極端情況，傾斜某一邊，因此它的新增、搜尋、刪除操作最差時間複雜度為 $O(n</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200706_ds_avl-tree.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>資料結構</category>
+            
+          
+            
+              <category>二元搜尋樹</category>
+            
+          
+            
+              <category>二元樹</category>
+            
+          
+            
+              <category>AVL-Tree</category>
+            
+          
+            
+              <category>平衡樹</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript 學演算法</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

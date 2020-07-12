@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://chupai.github.io/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,23 +18,28 @@
   </url>
   
   <url>
-    <loc>https://chupai.github.io/tags/avl-tree/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <loc>https://chupai.github.io/tags/2-3-4-%E6%A8%B9/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/b-%E6%A8%B9/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chupai.github.io/series/javascript-%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chupai.github.io/posts/2007/ds_avl-tree/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <loc>https://chupai.github.io/posts/2007/ds_redblack-tree-1/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chupai.github.io/tags/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -49,27 +54,27 @@
   
   <url>
     <loc>https://chupai.github.io/tags/w3hexschool/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chupai.github.io/categories/w3hexschool%E5%85%AD%E8%A7%92%E9%BC%A0%E5%B9%B4%E9%90%B5%E4%BA%BA%E8%B3%BD/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%A8%B9/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chupai.github.io/categories/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -84,17 +89,17 @@
   
   <url>
     <loc>https://chupai.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A8%B9/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chupai.github.io/posts/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chupai.github.io/series/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -108,7 +113,22 @@
   </url>
   
   <url>
+    <loc>https://chupai.github.io/tags/%E7%B4%85%E9%BB%91%E6%A8%B9/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chupai.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/avl-tree/</loc>
+    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/posts/2007/ds_avl-tree/</loc>
     <lastmod>2020-07-06T00:00:00+00:00</lastmod>
   </url>
   

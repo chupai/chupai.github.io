@@ -14,13 +14,83 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/w3hexschool/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>JavaScript 學演算法（十六）- 紅黑樹（上）：B 樹、2-3-4 樹</title>
+        <link>https://chupai.github.io/posts/2007/ds_redblack-tree-1/</link>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 13 Jul 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2007/ds_redblack-tree-1/</guid>
+        <description>&lt;p&gt;這週是六角鼠年鐵人賽第二十四週。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;紅黑樹&lt;/strong&gt;和 &lt;strong&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_avl-tree/&#34; target=&#34;_blank&#34;&gt;AVL-Tree&lt;/a&gt;&lt;/strong&gt; 一樣是自平衡二元搜尋樹，因為比較難理解、篇幅較長，所以分成三個階段來說明：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_redblack-tree-1&#34; target=&#34;_blank&#34;&gt;紅黑樹（上）：B 樹、2-3-4 樹&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;紅黑樹（中）：新增操作&lt;/li&gt;
+&lt;li&gt;紅黑樹（下）：刪除操作&lt;/li&gt;
+&lt;/ol&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200713_ds_redblack-tree-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>資料結構</category>
+            
+          
+            
+              <category>二元搜尋樹</category>
+            
+          
+            
+              <category>二元樹</category>
+            
+          
+            
+              <category>紅黑樹</category>
+            
+          
+            
+              <category>平衡樹</category>
+            
+          
+            
+              <category>B 樹</category>
+            
+          
+            
+              <category>2-3-4 樹</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript 學演算法</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>JavaScript 學演算法（十五）- AVL-Tree</title>

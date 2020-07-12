@@ -14,7 +14,7 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,12 +23,30 @@
 
       
       <item>
-        <title>AVL-Tree</title>
-        <link>https://chupai.github.io/tags/avl-tree/</link>
-        <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+        <title>2-3-4 樹</title>
+        <link>https://chupai.github.io/tags/2-3-4-%E6%A8%B9/</link>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>https://chupai.github.io/tags/avl-tree/</guid>
+        <guid>https://chupai.github.io/tags/2-3-4-%E6%A8%B9/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>B 樹</title>
+        <link>https://chupai.github.io/tags/b-%E6%A8%B9/</link>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/b-%E6%A8%B9/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -43,7 +61,7 @@
       <item>
         <title>w3HexSchool</title>
         <link>https://chupai.github.io/tags/w3hexschool/</link>
-        <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/w3hexschool/</guid>
@@ -61,7 +79,7 @@
       <item>
         <title>二元搜尋樹</title>
         <link>https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9/</link>
-        <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9/</guid>
@@ -79,7 +97,7 @@
       <item>
         <title>二元樹</title>
         <link>https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%A8%B9/</link>
-        <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%A8%B9/</guid>
@@ -97,7 +115,7 @@
       <item>
         <title>平衡樹</title>
         <link>https://chupai.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A8%B9/</link>
-        <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A8%B9/</guid>
@@ -113,12 +131,48 @@
       </item>
       
       <item>
+        <title>紅黑樹</title>
+        <link>https://chupai.github.io/tags/%E7%B4%85%E9%BB%91%E6%A8%B9/</link>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/%E7%B4%85%E9%BB%91%E6%A8%B9/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>資料結構</title>
         <link>https://chupai.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/</link>
-        <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>AVL-Tree</title>
+        <link>https://chupai.github.io/tags/avl-tree/</link>
+        <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/avl-tree/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>

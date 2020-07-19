@@ -33,7 +33,7 @@
 &lt;p&gt;&lt;strong&gt;紅黑樹&lt;/strong&gt;和 &lt;strong&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_avl-tree/&#34; target=&#34;_blank&#34;&gt;AVL-Tree&lt;/a&gt;&lt;/strong&gt; 一樣是自平衡二元搜尋樹，因為比較難理解、篇幅較長，所以分成三個階段來說明：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_redblack-tree-1&#34; target=&#34;_blank&#34;&gt;紅黑樹（上）：B 樹、2-3-4 樹&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;紅黑樹（中）：新增操作&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_redblack-tree-2&#34; target=&#34;_blank&#34;&gt;紅黑樹（中）：新增操作&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;紅黑樹（下）：刪除操作&lt;/li&gt;
 &lt;/ol&gt;</description>
         

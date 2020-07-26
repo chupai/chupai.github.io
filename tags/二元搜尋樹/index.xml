@@ -14,13 +14,83 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>JavaScript 學演算法（十八）- 紅黑樹（下）：刪除操作</title>
+        <link>https://chupai.github.io/posts/2007/ds_redblack-tree-3/</link>
+        <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 27 Jul 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2007/ds_redblack-tree-3/</guid>
+        <description>&lt;p&gt;這週是六角鼠年鐵人賽第二十六週。&lt;/p&gt;
+&lt;p&gt;最後我們來看紅黑樹刪除操作，相較於新增操作複雜。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_redblack-tree-1&#34; target=&#34;_blank&#34;&gt;紅黑樹（上）：B 樹、2-3-4 樹&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_redblack-tree-2&#34; target=&#34;_blank&#34;&gt;紅黑樹（中）：新增操作&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_redblack-tree-3&#34; target=&#34;_blank&#34;&gt;紅黑樹（下）：刪除操作&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200727_ds_redblack-tree-3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>資料結構</category>
+            
+          
+            
+              <category>二元搜尋樹</category>
+            
+          
+            
+              <category>二元樹</category>
+            
+          
+            
+              <category>紅黑樹</category>
+            
+          
+            
+              <category>平衡樹</category>
+            
+          
+            
+              <category>2-3 樹</category>
+            
+          
+            
+              <category>2-3-4 樹</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript 學演算法</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>JavaScript 學演算法（十七）- 紅黑樹（中）：新增操作</title>
@@ -30,11 +100,11 @@
         <atom:modified>Mon, 20 Jul 2020 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/2007/ds_redblack-tree-2/</guid>
         <description>&lt;p&gt;這週是六角鼠年鐵人賽第二十五週。&lt;/p&gt;
-&lt;p&gt;上週我們簡單說明了&lt;strong&gt;紅黑樹&lt;/strong&gt;的基本性質與理解 &lt;strong&gt;B 樹、&lt;/strong&gt;、&lt;strong&gt;2-3-4 樹&lt;/strong&gt;，接下來，我們來看&lt;strong&gt;紅黑樹&lt;/strong&gt;和 2-3-4 樹的等價關係與新增操作。&lt;/p&gt;
+&lt;p&gt;上週我們簡單說明了&lt;strong&gt;紅黑樹&lt;/strong&gt;的基本性質與理解 &lt;strong&gt;B 樹&lt;/strong&gt;、&lt;strong&gt;2-3-4 樹&lt;/strong&gt;，接下來，我們來看&lt;strong&gt;紅黑樹&lt;/strong&gt;和 2-3-4 樹的等價關係與新增操作。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_redblack-tree-1&#34; target=&#34;_blank&#34;&gt;紅黑樹（上）：B 樹、2-3-4 樹&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_redblack-tree-2&#34; target=&#34;_blank&#34;&gt;紅黑樹（中）：新增操作&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;紅黑樹（下）：刪除操作&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_redblack-tree-3&#34; target=&#34;_blank&#34;&gt;紅黑樹（下）：刪除操作&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;</description>
         
         <dc:creator>竹白</dc:creator>
@@ -104,7 +174,7 @@
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_redblack-tree-1&#34; target=&#34;_blank&#34;&gt;紅黑樹（上）：B 樹、2-3-4 樹&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_redblack-tree-2&#34; target=&#34;_blank&#34;&gt;紅黑樹（中）：新增操作&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;紅黑樹（下）：刪除操作&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2007/ds_redblack-tree-3&#34; target=&#34;_blank&#34;&gt;紅黑樹（下）：刪除操作&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;</description>
         
         <dc:creator>竹白</dc:creator>

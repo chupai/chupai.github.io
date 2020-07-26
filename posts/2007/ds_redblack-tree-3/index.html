@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>JavaScript 學演算法（十七）- 紅黑樹（中）：新增操作 – 竹白記事本</title>
+    <title>JavaScript 學演算法（十八）- 紅黑樹（下）：刪除操作 – 竹白記事本</title>
     
 
 
@@ -543,7 +543,7 @@
 
   
     
-    var permalink = JSON.parse("\"https://chupai.github.io/posts/2007/ds_redblack-tree-2/\"");
+    var permalink = JSON.parse("\"https://chupai.github.io/posts/2007/ds_redblack-tree-3/\"");
     var searchResults = null;
     var searchMenu = null;
     var searchText = null;
@@ -1195,33 +1195,33 @@
 
 
     
-<meta name="description" content="紅黑樹和 2-3-4 樹的等價關係與新增操作。" />
+<meta name="description" content="最後我們來看紅黑樹刪除操作，相較於新增操作複雜。" />
 
 <meta name="keywords" content="演算法 Algorithm,資料結構,二元搜尋樹,二元樹,紅黑樹,平衡樹,2-3 樹,2-3-4 樹,竹白">
 
 
 <meta name="keywords" content="資料結構,二元搜尋樹,二元樹,紅黑樹,平衡樹,2-3 樹,2-3-4 樹,w3HexSchool">
 
-<meta name="created" content="2020-07-20T00:00:00&#43;0000">
-<meta name="modified" content="2020-07-20T00:00:00&#43;0000">
-<meta property="article:published_time" content="2020-07-20T00:00:00&#43;0000">
+<meta name="created" content="2020-07-27T00:00:00&#43;0000">
+<meta name="modified" content="2020-07-27T00:00:00&#43;0000">
+<meta property="article:published_time" content="2020-07-27T00:00:00&#43;0000">
 
 <meta name="author" content="竹白">
 
 
 <meta property="og:site_name" content="竹白記事本">
-<meta property="og:title" content="JavaScript 學演算法（十七）- 紅黑樹（中）：新增操作">
-<meta property="og:url" content="https://chupai.github.io/posts/2007/ds_redblack-tree-2/">
+<meta property="og:title" content="JavaScript 學演算法（十八）- 紅黑樹（下）：刪除操作">
+<meta property="og:url" content="https://chupai.github.io/posts/2007/ds_redblack-tree-3/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="紅黑樹和 2-3-4 樹的等價關係與新增操作。">
+<meta property="og:description" content="最後我們來看紅黑樹刪除操作，相較於新增操作複雜。">
 
   
-    <meta property="og:image" content="https://chupai.github.io/images/covers/200720_ds_redblack-tree-2.png">
-    <meta property="og:image:url" content="https://chupai.github.io/images/covers/200720_ds_redblack-tree-2.png">
+    <meta property="og:image" content="https://chupai.github.io/images/covers/200727_ds_redblack-tree-3.png">
+    <meta property="og:image:url" content="https://chupai.github.io/images/covers/200727_ds_redblack-tree-3.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="竹白記事本">
-    <meta property="twitter:title" content="JavaScript 學演算法（十七）- 紅黑樹（中）：新增操作">
-    <meta property="twitter:description" content="紅黑樹和 2-3-4 樹的等價關係與新增操作。">
+    <meta property="twitter:title" content="JavaScript 學演算法（十八）- 紅黑樹（下）：刪除操作">
+    <meta property="twitter:description" content="最後我們來看紅黑樹刪除操作，相較於新增操作複雜。">
   
 
 <meta name="generator" content="Hugo 0.67.0" />
@@ -1233,7 +1233,7 @@
 
 <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
 
-<link rel="canonical" href="https://chupai.github.io/posts/2007/ds_redblack-tree-2/">
+<link rel="canonical" href="https://chupai.github.io/posts/2007/ds_redblack-tree-3/">
 
 <link rel="manifest" href="/manifest.json">
 
@@ -1247,13 +1247,13 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "JavaScript 學演算法（十七）- 紅黑樹（中）：新增操作",
-    "datePublished": "2020-07-20T00:00:00Z",
-    "dateModified": "2020-07-20T00:00:00Z",
-    "url" : "https://chupai.github.io/posts/2007/ds_redblack-tree-2/",
-    "description": "紅黑樹和 2-3-4 樹的等價關係與新增操作。",
+    "headline": "JavaScript 學演算法（十八）- 紅黑樹（下）：刪除操作",
+    "datePublished": "2020-07-27T00:00:00Z",
+    "dateModified": "2020-07-27T00:00:00Z",
+    "url" : "https://chupai.github.io/posts/2007/ds_redblack-tree-3/",
+    "description": "最後我們來看紅黑樹刪除操作，相較於新增操作複雜。",
     "keywords": ["資料結構","二元搜尋樹","二元樹","紅黑樹","平衡樹","2-3 樹","2-3-4 樹","w3HexSchool"],
-    "image" : "https://chupai.github.io/images/covers/200720_ds_redblack-tree-2.png",
+    "image" : "https://chupai.github.io/images/covers/200727_ds_redblack-tree-3.png",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://chupai.github.io"
@@ -1306,7 +1306,7 @@ if (!doNotTrack) {
   <script>
     var dataLayer = window.dataLayer = window.dataLayer || [];
     dataLayer.push({
-      page:'JavaScript 學演算法（十七）- 紅黑樹（中）：新增操作',
+      page:'JavaScript 學演算法（十八）- 紅黑樹（下）：刪除操作',
       categories:'only examples about your dataLayer'
     });
   </script>
@@ -1517,7 +1517,7 @@ if (!doNotTrack) {
   
   <li  class="is-active" >
     
-      <span>JavaScript 學演算法（十七）- 紅黑樹（中）：新增操作</span>
+      <span>JavaScript 學演算法（十八）- 紅黑樹（下）：刪除操作</span>
     
   </li>
   
@@ -1529,13 +1529,13 @@ if (!doNotTrack) {
   <div class="single ">
     <div class="single__nojs">請啟用 Javascript 查看內容</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">JavaScript 學演算法（十七）- 紅黑樹（中）：新增操作</h2>
+    <h2 class="single__title" data-ani="true">JavaScript 學演算法（十八）- 紅黑樹（下）：刪除操作</h2>
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="創建日期">📅&nbsp;2020年07月20日 </time>
+  <time class="single__info" title="創建日期">📅&nbsp;2020年07月27日 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="閱讀時長"> ☕&nbsp;6&nbsp;分鐘 </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="閱讀時長"> ☕&nbsp;7&nbsp;分鐘 </span>
   
   <span class="single__info">
     
@@ -1567,8 +1567,8 @@ if (!doNotTrack) {
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <p>這週是六角鼠年鐵人賽第二十五週。</p>
-<p>上週我們簡單說明了<strong>紅黑樹</strong>的基本性質與理解 <strong>B 樹</strong>、<strong>2-3-4 樹</strong>，接下來，我們來看<strong>紅黑樹</strong>和 2-3-4 樹的等價關係與新增操作。</p>
+      <p>這週是六角鼠年鐵人賽第二十六週。</p>
+<p>最後我們來看紅黑樹刪除操作，相較於新增操作複雜。</p>
 <ol>
 <li><a href="/posts/2007/ds_redblack-tree-1" target="_blank">紅黑樹（上）：B 樹、2-3-4 樹</a></li>
 <li><a href="/posts/2007/ds_redblack-tree-2" target="_blank">紅黑樹（中）：新增操作</a></li>
@@ -1583,445 +1583,387 @@ if (!doNotTrack) {
 
 
   <div class="featured-image__wrapper">
-    <img src="/images/covers/200720_ds_redblack-tree-2.png" alt="Featured Image" class="featured-image" style="width: ;height: ;">
+    <img src="/images/covers/200727_ds_redblack-tree-3.png" alt="Featured Image" class="featured-image" style="width: ;height: ;">
   </div>
 
-<h2 id="紅黑樹和-2-3-4-樹的等價關係">紅黑樹和 2-3-4 樹的等價關係</h2>
-<p><strong>2-3-4 樹</strong>在多數程式語言中實現起來相對困難，因為在樹上的操作涉及大量的特殊情況。而 <strong>紅黑樹</strong> 是基於它的理論基礎所發明的，實現起來更簡單一些。</p>
-<p>因此 <strong>紅黑樹</strong>本質上就是 <strong>2-3-4 樹</strong>，所有性質都可以從 <strong>2-3-4樹</strong> 來理解。</p>
-<h3 id="1-黑色節點">1. 黑色節點</h3>
-<p>黑色節點，其實就是 <strong>2-3-4 樹</strong>的 2-節點，為一個中位數。。</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  N[_ 40 _];
-  
-  A((40)) --- n1 &amp; n2;
-
-  class A black;
-  class n1,n2 transparent;
-  
-  classDef black fill:black,stroke:black,color:white;
-  classDef transparent fill:transparent,stroke:transparent,color:transparent;
-</code></pre><h3 id="2-紅色節點">2. 紅色節點</h3>
-<p>黑色節點的子樹如果是紅色節點，表示彼此融合的意思，其實就是 <strong>2-3-4 樹</strong>的 3-節點、4-節點。</p>
-<p>3-節點：</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  N[30 40 _];
-  A((40)) --- B((30)) &amp; n1;
-  N2[_ 40 50 ];
-  AA((40)) --- n2 &amp; BB((50));
-  
-  class A,AA black;
-  class B,BB red;
-  class n1,n2 transparent;
-  
-  classDef black fill:black,stroke:black,color:white;
-  classDef red fill:red,stroke:red,color:white;
-  classDef transparent fill:transparent,stroke:transparent,color:transparent;
-</code></pre><p>4-節點：</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  N[30 40 50];
-  A((40)) --- B((30)) &amp; C((50));
-
-  class A black;
-  class B,C red;
-  
-  classDef black fill:black,stroke:black,color:white;
-  classDef red fill:red,stroke:red,color:white;
-</code></pre><h3 id="3-2-3-樹">3. 2-3 樹</h3>
-<p>部分資料會說<strong>紅黑樹</strong>等價於 <strong>2-3 樹（3 階 B 樹）</strong>，但正確來說，是「<strong>左傾紅黑樹</strong>」，屬於<strong>紅黑樹</strong>的變種，這裡不討論。</p>
-<h2 id="紅黑樹的新增操作">紅黑樹的新增操作</h2>
-<p><strong>紅黑樹</strong>新增節點後，會檢查樹使否平衡（是否違反<strong>紅黑樹</strong>性質），若不平衡，會透過「旋轉」和「變色」操作來修正。</p>
-<h3 id="1-保持根節點是黑色的">1. 保持根節點是黑色的</h3>
-<p>在 <strong>2-3-4 樹</strong>插入元素時，都是融合到節點中，因此在<strong>紅黑樹</strong>中，新增的節點一定的紅色的。</p>
-<p>首先，我們再一個空樹中新增一個節點：</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  A((N));
-  classDef red fill:red,stroke:red,color:white;
-  A:::red;
-</code></pre><p>但<strong>紅黑樹</strong>的性質2：「樹的根節點為黑色」，因此需要將它修正成黑色的：</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  A((N));
-  classDef black fill:black,stroke:black,color:white;
-  A:::black;
-</code></pre><h3 id="2-2-節點">2. 2-節點</h3>
-<p>一個黑色節點無任何子節點，表示它是一個 2-節點。</p>
-<p>那麼當我們新增節點，它會變成一個 3-節點，因此不需要做任何修正：</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-
-  A((P)) --- B((N)) &amp; n1;
-  AA((P)) --- n2 &amp; BB((N));
-  
-  class A,AA black;
-  class B,BB red;
-  class n1,n2 transparent;
-  
-  classDef black fill:black,stroke:black,color:white;
-  classDef red fill:red,stroke:red,color:white;
-  classDef transparent fill:transparent,stroke:transparent,color:transparent;
-</code></pre><h3 id="3-3-節點">3. 3-節點</h3>
-<p>當我們對一個 3-節點新增節點，它會變成 4-節點，這時<strong>紅黑樹</strong>可能會違反性質4：「每個紅色節點必須有兩個黑色的子節點（不能有兩個連續的紅色節點）」，因此必須修正它。</p>
-<p>舉例來說，<strong>黑紅樹</strong>表示的 3-節在 <strong>2-3-4樹</strong>可能長這樣：</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  N[30 40 _];
-</code></pre><p>但如果要再插入 20，左邊沒位置。因此要將 30 變成中位數：</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  N[_ 30 40 ];
-</code></pre><p>這樣就能插入 20 了：</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  N[20 30 40];
-</code></pre><p>接下來，我們來看需要修正的情況，首先來定義節點代號，方便說明：</p>
+<h2 id="紅黑樹的刪除操作">紅黑樹的刪除操作</h2>
+<p>在 <strong>紅黑樹</strong> 中，刪除一個節點，跟普通二元搜尋樹一樣有以下三種情況：</p>
+<ol>
+<li>葉子節點（無子樹）。</li>
+<li>節點有單邊子樹。</li>
+<li>節點有左右兩邊子樹。</li>
+</ol>
+<p>情況 3，的處理方式與普通二元搜尋樹相同，會從右子樹尋找最小值代替，將問題變成刪除替代節點（不是情況 1、就是情況 2）。</p>
+<p>但<strong>紅黑樹</strong>有兩種顏色的節點，因此還需要考慮節點顏色的不同，不過刪除操作後，需要平衡修正的，基本上只有刪除黑色的葉子節點。</p>
+<div class="notices warning" >
+  注意，這裡指的葉子節點是沒有子節點的節點，而不是<strong>紅黑樹</strong>定義的 NIL。
+</div>
+<h3 id="1-節點有單邊子樹">1. 節點有單邊子樹</h3>
+<p>因為有兩種顏色，所以節點有單邊子樹組合可能有 4 種，但實際存在的只有 1 種：</p>
 <ul>
-<li>祖父節點：G</li>
-<li>父親節點：P</li>
-<li>新增的節點：N</li>
+<li>紅紅：不符合性質 4，不存在；</li>
+<li>紅黑：不符合性質 4，不存在；</li>
+<li>黑黑：不符合性質 5，不存在；</li>
+<li>黑紅：存在。</li>
 </ul>
-<p>需要修正情況一：</p>
+<p>性質 4、5：</p>
+<ul>
+<li>性質 4：每個紅色節點必須有兩個黑色的子節點（不能有兩個連續的紅色節點）；</li>
+<li>性質 5：從任一節點到其每個 NIL 的所有簡單路徑都包含相同數目的黑色節點。</li>
+</ul>
+<p>黑紅組合，直接刪除黑色節點後，會由紅色節點遞補，不影響平衡。</p>
 <pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  A((G)) --- B((P)) &amp; n;
-  B((P)) --- C((N)) &amp; n1;
-  class A black;
-  class B,C red;
-  class n,n1 transparent;
+  N --&gt; A;
+  A((D)) --- B((DL)) &amp; n1;
+  
+  N1 --&gt; AAA((DL));
+  
+  class A,AA,AAA black;
+  class B,BB red;
+  class N,N1,n1,n2 transparent;
   
   classDef black fill:black,stroke:black,color:white;
   classDef red fill:red,stroke:red,color:white;
   classDef transparent fill:transparent,stroke:transparent,color:transparent;
-</code></pre><p>需要對 G 執行右旋轉，並將 G 設為紅色、P 設為黑色：</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  A((P)) --- B((N)) &amp; C((G));
-
-  class A black;
-  class B,C red;
+</code></pre><pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; AA;
+  AA((D)) --- n2 &amp; BB((DR));
+  N1 --&gt; AAA((DR));
   
-  classDef black fill:black,stroke:black,color:white;
-  classDef red fill:red,stroke:red,color:white;
-</code></pre><p>如果你對旋轉操作不熟悉的話，可以先參考我的上一篇文章：<strong><a href="/posts/2007/ds_avl-tree/" target="_blank">AVL-Tree</a></strong>。</p>
-<p>需要修正情況二：</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  A((G)) --- B((P)) &amp; n;
-  B((P)) --- n1 &amp; C((N));
-  
-  AA((G)) --- BB((N)) &amp; nn;
-  BB((N)) --- CC((P)) &amp; nn1;
-  
-  class A,AA black;
-  class B,C,BB,CC red;
-  class n,n1,nn,nn1 transparent;
+  class A,AA,AAA black;
+  class B,BB red;
+  class N,N1,n1,n2 transparent;
   
   classDef black fill:black,stroke:black,color:white;
   classDef red fill:red,stroke:red,color:white;
   classDef transparent fill:transparent,stroke:transparent,color:transparent;
-</code></pre><p>需要先對 P 進行左旋轉，這樣就變成情況一了，再執行相同處理。</p>
-<p>情況三、四，基本上就是鏡像情況，先對 P 右旋轉：</p>
+</code></pre><h3 id="2-刪除紅色葉子節點">2. 刪除紅色葉子節點</h3>
+<p>刪除紅色葉子節點，也不會影響<strong>紅黑樹</strong>的特性，因此直接刪除即可，不需要修正。</p>
 <pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  A((G)) --- n &amp; B((P));
-  B((P)) --- C((N)) &amp; n1;
-
-  A1((G)) --- n11 &amp; B1((N));
-  B1((N)) --- n111 &amp; C1((P));
+  N --&gt; A;
+  A((P)) --- B((D)) &amp; n1;
   
-  class A black;
-  class B,C red;
-  class n,n1 transparent;
+  N1 --&gt; AAA((P));
   
-  class A1 black;
-  class B1,C1 red;
-  class n11,n111 transparent;
+  class A,AA,AAA black;
+  class B,BB red;
+  class N,N1,n1,n2 transparent;
   
   classDef black fill:black,stroke:black,color:white;
   classDef red fill:red,stroke:red,color:white;
   classDef transparent fill:transparent,stroke:transparent,color:transparent;
-</code></pre><p>再對 G 左旋轉，並將 G 設為紅色、N 設為黑色：</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  AA((N)) --- BB((G)) &amp; CC((P));
+</code></pre><pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; AA;
+  AA((P)) --- n2 &amp; BB((D));
+  N1 --&gt; AAA((P));
+  
+  class A,AA,AAA black;
+  class B,BB red;
+  class N,N1,n1,n2 transparent;
+  
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+</code></pre><pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; AA;
+  AA((P)) --- BB((D)) &amp; CC((B));
+  N1 --&gt; A((P));
+  A((P)) --- n1 &amp; B((B));
   
   class AA black;
   class BB,CC red;
+  class A,AA,AAA black;
+  class B,BB red;
+  class N,N1,n1,n2 transparent;
+  
   
   classDef black fill:black,stroke:black,color:white;
   classDef red fill:red,stroke:red,color:white;
-</code></pre><h3 id="4-4-節點">4. 4-節點</h3>
-<p>如果對一個 4-節點新增節點，也就是會形成一個 5-節點，這時紅黑樹一樣會違反性質4。</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  n --&gt; A;
-  A((A)) --- B((B)) &amp; C((C));
-  B((B)) --- N((N));
-  
-  class A black;
-  class B,C red;
-  class N red2;
-  class n transparent;
-  
-  classDef black fill:black,stroke:black,color:black;
-  classDef red fill:red,stroke:red,color:red;
-  classDef red2 fill:red,stroke:red,color:white;
   classDef transparent fill:transparent,stroke:transparent,color:transparent;
-</code></pre><p>我們會將整棵子樹執行「顏色翻轉 color flip」操作：</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
-  n --&gt; A;
-  A((A)) --- B((B)) &amp; C((C));
-  B((B)) --- N((N));
+</code></pre><pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; AA;
+  AA((P)) --- BB((B)) &amp; CC((D));
+  N1 --&gt; A((P));
+  A((P)) --- B((B)) &amp; n1;
   
-  class A red;
-  class B,C black;
-  class N red2;
-  class n transparent;
+  class AA black;
+  class BB,CC red;
+  class A,AA,AAA black;
+  class B,BB red;
+  class N,N1,n1,n2 transparent;
   
-  classDef black fill:black,stroke:black,color:black;
-  classDef red fill:red,stroke:red,color:red;
-  classDef red2 fill:red,stroke:red,color:white;
+  
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
   classDef transparent fill:transparent,stroke:transparent,color:transparent;
-</code></pre><p>顏色翻轉，其實就是 <strong>2-3-4 樹</strong>中的拆分與向上融合。</p>
-<p>當執行完顏色翻轉後，需要重新檢查<strong>黑紅樹</strong>是否違反性質。</p>
-<h2 id="javascript-實作紅黑樹新增操作">JavaScript 實作紅黑樹新增操作</h2>
-<h3 id="1-本體">1. 本體</h3>
-<p>顏色：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">NodeColor</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="nx">RED</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
-  <span class="nx">BLACK</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
-<span class="p">};</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>我們使用布林值來定義紅色與黑色。</p>
-<p>節點：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">class</span> <span class="nx">RBTNode</span> <span class="p">{</span>
-  <span class="nx">constructor</span><span class="p">(</span><span class="nx">data</span><span class="p">,</span> <span class="nx">parent</span> <span class="o">=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">data</span> <span class="o">=</span> <span class="nx">data</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">parent</span> <span class="o">=</span> <span class="nx">parent</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">left</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">right</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">RED</span><span class="p">;</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><ol>
-<li><code>data</code>：儲存資料</li>
-<li><code>parent</code>：父節點</li>
-<li><code>left</code>：左子節點</li>
-<li><code>right</code>：右子節點</li>
-<li><code>color</code>：節點顏色（新增節點一定是紅色的，所以預設紅色）</li>
+</code></pre><h3 id="3-刪除黑色葉子節點">3. 刪除黑色葉子節點</h3>
+<p>遇到此情況最麻煩，因為可能會破壞<strong>紅黑樹</strong>性質 4，因此必須修正它。</p>
+<p>不需要修正的情況：</p>
+<ul>
+<li>如果黑色葉子節點是根節點，直接刪除即可，不用修正。</li>
+</ul>
+<p>修正的方法其實就是重新調整左、右子樹的黑色節點數量，讓他們保持相同，不違反性質 4，因此要判斷兄弟節點的狀態。</p>
+<p>需要修正的情況組合：</p>
+<ol>
+<li>黑兄無侄紅父</li>
+<li>紅兄（黑侄黑父）</li>
+<li>黑兄紅侄</li>
+<li>黑兄黑父</li>
 </ol>
-<p><strong>紅黑樹</strong>的節點比普通的二元搜尋樹多了顏色和紀錄父節點屬性，也就是說，它是一個雙向鏈結。</p>
-<p>根：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">class</span> <span class="nx">RedBlackTree</span> <span class="p">{</span>
-  <span class="nx">constructor</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">root</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="c1">// methods
-</span><span class="c1"></span><span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="2-旋轉操作">2. 旋轉操作</h3>
-<p><strong>紅黑樹</strong>因為多了顏色和父節點，因此旋轉操作還需要更新顏色、父節點。</p>
-<h4 id="21-右旋轉">2.1 右旋轉</h4>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">rightRotation</span><span class="p">(</span><span class="nx">node</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kr">const</span> <span class="nx">temp</span> <span class="o">=</span> <span class="nx">node</span><span class="p">.</span><span class="nx">left</span><span class="p">;</span>
-  <span class="nx">node</span><span class="p">.</span><span class="nx">left</span> <span class="o">=</span> <span class="nx">temp</span><span class="p">.</span><span class="nx">right</span><span class="p">;</span>
-  <span class="nx">temp</span><span class="p">.</span><span class="nx">right</span> <span class="o">=</span> <span class="nx">node</span><span class="p">;</span>
+<h3 id="31-黑兄黑姪紅父">3.1 黑兄黑姪紅父</h3>
+<ul>
+<li>兄弟節點 B：黑色</li>
+<li>姪子節點（兄弟子節點）：無</li>
+<li>父節點 P：紅色</li>
+</ul>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; P;
+  P((P)) --- D[D] &amp; B((B));
+  
+  class P red;
+  class B black;
+  class N transparent;
+  class D del;
+  
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+  classDef del fill:#fff,stroke:black,stroke-width:2px,color:#black,stroke-dasharray: 5;
+</code></pre><p>修正處理：P 設為黑色、B 設為紅色。</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; P;
+  P((P)) --- D[D] &amp; B((B));
+  
+  class P white;
+  class P black;
+  class B red;
+  class N,n1 transparent;
+  class D del;
+    
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+  classDef del fill:#fff,stroke:black,stroke-width:2px,color:#black,stroke-dasharray: 5;
+</code></pre><p>用 <strong>2-3-4</strong> 樹表示：</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  A[P ? _] --- B[D] &amp; C[B] &amp; D[?];
+  
+  AA[?] --- BB[P B] &amp; CC[?];
+  
+  class B del;
+  classDef del fill:#fff,stroke:black,stroke-width:2px,color:#black,stroke-dasharray: 5;
+</code></pre><p>如果是鏡像情況，相同的修正處理方式。</p>
+<h3 id="32-紅兄黑侄黑父">3.2 紅兄（黑侄黑父）</h3>
+<ul>
+<li>兄弟節點 B：紅色</li>
+<li>姪子節點（兄弟子節點）Ｌ、Ｒ：一定有姪子節點，且為黑色</li>
+<li>父節點 P：一定是黑色</li>
+</ul>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; P;
+  P((P)) --- D[D] &amp; B((B));
+  B((B)) --- L((L)) &amp; R((R));
+  
+  class P,L,R black;
+  class B red;
+  class N transparent;
+  class D del;
+  
+  classDef del fill:#fff,stroke:black,stroke-width:2px,color:#black,stroke-dasharray: 5;
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+</code></pre><p>修正處理：對 P 進行左旋轉，並將 P 設為紅色，B 設為黑色。</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; B;
+  B((B)) --- P((P)) &amp; R((R));
+  P((P)) --- D[D] &amp; L((L));
+  
+  class B,L,R black;
+  class P red;
+  class N transparent;
+  class D del;
+  
+  classDef del fill:#fff,stroke:black,stroke-width:2px,color:#black,stroke-dasharray: 5;
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+</code></pre><p>子樹 P 就變成情況一，執行相同修正處理：</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; B;
+  B((B)) --- P((P)) &amp; R((R));
+  P((P)) --- D[D] &amp; L((L));
+  
+  class B,P,R black;
+  class L red;
+  class N transparent;
+  
+  class D del;
+  
+  classDef del fill:#fff,stroke:black,stroke-width:2px,color:#black,stroke-dasharray: 5;
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+</code></pre><p>用 <strong>2-3-4</strong> 樹表示：</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  A[_ P B] --- B[D] &amp; C[L] &amp; D[R];
+  
+  A2[P B _] --- B2[D] &amp; C2[L] &amp; D2[R];
+  
+  A3[B _] --- B3[P L] &amp; C3[R];
+  
+  class B,B2 del;
+  classDef del fill:#fff,stroke:black,stroke-width:2px,color:#black,stroke-dasharray: 5;
+</code></pre><p>如果是鏡像情況，改對 P 進行右旋轉。</p>
+<h4 id="33-黑兄紅侄">3.3 黑兄紅侄</h4>
+<ul>
+<li>兄弟節點 B：黑色</li>
+<li>父節點 P：黑色或紅色</li>
+<li>姪子節點（兄弟子節點）Ｌ、Ｒ：紅色，共三種狀態：
+<ul>
+<li>L、R 都存在</li>
+<li>只有 R</li>
+<li>只有 L</li>
+</ul>
+</li>
+</ul>
+<p>基本狀態，L、R 都存在：</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; P;
+  P((P)) --- D[D] &amp; B((B));
+  B((B)) --- L((L)) &amp; R((R));
+  
+  class P white;
+  class D,B black;
+  class L,R red;
+  class N transparent;
+  
+  classDef white fill:white,stroke:black;
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+</code></pre><p>修正處理：對 P 執行左旋轉，並將 P 設為黑色、B 設為 P 的顏色、R 設為黑色。</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; B;
+  B((B)) --- P((P)) &amp; R((R));
+  P((P)) --- n1 &amp; L((L));
+  
+  class B white;
+  class P,R black;
+  class L red;
+  class N,n1 transparent;
+  
+  classDef white fill:white,stroke:black;
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+</code></pre><p>若只有 R、沒有 L，可執行相同修正處理：</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; P;
+  P((P)) --- D[D] &amp; B((B));
+  B((B)) --- n1 &amp; R((R));
+  
+  class P white;
+  class D,B black;
+  class L,R red;
+  class N,n1 transparent;
+  
+  N1 --&gt; B1;
+  B1((B)) --- P1((P)) &amp; R1((R));
 
-  <span class="c1">// 更新顏色
-</span><span class="c1"></span>  <span class="nx">temp</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">node</span><span class="p">.</span><span class="nx">color</span><span class="p">;</span>
-  <span class="nx">node</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">RED</span><span class="p">;</span>
+  class B1 white;
+  class P1,R1 black;
+  class L1 red;
+  class N1,n11 transparent;
+  
+  classDef white fill:white,stroke:black;
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+</code></pre><p>若只有 L，沒有 R，需先對 B 執行右旋轉，並將 L 設為黑色、B設為紅色，就會變上面的情況，再執行上面的修正處理：</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; P;
+  P((P)) --- D[D] &amp; B((B));
+  B((B)) --- L((L)) &amp; n1;
+  
+  class P white;
+  class D,B black;
+  class L,R red;
+  class N,n1 transparent;
 
-  <span class="c1">// 更新父節點
-</span><span class="c1"></span>  <span class="k">this</span><span class="p">.</span><span class="nx">replaceParent</span><span class="p">(</span><span class="nx">node</span><span class="p">,</span> <span class="nx">temp</span><span class="p">);</span>
-  <span class="nx">temp</span><span class="p">.</span><span class="nx">parent</span> <span class="o">=</span> <span class="nx">node</span><span class="p">.</span><span class="nx">parent</span><span class="p">;</span>
-  <span class="nx">node</span><span class="p">.</span><span class="nx">parent</span> <span class="o">=</span> <span class="nx">temp</span><span class="p">;</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">node</span><span class="p">.</span><span class="nx">left</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">node</span><span class="p">.</span><span class="nx">left</span><span class="p">.</span><span class="nx">parent</span> <span class="o">=</span> <span class="nx">node</span><span class="p">;</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><h4 id="22-左旋轉">2.2 左旋轉</h4>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">leftRotation</span><span class="p">(</span><span class="nx">node</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kr">const</span> <span class="nx">temp</span> <span class="o">=</span> <span class="nx">node</span><span class="p">.</span><span class="nx">right</span><span class="p">;</span>
-  <span class="nx">node</span><span class="p">.</span><span class="nx">right</span> <span class="o">=</span> <span class="nx">temp</span><span class="p">.</span><span class="nx">left</span><span class="p">;</span>
-  <span class="nx">temp</span><span class="p">.</span><span class="nx">left</span> <span class="o">=</span> <span class="nx">node</span><span class="p">;</span>
+  N2 --&gt; P2;
+  P2((P)) --- D2[D] &amp; L2((L));
+  L2((L)) --- n2 &amp; B2((B));
+  
+  class P2 white;
+  class D2,L2 black;
+  class B2 red;
+  class N2,n2 transparent;
 
-  <span class="nx">temp</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">node</span><span class="p">.</span><span class="nx">color</span><span class="p">;</span>
-  <span class="nx">node</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">RED</span><span class="p">;</span>
 
-  <span class="k">this</span><span class="p">.</span><span class="nx">replaceParent</span><span class="p">(</span><span class="nx">node</span><span class="p">,</span> <span class="nx">temp</span><span class="p">);</span>
-  <span class="nx">temp</span><span class="p">.</span><span class="nx">parent</span> <span class="o">=</span> <span class="nx">node</span><span class="p">.</span><span class="nx">parent</span><span class="p">;</span>
-  <span class="nx">node</span><span class="p">.</span><span class="nx">parent</span> <span class="o">=</span> <span class="nx">temp</span><span class="p">;</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">node</span><span class="p">.</span><span class="nx">right</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">node</span><span class="p">.</span><span class="nx">right</span><span class="p">.</span><span class="nx">parent</span> <span class="o">=</span> <span class="nx">node</span><span class="p">;</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><h4 id="23-輔助方法">2.3 輔助方法</h4>
-<p>替換父節點的指向：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">replaceParent</span><span class="p">(</span><span class="nx">curNode</span><span class="p">,</span> <span class="nx">newNode</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kr">const</span> <span class="p">{</span> <span class="nx">parent</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">curNode</span><span class="p">;</span>
-  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">parent</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">root</span> <span class="o">=</span> <span class="nx">newNode</span><span class="p">;</span>
-  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">curNode</span> <span class="o">===</span> <span class="nx">parent</span><span class="p">.</span><span class="nx">left</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">parent</span><span class="p">.</span><span class="nx">left</span> <span class="o">=</span> <span class="nx">newNode</span><span class="p">;</span>
-  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-    <span class="nx">parent</span><span class="p">.</span><span class="nx">right</span> <span class="o">=</span> <span class="nx">newNode</span><span class="p">;</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><ol>
-<li>如果父節點不存在，更新樹的根節點；</li>
-<li>如果是左子樹，更新左子樹；</li>
-<li>若不是，則更新右子樹。</li>
-</ol>
-<h3 id="3-新增操作">3. 新增操作</h3>
-<p>基本上與普通二元搜尋樹相同，只是多了父節點的指向與檢查是否平衡。</p>
-<p>歸迴版本：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">insert</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kr">const</span> <span class="nx">insertHelper</span> <span class="o">=</span> <span class="p">(</span><span class="nx">node</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="nx">curNode</span> <span class="o">=</span> <span class="nx">node</span><span class="p">;</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">data</span> <span class="o">&lt;</span> <span class="nx">curNode</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
-      <span class="k">if</span> <span class="p">(</span><span class="nx">curNode</span><span class="p">.</span><span class="nx">left</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">insertHelper</span><span class="p">(</span><span class="nx">curNode</span><span class="p">.</span><span class="nx">left</span><span class="p">);</span>
-      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-        <span class="nx">curNode</span><span class="p">.</span><span class="nx">left</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">RBTNode</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
-        <span class="nx">curNode</span><span class="p">.</span><span class="nx">left</span><span class="p">.</span><span class="nx">parent</span> <span class="o">=</span> <span class="nx">curNode</span><span class="p">;</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">insertFixRBT</span><span class="p">(</span><span class="nx">curNode</span><span class="p">.</span><span class="nx">left</span><span class="p">);</span>
-      <span class="p">}</span>
-    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">data</span> <span class="o">&gt;</span> <span class="nx">curNode</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
-      <span class="k">if</span> <span class="p">(</span><span class="nx">curNode</span><span class="p">.</span><span class="nx">right</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">insertHelper</span><span class="p">(</span><span class="nx">curNode</span><span class="p">.</span><span class="nx">right</span><span class="p">);</span>
-      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-        <span class="nx">curNode</span><span class="p">.</span><span class="nx">right</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">RBTNode</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
-        <span class="nx">curNode</span><span class="p">.</span><span class="nx">right</span><span class="p">.</span><span class="nx">parent</span> <span class="o">=</span> <span class="nx">curNode</span><span class="p">;</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">insertFixRBT</span><span class="p">(</span><span class="nx">curNode</span><span class="p">.</span><span class="nx">right</span><span class="p">);</span>
-      <span class="p">}</span>
-    <span class="p">}</span>
-  <span class="p">};</span>
-  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">root</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">RBTNode</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">insertFixRBT</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">);</span>
-  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-    <span class="nx">insertHelper</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>迭代版本：</p>
+  classDef white fill:white,stroke:black;
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+</code></pre><p>用 <strong>2-3-4</strong> 樹表示：</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  A[P] --- B[D] &amp; C[_ B R];
+  
+  A3[B] --- B3[P] &amp; C3[R];
+  
+  class B,B2 del;
+  classDef del fill:#fff,stroke:black,stroke-width:2px,color:#black,stroke-dasharray: 5;
+</code></pre><p>如果是鏡像情況，左旋轉改右旋轉、右旋轉改左旋轉，修正邏輯相同。</p>
+<h3 id="34-黑兄黑父">3.4 黑兄黑父</h3>
+<ul>
+<li>兄弟節點 B：黑色</li>
+<li>父節點 P：紅色</li>
+<li>姪子節點（兄弟子節點）：無或是黑色節點</li>
+</ul>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; P;
+  P((P)) --- D[D] &amp; B((B));
+  
+  class P,B black;
+  class N transparent;
+  class D del;
+  
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+  classDef del fill:#fff,stroke:black,stroke-width:2px,color:#black,stroke-dasharray: 5;
+</code></pre><p>首先，B 設為紅色：</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; P;
+  P((P)) --- D[D] &amp; B((B));
+  
+  class P white;
+  class P black;
+  class B red;
+  class N,n1 transparent;
+  class D del;
+    
+  classDef black fill:black,stroke:black,color:white;
+  classDef red fill:red,stroke:red,color:white;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+  classDef del fill:#fff,stroke:black,stroke-width:2px,color:#black,stroke-dasharray: 5;
+</code></pre><p>樹依然是不平衡，因此將 P 設為當前節點，再次執行平衡操作。</p>
+<p>用 <strong>2-3-4</strong> 樹表示：</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TB;
+  N --&gt; A;
+  A[P] --- B[D] &amp; C[B];
+  
+  N1 --&gt; A1;
+  A1[null] --- B1[P B];
+  
+  class N,N1 transparent;
+  class B,B2 del;
+  classDef del fill:#fff,stroke:black,stroke-width:2px,color:#black,stroke-dasharray: 5;
+  classDef transparent fill:transparent,stroke:transparent,color:transparent;
+  classDef del fill:#fff,stroke:black,stroke-width:2px,color:#black,stroke-dasharray: 5;
+</code></pre><h2 id="javascript-實作紅黑樹刪除操作">JavaScript 實作紅黑樹刪除操作</h2>
+<h3 id="1-刪除操作">1. 刪除操作</h3>
+<p>因為<strong>紅黑樹</strong>的節點是雙向的，我們可以直接用尋找方法取得節點，並更改父節點的指向。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -2055,77 +1997,163 @@ if (!doNotTrack) {
 </span><span class="lnt">29
 </span><span class="lnt">30
 </span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">insert</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">root</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">RBTNode</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">insertFixup</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">);</span>
-    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">;</span>
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">remove</span><span class="p">(</span><span class="nx">data</span><span class="p">,</span> <span class="nx">node</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="nx">delNode</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">search</span><span class="p">(</span><span class="nx">data</span><span class="p">,</span> <span class="nx">node</span><span class="p">);</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">delNode</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
   <span class="p">}</span>
-
-  <span class="kd">let</span> <span class="nx">curNode</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">;</span>
-
-  <span class="k">while</span> <span class="p">(</span><span class="nx">curNode</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">data</span> <span class="o">&lt;</span> <span class="nx">curNode</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
-      <span class="k">if</span> <span class="p">(</span><span class="nx">curNode</span><span class="p">.</span><span class="nx">left</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">curNode</span> <span class="o">=</span> <span class="nx">curNode</span><span class="p">.</span><span class="nx">left</span><span class="p">;</span>
-      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-        <span class="nx">curNode</span><span class="p">.</span><span class="nx">left</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">RBTNode</span><span class="p">(</span><span class="nx">data</span><span class="p">,</span> <span class="nx">curNode</span><span class="p">);</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">insertFixup</span><span class="p">(</span><span class="nx">curNode</span><span class="p">.</span><span class="nx">left</span><span class="p">);</span>
-        <span class="k">break</span><span class="p">;</span>
-      <span class="p">}</span>
-    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">data</span> <span class="o">&gt;</span> <span class="nx">curNode</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
-      <span class="k">if</span> <span class="p">(</span><span class="nx">curNode</span><span class="p">.</span><span class="nx">right</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">curNode</span> <span class="o">=</span> <span class="nx">curNode</span><span class="p">.</span><span class="nx">right</span><span class="p">;</span>
-      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-        <span class="nx">curNode</span><span class="p">.</span><span class="nx">right</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Node</span><span class="p">(</span><span class="nx">data</span><span class="p">,</span> <span class="nx">curNode</span><span class="p">);</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">insertFixup</span><span class="p">(</span><span class="nx">curNode</span><span class="p">.</span><span class="nx">right</span><span class="p">);</span>
-        <span class="k">break</span><span class="p">;</span>
-      <span class="p">}</span>
+  <span class="c1">// 葉子節點
+</span><span class="c1"></span>  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">delNode</span><span class="p">.</span><span class="nx">left</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nx">delNode</span><span class="p">.</span><span class="nx">right</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// 紅色
+</span><span class="c1"></span>    <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">delNode</span><span class="p">))</span> <span class="p">{</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">replaceParent</span><span class="p">(</span><span class="nx">delNode</span><span class="p">,</span> <span class="kc">null</span><span class="p">);</span>
+      <span class="c1">// 黑色
+</span><span class="c1"></span>    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">deleteFixup</span><span class="p">(</span><span class="nx">delNode</span><span class="p">);</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">replaceParent</span><span class="p">(</span><span class="nx">delNode</span><span class="p">,</span> <span class="kc">null</span><span class="p">);</span>
     <span class="p">}</span>
+    <span class="c1">// 單邊子樹
+</span><span class="c1"></span>  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">delNode</span><span class="p">.</span><span class="nx">left</span> <span class="o">||</span> <span class="o">!</span><span class="nx">delNode</span><span class="p">.</span><span class="nx">right</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// 單邊左子樹
+</span><span class="c1"></span>    <span class="k">if</span> <span class="p">(</span><span class="nx">delNode</span><span class="p">.</span><span class="nx">left</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">delNode</span><span class="p">.</span><span class="nx">left</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">BLACK</span><span class="p">;</span>
+      <span class="nx">delNode</span><span class="p">.</span><span class="nx">left</span><span class="p">.</span><span class="nx">parent</span> <span class="o">=</span> <span class="nx">delNode</span><span class="p">.</span><span class="nx">parent</span><span class="p">;</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">replaceParent</span><span class="p">(</span><span class="nx">delNode</span><span class="p">,</span> <span class="nx">delNode</span><span class="p">.</span><span class="nx">left</span><span class="p">);</span>
+      <span class="c1">// 單邊右子樹
+</span><span class="c1"></span>    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="nx">delNode</span><span class="p">.</span><span class="nx">right</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">BLACK</span><span class="p">;</span>
+      <span class="nx">delNode</span><span class="p">.</span><span class="nx">right</span><span class="p">.</span><span class="nx">parent</span> <span class="o">=</span> <span class="nx">delNode</span><span class="p">.</span><span class="nx">parent</span><span class="p">;</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">replaceParent</span><span class="p">(</span><span class="nx">delNode</span><span class="p">,</span> <span class="nx">delNode</span><span class="p">.</span><span class="nx">right</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">aux</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">findMin</span><span class="p">(</span><span class="nx">delNode</span><span class="p">.</span><span class="nx">right</span><span class="p">);</span>
+    <span class="nx">delNode</span><span class="p">.</span><span class="nx">data</span> <span class="o">=</span> <span class="nx">aux</span><span class="p">.</span><span class="nx">data</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="nx">aux</span><span class="p">.</span><span class="nx">data</span><span class="p">,</span> <span class="nx">delNode</span><span class="p">.</span><span class="nx">right</span><span class="p">);</span>
   <span class="p">}</span>
-
   <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="4-新增操作平衡修正">4. 新增操作平衡修正</h3>
-<p>新增節點後，檢查紅黑樹是否符合特性，並修正它。</p>
+</div><p>我們說明時，是刪除後修正，但實作時，先刪除就沒辦法傳入節點判斷了，因此這裡改成先判斷刪除後是否會影響平衡，若會影響平衡先調整在刪除。</p>
+<h4 id="11-輔助方法">1.1 輔助方法</h4>
+<p>尋找節點、尋找最小值，在一般的二元搜尋樹都有說明過：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">search</span><span class="p">(</span><span class="nx">data</span><span class="p">,</span> <span class="nx">node</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">node</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">data</span> <span class="o">===</span> <span class="nx">node</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">node</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">data</span> <span class="o">&lt;</span> <span class="nx">node</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">search</span><span class="p">(</span><span class="nx">data</span><span class="p">,</span> <span class="nx">node</span><span class="p">.</span><span class="nx">left</span><span class="p">);</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">search</span><span class="p">(</span><span class="nx">data</span><span class="p">,</span> <span class="nx">node</span><span class="p">.</span><span class="nx">right</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nx">findMin</span><span class="p">(</span><span class="nx">node</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">let</span> <span class="nx">currentNode</span> <span class="o">=</span> <span class="nx">node</span><span class="p">;</span>
+  <span class="k">while</span> <span class="p">(</span><span class="nx">currentNode</span> <span class="o">&amp;&amp;</span> <span class="nx">currentNode</span><span class="p">.</span><span class="nx">left</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">currentNode</span> <span class="o">=</span> <span class="nx">currentNode</span><span class="p">.</span><span class="nx">left</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">currentNode</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>替換父節點的指向，在新增節點操作說明過：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">replaceParent</span><span class="p">(</span><span class="nx">curNode</span><span class="p">,</span> <span class="nx">newNode</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="nx">parent</span> <span class="o">=</span> <span class="nx">curNode</span><span class="p">.</span><span class="nx">parent</span><span class="p">;</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">parent</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">root</span> <span class="o">=</span> <span class="nx">newNode</span><span class="p">;</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">parent</span><span class="p">.</span><span class="nx">left</span> <span class="o">===</span> <span class="nx">curNode</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">parent</span><span class="p">.</span><span class="nx">left</span> <span class="o">=</span> <span class="nx">newNode</span><span class="p">;</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nx">parent</span><span class="p">.</span><span class="nx">right</span> <span class="o">=</span> <span class="nx">newNode</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="2-刪除操作平衡修正">2. 刪除操作平衡修正</h3>
 <p>節點代號，方便說明：</p>
 <ul>
 <li>當前節點：N</li>
 <li>父親節點：P</li>
 <li>祖父節點：G</li>
-<li>叔叔節點：U</li>
+<li>兄弟節點：B</li>
+<li>姪子節點：L、R</li>
 </ul>
-<p>檢查是否需要修正，修正條件「P 是紅色且 G 存在」：</p>
+<p>檢查是否需要修正，修正條件「非根節點且為黑色」：</p>
 <ul>
-<li>若 P 為 G 的左子節點：
+<li>若 N 為 P 的左子節點，B 為 P 的右子節點：
+<ol>
+<li>若 B 是紅色，對 P 左旋轉，重新執行修正檢查。否則：</li>
+<li>若 L 和 R 皆為黑色（包含 NIL）：
 <ul>
-<li>判斷 U 是否為紅色節點，若是，則執行顏色翻轉。</li>
-<li>若不存在，判斷 N 是否為 P 的右子節點：
-<ul>
-<li>如果是右子節點，先對 P 執行左旋轉；</li>
+<li>若 P 是紅色，將 P 設為黑色、右子節點設為紅色，結束修正。否則：</li>
+<li>將 B 設為紅色，並將 N 設為 P，重新執行修正檢查。</li>
 </ul>
 </li>
-<li>對 G 執行右旋轉。</li>
-</ul>
+<li>若 L 是紅色且 R 不存在，對 B 執行右旋轉，並重新執行執行操作。否則：</li>
+<li>對 P 轉左旋轉，並將 P、R 設為黑色，結束修正。</li>
+</ol>
 </li>
-<li>若 P 為 G 的右子節點：
+<li>若 N 為 P 的右子節點，B 為 P 的左子節點：
+<ol>
+<li>若 B 是紅色，對 P 左旋轉，重新執行修正檢查。否則：</li>
+<li>若 L 和 R 皆為黑色（包含 NIL）：
 <ul>
-<li>判斷 U 是否為紅色節點，若是，則執行顏色翻轉。</li>
-<li>若不存在，判斷 N 是否為 P 的左子節點：
-<ul>
-<li>如果是左子節點，先對 P 執行右旋轉；</li>
+<li>若 P 是紅色，將 P 設為黑色、左子節點設為紅色，結束修正。否則：</li>
+<li>將 B 設為紅色，並將 N 設為 P，重新執行修正檢查。</li>
 </ul>
 </li>
-<li>對 G 執行左旋轉。</li>
-</ul>
+<li>若 L 是紅色且 R 不存在，對 B 執行左旋轉，並重新執行執行操作。否則：</li>
+<li>對 P 轉右旋轉，並將 P、L 設為黑色，結束修正。</li>
+</ol>
 </li>
-<li>以上修正結束，將目前節點設為祖父節點，再次檢查是否需要修正。</li>
 </ul>
-<p>修正結束後，記得將根結點設為黑色。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -2158,78 +2186,98 @@ if (!doNotTrack) {
 </span><span class="lnt">28
 </span><span class="lnt">29
 </span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">insertFixup</span><span class="p">(</span><span class="nx">node</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">let</span> <span class="nx">curNode</span> <span class="o">=</span> <span class="nx">node</span><span class="p">;</span>
-  <span class="k">while</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">curNode</span><span class="p">.</span><span class="nx">parent</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nx">curNode</span><span class="p">.</span><span class="nx">parent</span><span class="p">.</span><span class="nx">parent</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="p">{</span> <span class="nx">parent</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">curNode</span><span class="p">;</span>
-    <span class="kr">const</span> <span class="nx">grandparent</span> <span class="o">=</span> <span class="nx">parent</span><span class="p">.</span><span class="nx">parent</span><span class="p">;</span>
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">deleteFixup</span><span class="p">(</span><span class="nx">node</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">let</span> <span class="nx">currNode</span> <span class="o">=</span> <span class="nx">node</span><span class="p">;</span>
+  <span class="k">while</span> <span class="p">(</span><span class="nx">currNode</span> <span class="o">!==</span> <span class="k">this</span><span class="p">.</span><span class="nx">root</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">currNode</span><span class="p">))</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="p">{</span> <span class="nx">parent</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">currNode</span><span class="p">;</span>
+    <span class="kd">let</span> <span class="nx">bother</span><span class="p">;</span>
 
-    <span class="k">if</span> <span class="p">(</span><span class="nx">parent</span> <span class="o">===</span> <span class="nx">grandparent</span><span class="p">.</span><span class="nx">left</span><span class="p">)</span> <span class="p">{</span>
-      <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">grandparent</span><span class="p">.</span><span class="nx">right</span><span class="p">))</span> <span class="p">{</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">flipColor</span><span class="p">(</span><span class="nx">grandparent</span><span class="p">);</span>
-      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nx">curNode</span> <span class="o">===</span> <span class="nx">parent</span><span class="p">.</span><span class="nx">right</span><span class="p">)</span> <span class="p">{</span>
-          <span class="k">this</span><span class="p">.</span><span class="nx">leftRotation</span><span class="p">(</span><span class="nx">parent</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">currNode</span> <span class="o">===</span> <span class="nx">parent</span><span class="p">.</span><span class="nx">left</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">bother</span> <span class="o">=</span> <span class="nx">parent</span><span class="p">.</span><span class="nx">right</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">bother</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">leftRotation</span><span class="p">(</span><span class="nx">parent</span><span class="p">);</span>
+      <span class="p">}</span>
+      <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">bother</span><span class="p">.</span><span class="nx">left</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">bother</span><span class="p">.</span><span class="nx">right</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">parent</span><span class="p">))</span> <span class="p">{</span>
+          <span class="nx">parent</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">BLACK</span><span class="p">;</span>
+          <span class="nx">parent</span><span class="p">.</span><span class="nx">right</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">RED</span><span class="p">;</span>
+          <span class="k">break</span><span class="p">;</span>
         <span class="p">}</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">rightRotation</span><span class="p">(</span><span class="nx">grandparent</span><span class="p">);</span>
+        <span class="nx">bother</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">RED</span><span class="p">;</span>
+        <span class="nx">currNode</span> <span class="o">=</span> <span class="nx">parent</span><span class="p">;</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">bother</span><span class="p">.</span><span class="nx">left</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">bother</span><span class="p">.</span><span class="nx">right</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">rightRotation</span><span class="p">(</span><span class="nx">bother</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">leftRotation</span><span class="p">(</span><span class="nx">parent</span><span class="p">);</span>
+        <span class="nx">parent</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">BLACK</span><span class="p">;</span>
+        <span class="nx">bother</span><span class="p">.</span><span class="nx">right</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">BLACK</span><span class="p">;</span>
+        <span class="k">break</span><span class="p">;</span>
       <span class="p">}</span>
     <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-      <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">grandparent</span><span class="p">.</span><span class="nx">left</span><span class="p">))</span> <span class="p">{</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">flipColor</span><span class="p">(</span><span class="nx">grandparent</span><span class="p">);</span>
-        <span class="nx">curNode</span> <span class="o">=</span> <span class="nx">grandparent</span><span class="p">;</span>
-      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nx">curNode</span> <span class="o">===</span> <span class="nx">parent</span><span class="p">.</span><span class="nx">left</span><span class="p">)</span> <span class="p">{</span>
-          <span class="k">this</span><span class="p">.</span><span class="nx">rightRotation</span><span class="p">(</span><span class="nx">parent</span><span class="p">);</span>
+      <span class="nx">bother</span> <span class="o">=</span> <span class="nx">parent</span><span class="p">.</span><span class="nx">left</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">bother</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">rightRotation</span><span class="p">(</span><span class="nx">parent</span><span class="p">);</span>
+      <span class="p">}</span>
+      <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">bother</span><span class="p">.</span><span class="nx">left</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">bother</span><span class="p">.</span><span class="nx">right</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">parent</span><span class="p">))</span> <span class="p">{</span>
+          <span class="nx">parent</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">BLACK</span><span class="p">;</span>
+          <span class="nx">parent</span><span class="p">.</span><span class="nx">left</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">RED</span><span class="p">;</span>
+          <span class="k">break</span><span class="p">;</span>
         <span class="p">}</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">leftRotation</span><span class="p">(</span><span class="nx">grandparent</span><span class="p">);</span>
+        <span class="nx">bother</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">RED</span><span class="p">;</span>
+        <span class="nx">currNode</span> <span class="o">=</span> <span class="nx">parent</span><span class="p">;</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">bother</span><span class="p">.</span><span class="nx">right</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">isRed</span><span class="p">(</span><span class="nx">bother</span><span class="p">.</span><span class="nx">left</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">leftRotation</span><span class="p">(</span><span class="nx">bother</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">rightRotation</span><span class="p">(</span><span class="nx">parent</span><span class="p">);</span>
+        <span class="nx">parent</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">BLACK</span><span class="p">;</span>
+        <span class="nx">bother</span><span class="p">.</span><span class="nx">left</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">BLACK</span><span class="p">;</span>
+        <span class="k">break</span><span class="p">;</span>
       <span class="p">}</span>
     <span class="p">}</span>
-    <span class="nx">curNode</span> <span class="o">=</span> <span class="nx">grandparent</span><span class="p">;</span>
   <span class="p">}</span>
-  <span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">BLACK</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="41-輔助方法">4.1 輔助方法</h3>
-<p>判斷節點顏色：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">isRed</span><span class="p">(</span><span class="nx">node</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">return</span> <span class="nx">node</span> <span class="o">?</span> <span class="nx">node</span><span class="p">.</span><span class="nx">color</span> <span class="o">:</span> <span class="kc">false</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>顏色翻轉：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">flipColor</span><span class="p">(</span><span class="nx">node</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">node</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">RED</span><span class="p">;</span>
-  <span class="nx">node</span><span class="p">.</span><span class="nx">left</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">BLACK</span><span class="p">;</span>
-  <span class="nx">node</span><span class="p">.</span><span class="nx">right</span><span class="p">.</span><span class="nx">color</span> <span class="o">=</span> <span class="nx">NodeColor</span><span class="p">.</span><span class="nx">BLACK</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="總結">總結</h2>
+</div><h2 id="紅黑樹總結">紅黑樹總結</h2>
+<h3 id="1-紅黑樹和-avl-tree-比較">1. 紅黑樹和 AVL-Tree 比較</h3>
+<p><strong>紅黑樹</strong>和 AVL-Tree 一樣是自平衡二元搜尋樹，都可以在 $O(\log n)$ 時間內完成尋找、新增和刪除操作。</p>
+<p>AVL-Tree，屬於嚴格平衡樹，透過計算 BF，讓任意子節點的左右子樹高度相差不超過 1。</p>
+<p>而<strong>紅黑樹</strong>，透過增加節點顏色，來維持定義的特性，相對於 AVL-Tree 來說，犧牲了部分平衡性（多一層），換取平衡修正操作時的少量旋轉操作，整體來說效能要優於 AVL-Tree。</p>
+<ul>
+<li>對於新增操作，AVL-Tree 和 <strong>紅黑樹</strong> 最多只需要執行 2 次旋轉操作，即平衡修正為 $O(1)$ 的時間複雜度</li>
+<li>但刪除操作，AVL-Tree 需要維護被刪節點到根節點路徑上所有節點的平衡性，因此平衡修正時間複雜度需要 $O(\log n)$。而<strong>紅黑樹</strong>的刪除操作，最多只需要三次旋轉，即平衡修正為 $O(1)$ 的時間複雜度。</li>
+<li>查詢操作則是 <strong>紅黑樹</strong> 略遜於 AVL-Tree，因為它會比 AVL-Tree 多一層。</li>
+</ul>
+<h3 id="2-視覺化">2. 視覺化</h3>
 <p>這是我用 Vue.js 製作的，可以很的方便觀察黑紅樹的結構變化：</p>
-<iframe height="800" style="width: 100%;" scrolling="no" title="Red - Black Tree - insert  with Vue.js" src="https://codepen.io/chupai/embed/NWxbRdY?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/chupai/pen/NWxbRdY'>Red - Black Tree - insert  with Vue.js</a> by Chupai@Design
+<iframe height="800" style="width: 100%;" scrolling="no" title="Red - Black Tree   with Vue.js" src="https://codepen.io/chupai/embed/qBbrewW?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/chupai/pen/qBbrewW'>Red - Black Tree   with Vue.js</a> by Chupai@Design
   (<a href='https://codepen.io/chupai'>@chupai</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
-<p>下週來說明更麻煩的刪除操作。</p>
     </article>
     
     <script>
@@ -2353,6 +2401,10 @@ if (!doNotTrack) {
     <ul class="related-ul">
         
         <li>
+          <a href="/posts/2007/ds_redblack-tree-2/" class="related__link">JavaScript 學演算法（十七）- 紅黑樹（中）：新增操作</a>
+        </li>
+        
+        <li>
           <a href="/posts/2007/ds_redblack-tree-1/" class="related__link">JavaScript 學演算法（十六）- 紅黑樹（上）：B 樹、2-3-4 樹</a>
         </li>
         
@@ -2368,10 +2420,6 @@ if (!doNotTrack) {
           <a href="/posts/2006/sort_algorithm_heap_sort/" class="related__link">JavaScript 學演算法（十三）- 堆積排序</a>
         </li>
         
-        <li>
-          <a href="/posts/2006/ds_tree_and_binary_tree/" class="related__link">JavaScript 學演算法（十二）- 樹 &amp; 二元樹</a>
-        </li>
-        
     </ul>
     
   </section>
@@ -2379,21 +2427,14 @@ if (!doNotTrack) {
 <nav class="pagination-single">
   
     
-      <a href="https://chupai.github.io/posts/2007/ds_redblack-tree-1/" class="pagination-single__left">
+      <a href="https://chupai.github.io/posts/2007/ds_redblack-tree-2/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">JavaScript 學演算法（十六）- 紅黑樹（上）：B 樹、2-3-4 樹</div>      
+        <div class="pagination-single__left-title">JavaScript 學演算法（十七）- 紅黑樹（中）：新增操作</div>      
       </a>
     
     <div class="grow"></div>
-    
-      <a href="https://chupai.github.io/posts/2007/ds_redblack-tree-3/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">JavaScript 學演算法（十八）- 紅黑樹（下）：刪除操作</div>
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
-        </div>
-      </a>
     
   
 </nav>
@@ -3485,31 +3526,28 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="toc toc__outer " data-dir="ltr" data-folding="false" data-ani="true">
           <nav id="TableOfContents">
   <ul>
-    <li><a href="#紅黑樹和-2-3-4-樹的等價關係">紅黑樹和 2-3-4 樹的等價關係</a>
+    <li><a href="#紅黑樹的刪除操作">紅黑樹的刪除操作</a>
       <ul>
-        <li><a href="#1-黑色節點">1. 黑色節點</a></li>
-        <li><a href="#2-紅色節點">2. 紅色節點</a></li>
-        <li><a href="#3-2-3-樹">3. 2-3 樹</a></li>
+        <li><a href="#1-節點有單邊子樹">1. 節點有單邊子樹</a></li>
+        <li><a href="#2-刪除紅色葉子節點">2. 刪除紅色葉子節點</a></li>
+        <li><a href="#3-刪除黑色葉子節點">3. 刪除黑色葉子節點</a></li>
+        <li><a href="#31-黑兄黑姪紅父">3.1 黑兄黑姪紅父</a></li>
+        <li><a href="#32-紅兄黑侄黑父">3.2 紅兄（黑侄黑父）</a></li>
+        <li><a href="#34-黑兄黑父">3.4 黑兄黑父</a></li>
       </ul>
     </li>
-    <li><a href="#紅黑樹的新增操作">紅黑樹的新增操作</a>
+    <li><a href="#javascript-實作紅黑樹刪除操作">JavaScript 實作紅黑樹刪除操作</a>
       <ul>
-        <li><a href="#1-保持根節點是黑色的">1. 保持根節點是黑色的</a></li>
-        <li><a href="#2-2-節點">2. 2-節點</a></li>
-        <li><a href="#3-3-節點">3. 3-節點</a></li>
-        <li><a href="#4-4-節點">4. 4-節點</a></li>
+        <li><a href="#1-刪除操作">1. 刪除操作</a></li>
+        <li><a href="#2-刪除操作平衡修正">2. 刪除操作平衡修正</a></li>
       </ul>
     </li>
-    <li><a href="#javascript-實作紅黑樹新增操作">JavaScript 實作紅黑樹新增操作</a>
+    <li><a href="#紅黑樹總結">紅黑樹總結</a>
       <ul>
-        <li><a href="#1-本體">1. 本體</a></li>
-        <li><a href="#2-旋轉操作">2. 旋轉操作</a></li>
-        <li><a href="#3-新增操作">3. 新增操作</a></li>
-        <li><a href="#4-新增操作平衡修正">4. 新增操作平衡修正</a></li>
-        <li><a href="#41-輔助方法">4.1 輔助方法</a></li>
+        <li><a href="#1-紅黑樹和-avl-tree-比較">1. 紅黑樹和 AVL-Tree 比較</a></li>
+        <li><a href="#2-視覺化">2. 視覺化</a></li>
       </ul>
     </li>
-    <li><a href="#總結">總結</a></li>
   </ul>
 </nav>
         </div>

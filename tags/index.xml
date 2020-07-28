@@ -14,13 +14,67 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>JavaScript</title>
+        <link>https://chupai.github.io/tags/javascript/</link>
+        <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/javascript/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>字串 String</title>
+        <link>https://chupai.github.io/tags/%E5%AD%97%E4%B8%B2-string/</link>
+        <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/%E5%AD%97%E4%B8%B2-string/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>陣列 Array</title>
+        <link>https://chupai.github.io/tags/%E9%99%A3%E5%88%97-array/</link>
+        <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/%E9%99%A3%E5%88%97-array/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>2-3 樹</title>
@@ -419,24 +473,6 @@
       </item>
       
       <item>
-        <title>JavaScript</title>
-        <link>https://chupai.github.io/tags/javascript/</link>
-        <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
-        <author>chupaiwang@gmail.com (竹白)</author>
-        
-        <guid>https://chupai.github.io/tags/javascript/</guid>
-        <description></description>
-        
-        <dc:creator>竹白</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>日期時間</title>
         <link>https://chupai.github.io/tags/%E6%97%A5%E6%9C%9F%E6%99%82%E9%96%93/</link>
         <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
@@ -587,24 +623,6 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97/</guid>
-        <description></description>
-        
-        <dc:creator>竹白</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>陣列 Array</title>
-        <link>https://chupai.github.io/tags/%E9%99%A3%E5%88%97-array/</link>
-        <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
-        <author>chupaiwang@gmail.com (竹白)</author>
-        
-        <guid>https://chupai.github.io/tags/%E9%99%A3%E5%88%97-array/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>

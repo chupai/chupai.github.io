@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://chupai.github.io/</loc>
-    <lastmod>2020-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,22 +19,37 @@
   
   <url>
     <loc>https://chupai.github.io/tags/javascript/</loc>
-    <lastmod>2020-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chupai.github.io/categories/javascript%E7%AD%86%E8%A8%98/</loc>
-    <lastmod>2020-07-28T00:00:00+00:00</lastmod>
+    <loc>https://chupai.github.io/series/javascript-%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chupai.github.io/posts/2007/js_slice_splice_split/</loc>
-    <lastmod>2020-07-28T00:00:00+00:00</lastmod>
+    <loc>https://chupai.github.io/posts/2008/ds_treap/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/js-%E5%AD%B8%E5%BE%92%E7%89%B9%E8%A8%93%E7%8F%AD/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/categories/js-%E5%AD%B8%E5%BE%92%E7%89%B9%E8%A8%93%E7%8F%AD/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/posts/2008/js60_3/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chupai.github.io/tags/</loc>
-    <lastmod>2020-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -48,8 +63,33 @@
   </url>
   
   <url>
+    <loc>https://chupai.github.io/tags/treap/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/w3hexschool/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/categories/w3hexschool%E5%85%AD%E8%A7%92%E9%BC%A0%E5%B9%B4%E9%90%B5%E4%BA%BA%E8%B3%BD/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%A8%B9/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chupai.github.io/categories/</loc>
-    <lastmod>2020-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -63,12 +103,72 @@
   </url>
   
   <url>
-    <loc>https://chupai.github.io/tags/%E5%AD%97%E4%B8%B2-string/</loc>
-    <lastmod>2020-07-28T00:00:00+00:00</lastmod>
+    <loc>https://chupai.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A8%B9/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chupai.github.io/posts/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/%E6%A8%B9/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/%E6%A8%B9%E5%A0%86/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/series/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chupai.github.io/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://chupai.github.io/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/posts/2008/js60_2/</loc>
+    <lastmod>2020-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/posts/2008/js60_1/</loc>
+    <lastmod>2020-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/posts/2008/js60_menu/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/categories/javascript%E7%AD%86%E8%A8%98/</loc>
+    <lastmod>2020-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/posts/2007/js_slice_splice_split/</loc>
+    <lastmod>2020-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/%E5%AD%97%E4%B8%B2-string/</loc>
     <lastmod>2020-07-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -88,62 +188,12 @@
   </url>
   
   <url>
-    <loc>https://chupai.github.io/series/javascript-%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chupai.github.io/posts/2007/ds_redblack-tree-3/</loc>
     <lastmod>2020-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chupai.github.io/tags/w3hexschool/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/categories/w3hexschool%E5%85%AD%E8%A7%92%E9%BC%A0%E5%B9%B4%E9%90%B5%E4%BA%BA%E8%B3%BD/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/tags/%E4%BA%8C%E5%85%83%E6%A8%B9/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A8%B9/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/series/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chupai.github.io/en/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://chupai.github.io/series/"
-                />
-  </url>
-  
-  <url>
     <loc>https://chupai.github.io/tags/%E7%B4%85%E9%BB%91%E6%A8%B9/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/</loc>
     <lastmod>2020-07-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -194,11 +244,6 @@
   
   <url>
     <loc>https://chupai.github.io/posts/2006/ds_tree_and_binary_tree/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/tags/%E6%A8%B9/</loc>
     <lastmod>2020-06-15T00:00:00+00:00</lastmod>
   </url>
   

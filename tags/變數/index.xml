@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>變數 on 竹白記事本</title>
+    <link>https://chupai.github.io/tags/%E8%AE%8A%E6%95%B8/</link>
+    <description>Recent content in 變數 on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    <lastBuildDate>Tue, 04 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://chupai.github.io/tags/%E8%AE%8A%E6%95%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>函式呼叫與 this</title>
+        <link>https://chupai.github.io/posts/2008/js_this/</link>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Tue, 04 Aug 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js_this/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200804_js_this.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>ES6</category>
+            
+          
+            
+              <category>變數</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>變數</title>
+        <link>https://chupai.github.io/posts/2008/js_variable/</link>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 03 Aug 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js_variable/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200803_js_variable.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>ES6</category>
+            
+          
+            
+              <category>變數</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

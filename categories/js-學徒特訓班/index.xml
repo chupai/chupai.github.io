@@ -14,13 +14,50 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/categories/js-%E5%AD%B8%E5%BE%92%E7%89%B9%E8%A8%93%E7%8F%AD/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>JS 學徒特訓班 - JS 函式 36 ~ 40 關</title>
+        <link>https://chupai.github.io/posts/2008/js60_4/</link>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Tue, 04 Aug 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js60_4/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js60_menu/&#34;&gt;竹白的 JS 學徒特訓班筆記 - 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;記錄六角學院所開的 &lt;a href=&#34;https://hackmd.io/@YmcMgo-NSKOqgTGAjl_5tg/Sk-_oGL2U/%2FROmgqJG5Q462sGoUIp4EYg&#34; target=&#34;_blank&#34;&gt;JS 學徒特訓班&lt;/a&gt;，為期 60天的特訓。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/js60/4.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>JS 學徒特訓班</category>
+            
+          
+        
+        
+          
+            
+              <category>JS 學徒特訓班</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>JS 學徒特訓班 - JS 函式 24 ~ 35 關</title>

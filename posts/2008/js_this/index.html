@@ -1791,7 +1791,7 @@ if (!doNotTrack) {
 <span class="nx">obj</span><span class="p">.</span><span class="nx">foo</span><span class="p">();</span> <span class="c1">// &#34;Chupai&#34;
 </span></code></pre></td></tr></table>
 </div>
-</div><p><code>obj.foo</code> 為 <code>obj</code> 的方法，因此 <code>foo</code> 內的 <code>this</code> 會指向 <code>obj</code> 物件。</p>
+</div><p><code>foo</code> 為 <code>obj</code> 的方法，因此 <code>foo</code> 內的 <code>this</code> 會指向 <code>obj</code> 物件。</p>
 <p>稍微改變一下程式碼：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1825,7 +1825,7 @@ if (!doNotTrack) {
 </span><span class="c1"></span><span class="nx">obj</span><span class="p">.</span><span class="nx">foo</span><span class="p">();</span>  <span class="c1">// &#34;Chupai&#34;
 </span></code></pre></td></tr></table>
 </div>
-</div><p>函式宣告的位置不重要，<code>obj.foo</code> 內的 <code>this</code> 還是會指向 <code>obj</code> 物件。</p>
+</div><p>函式宣告的位置不重要，<code>foo</code> 內的 <code>this</code> 還是會指向 <code>obj</code> 物件。</p>
 <p>繼續看下個範例：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1901,7 +1901,7 @@ if (!doNotTrack) {
 <span class="nx">callThisName</span><span class="p">();</span> <span class="c1">// &#34;GlobalName&#34;
 </span></code></pre></td></tr></table>
 </div>
-</div><p>當 <code>obj.foo</code> 賦值給變數 <code>callThisName</code> 時，會將 <code>foo</code> 函式的記憶體位置傳給 <code>callThisName</code>，因此當我們用 <code>callThisName()</code> 呼叫時，與 <code>obj</code> 無關，所以就只是一般的函式呼叫。</p>
+</div><p>當我們將 <code>obj.foo</code> 指定給變數 <code>callThisName</code> 時，會將 <code>foo</code> 函式的記憶體位置傳給 <code>callThisName</code>，因此當我們用 <code>callThisName()</code> 呼叫時，與 <code>obj</code> 無關，所以就只是一般的函式呼叫。</p>
 <p>另外，參數傳遞中的回呼函式，也屬於間接參考：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">

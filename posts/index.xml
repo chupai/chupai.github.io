@@ -14,7 +14,7 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 04:03:00 +0800</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,195 @@
 
       
       <item>
-        <title>JS 學徒特訓班 - Date、Location 41 ~ 46關</title>
+        <title>Async/Await</title>
+        <link>https://chupai.github.io/posts/2008/js_async_await/</link>
+        <pubDate>Thu, 20 Aug 2020 04:03:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Thu, 20 Aug 2020 04:03:00 +0800</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js_async_await/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;非同步是 JavaScript 最重要的觀念之一。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_asynchronous&#34;&gt;非同步&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_callback&#34;&gt;回呼函式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_promise&#34;&gt;Promise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_async_await&#34;&gt;Async/Await&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200820_js_js_async_await.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>非同步</category>
+            
+          
+            
+              <category>Promise</category>
+            
+          
+            
+              <category>Async/Await</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Promise</title>
+        <link>https://chupai.github.io/posts/2008/js_promise/</link>
+        <pubDate>Thu, 20 Aug 2020 04:02:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Thu, 20 Aug 2020 04:02:00 +0800</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js_promise/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;非同步是 JavaScript 最重要的觀念之一。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_asynchronous&#34;&gt;非同步&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_callback&#34;&gt;回呼函式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_promise&#34;&gt;Promise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_async_await&#34;&gt;Async/Await&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200820_js_promise.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>非同步</category>
+            
+          
+            
+              <category>Promise</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>回呼函式</title>
+        <link>https://chupai.github.io/posts/2008/js_callback/</link>
+        <pubDate>Thu, 20 Aug 2020 04:01:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Thu, 20 Aug 2020 04:01:00 +0800</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js_callback/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;非同步是 JavaScript 最重要的觀念之一。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_asynchronous&#34;&gt;非同步&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_callback&#34;&gt;回呼函式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_promise&#34;&gt;Promise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_async_await&#34;&gt;Async/Await&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200820_js_callback.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>非同步</category>
+            
+          
+            
+              <category>回呼函式</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>非同步</title>
+        <link>https://chupai.github.io/posts/2008/js_asynchronous/</link>
+        <pubDate>Thu, 20 Aug 2020 04:00:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Thu, 20 Aug 2020 04:00:00 +0800</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js_asynchronous/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;非同步是 JavaScript 最重要的觀念之一。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_asynchronous&#34;&gt;非同步&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_callback&#34;&gt;回呼函式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_promise&#34;&gt;Promise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_async_await&#34;&gt;Async/Await&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200820_js_asynchronous.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>非同步</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>JS 學徒特訓班 - Date、Location 41 ~ 46 關</title>
         <link>https://chupai.github.io/posts/2008/js60_5/</link>
         <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
@@ -2034,7 +2222,7 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Thu, 20 Jun 2019 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/190620_javascript/</guid>
-        <description>&lt;p&gt;JavaScript筆記 目錄&lt;/p&gt;</description>
+        <description></description>
         
         <dc:creator>竹白</dc:creator>
         <media:content url="https://chupai.github.ioimages/covers/190620_javascript.png" medium="image"><media:title type="html">featured image</media:title></media:content>

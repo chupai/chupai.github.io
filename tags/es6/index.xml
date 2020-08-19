@@ -14,13 +14,54 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Tue, 04 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/es6/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>連續的數字陣列</title>
+        <link>https://chupai.github.io/posts/2008/js_array_numbers/</link>
+        <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Tue, 18 Aug 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js_array_numbers/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;產生 0 ~ 99 的數字陣列。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/200818_js_array_numbers.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>ES6</category>
+            
+          
+            
+              <category>陣列</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>函式呼叫與 this</title>

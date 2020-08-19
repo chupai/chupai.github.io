@@ -1627,7 +1627,7 @@ if (!doNotTrack) {
 <li>如果都沒呼叫，那 Promise 會一直保持 pending 狀態。</li>
 </ul>
 <p>一但進入 fulfilled 或 rejected 狀態，Promise 就不會再接受任何狀態改變，所以重複呼叫 <code>resolve</code> 或 <code>reject</code> 是沒有意義的行為。</p>
-<p><code>resolve()</code> 通常會用在非同步程式中，可以將非同步程式處理的結果傳出去：</p>
+<p><code>resolve</code> 通常會用在非同步程式中，可以將非同步程式處理的結果傳出去：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1640,8 +1640,8 @@ if (!doNotTrack) {
 <span class="p">});</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>經過一秒，呼叫 <code>resolve()</code> 將字串 <code>done!</code> 當作完成結果，也就是 Promise 狀態經過一秒才由 pending 狀態進入 fulfilled 狀態。</p>
-<p>假如非同步程式執行失敗時，就可以利用 <code>reject()</code> 獲取錯誤訊息，讓我們模擬一下：</p>
+</div><p>經過一秒，呼叫 <code>resolve</code> 將字串 <code>done!</code> 當作完成結果，也就是 Promise 狀態經過一秒才由 pending 狀態進入 fulfilled 狀態。</p>
+<p>假如非同步程式執行失敗時，就可以利用 <code>reject</code> 獲取錯誤訊息，讓我們模擬一下：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -1739,7 +1739,7 @@ if (!doNotTrack) {
 </span></code></pre></td></tr></table>
 </div>
 </div><p>經過了 2 秒，Promise 由 pending 狀態進入 fulfilled 狀態，就會觸發 <code>then</code> 方法綁定的回呼函式，印出結果。</p>
-<p>如果 Promise 為 rejected 狀態，沒有處理會有 Uncaught 提示，因此如果有呼叫 <code>reject()</code> 要加上 <code>rejected</code> 狀態的回呼函式：</p>
+<p>如果 Promise 為 rejected 狀態，沒有處理會有 Uncaught 提示，因此如果有呼叫 <code>reject</code> 要加上 <code>rejected</code> 狀態的回呼函式：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -1831,7 +1831,7 @@ if (!doNotTrack) {
 </div>
 </div><ol>
 <li>當 Promise 實體被創建，就會立刻執行 <code>executor</code> 函式，所以先印出 <code>1</code>；</li>
-<li>就算 <code>resolve()</code> 已呼叫，<code>executor</code> 函式並不會終止，所以印出 <code>2</code>；</li>
+<li>就算 <code>resolve</code> 已呼叫，<code>executor</code> 函式並不會終止，所以印出 <code>2</code>；</li>
 <li><code>then</code> 方法中的回呼函式一開始就會進入到事件佇列中，當 Promise 狀態改變，並等到同步程式執行完畢，才會開始執行，因此會跳過，所以會先印出 <code>6</code>；</li>
 <li>Promise 狀態改變了，同步程式執行也完了，因此執行 <code>then</code> 方法中的回呼函式，所以印出 <code>3</code> <code>4</code> <code>5</code>。</li>
 </ol>
@@ -1870,7 +1870,7 @@ if (!doNotTrack) {
 </code></pre></td></tr></table>
 </div>
 </div><p>參數 <code>n</code> 為結果值、<code>b</code> 用來控制狀態。</p>
-<p>情況一：如果回呼函式中 <code>return</code> 一個非 Promise 的值，則會回傳一個 fulfilled 狀態的新 Promise，並且將 <code>return</code> 值作為 <code>resolve()</code> 的參數值。</p>
+<p>情況一：如果回呼函式中 <code>return</code> 一個非 Promise 的值，則會回傳一個 fulfilled 狀態的新 Promise，並且將 <code>return</code> 值作為 <code>resolve</code> 的參數值。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -1930,7 +1930,7 @@ if (!doNotTrack) {
 </span><span class="c1">// 2
 </span></code></pre></td></tr></table>
 </div>
-</div><p>情況三：<code>then</code> 方法中回呼函式因為 <code>throw</code> 述句拋出一個錯誤，則會回傳一個 rejected 狀態的 Promise，並且將錯誤訊息作為 <code>reject()</code> 的參數值。</p>
+</div><p>情況三：<code>then</code> 方法中回呼函式因為 <code>throw</code> 述句拋出一個錯誤，則會回傳一個 rejected 狀態的 Promise，並且將錯誤訊息作為 <code>reject</code> 的參數值。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1

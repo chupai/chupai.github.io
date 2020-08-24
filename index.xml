@@ -14,7 +14,7 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Thu, 20 Aug 2020 04:03:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,279 @@
         
       
 
+      
+      <item>
+        <title>JavaScript 學演算法（二十二）- 遞迴 Recursion</title>
+        <link>https://chupai.github.io/posts/2008/alg_recursion/</link>
+        <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 24 Aug 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/alg_recursion/</guid>
+        <description>&lt;p&gt;這週是六角鼠年鐵人賽第三十週。&lt;/p&gt;
+&lt;p&gt;這幾週會說明演算法的設計：分治法、動態規劃、貪婪法、回溯法、分支定界法，所以我們先來看 &lt;strong&gt;遞迴 Recursion&lt;/strong&gt;。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2008/alg_recursion.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>資料結構</category>
+            
+          
+            
+              <category>遞迴</category>
+            
+          
+            
+              <category>Recursion</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript 學演算法</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>JS 學徒特訓班 - AJAX 47 ~ 50 關</title>
+        <link>https://chupai.github.io/posts/2008/js60_6/</link>
+        <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 24 Aug 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js60_6/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js60_menu/&#34;&gt;竹白的 JS 學徒特訓班筆記 - 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;記錄六角學院所開的 &lt;a href=&#34;https://hackmd.io/@YmcMgo-NSKOqgTGAjl_5tg/Sk-_oGL2U/%2FROmgqJG5Q462sGoUIp4EYg&#34; target=&#34;_blank&#34;&gt;JS 學徒特訓班&lt;/a&gt;，為期 60天的特訓。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/js60/6.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>JS 學徒特訓班</category>
+            
+          
+        
+        
+          
+            
+              <category>JS 學徒特訓班</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Fetch</title>
+        <link>https://chupai.github.io/posts/2008/js_fetch/</link>
+        <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sun, 23 Aug 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js_fetch/</guid>
+        <description>JavaScript筆記 目錄 AJAX： AJAX JSON XMLHttpRequest Fetch Fetch API 傳統 AJAX 操作是使用 XMLHttpRequest（XHR）物件來實現，而 Fetch API 是近年來被提及將要</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2008/js_fetch.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>非同步</category>
+            
+          
+            
+              <category>Fetch</category>
+            
+          
+            
+              <category>AJAX</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>XMLHttpRequest</title>
+        <link>https://chupai.github.io/posts/2008/js_xhr/</link>
+        <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sat, 22 Aug 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js_xhr/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;AJAX：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_ajax&#34;&gt;AJAX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_json&#34;&gt;JSON&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_xhr&#34;&gt;XMLHttpRequest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_fetch&#34;&gt;Fetch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2008/js_xhr.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>非同步</category>
+            
+          
+            
+              <category>XMLHttpRequest</category>
+            
+          
+            
+              <category>AJAX</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>JSON 格式</title>
+        <link>https://chupai.github.io/posts/2008/js_json/</link>
+        <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Fri, 21 Aug 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js_json/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;AJAX：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_ajax&#34;&gt;AJAX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_json&#34;&gt;JSON&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_xhr&#34;&gt;XMLHttpRequest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_fetch&#34;&gt;Fetch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2008/js_json.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>JSON</category>
+            
+          
+            
+              <category>AJAX</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>AJAX</title>
+        <link>https://chupai.github.io/posts/2008/js_ajax/</link>
+        <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Thu, 20 Aug 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2008/js_ajax/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;AJAX：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_ajax&#34;&gt;AJAX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_json&#34;&gt;JSON&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_xhr&#34;&gt;XMLHttpRequest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2008/js_fetch&#34;&gt;Fetch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2008/js_ajax.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JavaScript</category>
+            
+          
+            
+              <category>非同步</category>
+            
+          
+            
+              <category>AJAX</category>
+            
+          
+        
+        
+          
+            
+              <category>JavaScript筆記</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Async/Await</title>

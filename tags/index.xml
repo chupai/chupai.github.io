@@ -14,13 +14,49 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Neumorphism</title>
+        <link>https://chupai.github.io/tags/neumorphism/</link>
+        <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/neumorphism/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Soft UI</title>
+        <link>https://chupai.github.io/tags/soft-ui/</link>
+        <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/soft-ui/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>JavaScript</title>
@@ -1157,12 +1193,84 @@
       </item>
       
       <item>
+        <title>BEM</title>
+        <link>https://chupai.github.io/tags/bem/</link>
+        <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/bem/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>SASS</title>
+        <link>https://chupai.github.io/tags/sass/</link>
+        <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/sass/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>舊文章搬運</title>
+        <link>https://chupai.github.io/tags/%E8%88%8A%E6%96%87%E7%AB%A0%E6%90%AC%E9%81%8B/</link>
+        <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/%E8%88%8A%E6%96%87%E7%AB%A0%E6%90%AC%E9%81%8B/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Async/Await</title>
         <link>https://chupai.github.io/tags/async/await/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/async/await/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>UI/UX</title>
+        <link>https://chupai.github.io/tags/ui/ux/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/ui/ux/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>

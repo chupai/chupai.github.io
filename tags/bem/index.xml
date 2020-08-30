@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>BEM on 竹白記事本</title>
+    <link>https://chupai.github.io/tags/bem/</link>
+    <description>Recent content in BEM on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://chupai.github.io/tags/bem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>甜點電商 - 切版練習</title>
+        <link>https://chupai.github.io/posts/old/1905/190524_sweetaste/</link>
+        <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Fri, 24 May 2019 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/old/1905/190524_sweetaste/</guid>
+        <description>&lt;p&gt;切版練習，使用 BEM 命名 + Sass 模組化 + Bootstrap4 Grid System。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupainotebook.blogspot.com/2019/05/blog-post_24.html&#34;&gt;舊 Blog 原文&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/old/1905/sweetaste.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>舊文章搬運</category>
+            
+          
+            
+              <category>SASS</category>
+            
+          
+            
+              <category>BEM</category>
+            
+          
+        
+        
+          
+            
+              <category>舊文章搬運</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>六角西餐廳 - 切版練習</title>
+        <link>https://chupai.github.io/posts/old/1905/190518_hex-restaurant/</link>
+        <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sat, 18 May 2019 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/old/1905/190518_hex-restaurant/</guid>
+        <description>&lt;p&gt;切版練習，使用 BEM 命名 + Sass 模組化 + Bootstrap4 Grid System。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupainotebook.blogspot.com/2019/05/blog-post.html&#34;&gt;舊 Blog 原文&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/old/1905/hex-restaurant.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>舊文章搬運</category>
+            
+          
+            
+              <category>SASS</category>
+            
+          
+            
+              <category>BEM</category>
+            
+          
+        
+        
+          
+            
+              <category>舊文章搬運</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

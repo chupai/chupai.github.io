@@ -2709,6 +2709,17 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 </script>
 
+<script>
+  let content = document.querySelector('.single__contents');
+  let links = content.getElementsByTagName("a");
+  for (let i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname != window.location.hostname) {
+      links[i].target = '_blank';
+    } 
+  }
+</script>
+
+
 
             
             <footer class="footer">

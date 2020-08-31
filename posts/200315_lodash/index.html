@@ -1726,7 +1726,7 @@ if (!doNotTrack) {
 </div><h2 id="常用方法">常用方法</h2>
 <p>由於 Lodash 中 API 太多了，這裡只會列幾個會常用到的方法並簡單說明。更詳細的用法、參數可以看官方 API 文件。</p>
 <h3 id="1-array">1. Array</h3>
-<h4 id="_union"><code>_.union()</code></h4>
+<h4 id="_union">_.union()</h4>
 <p>將陣列合併，並去除重複的元素（SameValueZero 相等比較），會回傳一個新陣列。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1757,7 +1757,7 @@ if (!doNotTrack) {
 </code></pre></td></tr></table>
 </div>
 </div><p>如果元素是物件，可使用 <a href="https://www.lodashjs.com/docs/lodash.unionBy"><code>_.unionBy</code></a>，另外還有 <a href="https://www.lodashjs.com/docs/lodash.uniqWith"><code>_.unionWith()</code></a> 可以呼叫一個比較函式。</p>
-<h4 id="_intersection"><code>_.intersection()</code></h4>
+<h4 id="_intersection">_.intersection()</h4>
 <p>取得陣列組的交集元素（使用 SameValueZero 相等比較）。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1792,7 +1792,7 @@ if (!doNotTrack) {
 </span></code></pre></td></tr></table>
 </div>
 </div><p>如果元素是物件，可使用 <a href="https://www.lodashjs.com/docs/lodash.intersectionBy"><code>_.intersectionBy()</code></a>，另外還有 <a href="https://www.lodashjs.com/docs/lodash.intersectionWith"><code>_.intersectionWith()</code></a> 可以呼叫一個比較函式。</p>
-<h4 id="_difference"><code>_.difference()</code></h4>
+<h4 id="_difference">_.difference()</h4>
 <p>檢查一個陣列，並將指定的值排除（SameValueZero 相等比較），會回傳一個新陣列。</p>
 <p>與 <code>_.difference()</code> 類似的方法還有 <a href="https://www.lodashjs.com/docs/lodash.without"><code>_.without()</code></a> 與 <a href="https://www.lodashjs.com/docs/lodash.pull"><code>_.pull()</code></a>。</p>
 <div class="highlight"><div class="chroma">
@@ -1821,7 +1821,7 @@ if (!doNotTrack) {
 </span></code></pre></td></tr></table>
 </div>
 </div><p>如果元素是物件，可使用 <a href="https://www.lodashjs.com/docs/lodash.differenceBy"><code>_.differenceBy()</code></a>，另外還有 <a href="https://www.lodashjs.com/docs/lodash.differenceWith"><code>_.differenceWith()</code></a> 可以呼叫一個比較函式。</p>
-<h4 id="_uniq"><code>_.uniq()</code></h4>
+<h4 id="_uniq">_.uniq()</h4>
 <p>陣列重組，去除重複的元素（SameValueZero 相等比較），會回傳一個新陣列。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1846,7 +1846,7 @@ if (!doNotTrack) {
 </span></code></pre></td></tr></table>
 </div>
 </div><p>如果元素是物件，可使用 <a href="https://www.lodashjs.com/docs/lodash.uniqBy"><code>_.uniqBy()</code></a>，另外還有 <a href="https://www.lodashjs.com/docs/lodash.unionWith"><code>_.uniqWith()</code></a> 可以呼叫一個比較函式。</p>
-<h4 id="_indexof"><code>_.indexOf()</code></h4>
+<h4 id="_indexof">_.indexOf()</h4>
 <p>搜尋陣列是否有值為 <code>value</code> 的元素（使用 SameValueZero 等值比較），並回傳第一個符合的索引值。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1883,7 +1883,7 @@ if (!doNotTrack) {
 </span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">_</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">)</span> <span class="p">);</span>  <span class="c1">// 4
 </span></code></pre></td></tr></table>
 </div>
-</div><h4 id="_lastindexof"><code>_.lastIndexOf()</code></h4>
+</div><h4 id="_lastindexof">_.lastIndexOf()</h4>
 <p>這個方法類似 <code>indexOf</code> ，區別是它是從右到左遍歷陣列的元素，預設起始位置為結尾。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1925,7 +1925,7 @@ if (!doNotTrack) {
 </div><h3 id="2-collection">2. Collection</h3>
 <p>Collection（集合）的方法 <strong>陣列</strong> 或 <strong>物件</strong> 都可以使用，部分方法字串也可以。</p>
 <p>其中 <code>map</code> 及 <code>filter</code> 方法最常使用，因為原生 JavaScrtip 中是不支援物件的，因此當需要迭代物件時，會使用 <code>for in</code> 或 <code>Object.keys</code>。</p>
-<h4 id="_map"><code>_.map()</code></h4>
+<h4 id="_map">_.map()</h4>
 <p>迭代的集合的方法，回傳一個新陣列。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1988,7 +1988,7 @@ if (!doNotTrack) {
 </span></code></pre></td></tr></table>
 </div>
 </div><p>另外可以參考這篇文章：<strong><a href="https://medium.com/@peterchang_82818/nodejs-javascript-react-vue-lodash-%E9%80%9F%E5%BA%A6-%E8%B3%87%E6%96%99-%E6%AF%94%E8%BC%83-%E5%93%AA%E4%B8%80%E5%80%8B-%E4%BE%8B%E5%AD%90-%E7%AF%84%E4%BE%8B-%E6%95%99%E5%AD%B8-%E7%B6%B2%E9%A0%81-%E5%BE%8C%E7%AB%AF-%E5%89%8D%E7%AB%AF-38980d688ef3">map () 誰比較快和輕量？ Lodash vs ES6</a></strong>。</p>
-<h4 id="_filter"><code>_.filter()</code></h4>
+<h4 id="_filter">_.filter()</h4>
 <p>根據條件過濾出符合條件的元素。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2051,7 +2051,7 @@ if (!doNotTrack) {
 <span class="c1">// =&gt; objects for [&#39;barney&#39;]
 </span></code></pre></td></tr></table>
 </div>
-</div><h4 id="_includes"><code>_.includes()</code></h4>
+</div><h4 id="_includes">_.includes()</h4>
 <p>檢查 <code>value</code> 是否在 <code>collection</code>中。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2096,7 +2096,7 @@ if (!doNotTrack) {
 <span class="c1">// =&gt; true
 </span></code></pre></td></tr></table>
 </div>
-</div><h4 id="_shuffle"><code>_.shuffle()</code></h4>
+</div><h4 id="_shuffle">_.shuffle()</h4>
 <p>將集合打亂（使用 <a href="https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle">Fisher-Yates shuffle</a> 洗牌算法）。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2134,7 +2134,7 @@ if (!doNotTrack) {
 </span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">_</span><span class="p">.</span><span class="nx">shuffle</span><span class="p">(</span><span class="nx">obj</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// [ 1, 3, 2 ]
 </span></code></pre></td></tr></table>
 </div>
-</div><h4 id="_samplesize"><code>_.sampleSize()</code></h4>
+</div><h4 id="_samplesize">_.sampleSize()</h4>
 <p>從集合中獲得 <code>n</code> 個隨機元素。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2167,7 +2167,7 @@ if (!doNotTrack) {
 </span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">_</span><span class="p">.</span><span class="nx">sampleSize</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="p">);</span>  <span class="c1">// [0, 4]
 </span></code></pre></td></tr></table>
 </div>
-</div><h4 id="_sortby"><code>_.sortBy()</code></h4>
+</div><h4 id="_sortby">_.sortBy()</h4>
 <p>創建一個元素陣列。以 <code>iteratee</code> 處理的結果升序排序。這個方法執行穩定排序，也就是說相同元素會保持原始排序</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2243,7 +2243,7 @@ if (!doNotTrack) {
 </span></code></pre></td></tr></table>
 </div>
 </div><h3 id="3-object">3. Object</h3>
-<h4 id="_get"><code>_.get()</code></h4>
+<h4 id="_get">_.get()</h4>
 <p>根據物件的路徑取值，沒有則回傳 <code>undefined</code>，可以設定預設值。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2279,7 +2279,7 @@ if (!doNotTrack) {
 </span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">_</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="nx">obj</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;no-find&#39;</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// &#39;no-find&#39;
 </span></code></pre></td></tr></table>
 </div>
-</div><h4 id="_pick"><code>_.pick()</code></h4>
+</div><h4 id="_pick">_.pick()</h4>
 <p>創建一個從 object 中選中的屬性的物件。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2307,7 +2307,7 @@ if (!doNotTrack) {
 </span></code></pre></td></tr></table>
 </div>
 </div><p><a href="https://www.lodashjs.com/docs/lodash.omit"><code>_.omit</code></a> 為反向版的 <code>_.pick</code>。</p>
-<h4 id="_pickby"><code>_.pickBy()</code></h4>
+<h4 id="_pickby">_.pickBy()</h4>
 <p>創建一個物件，這個物件組成為從 <code>object</code> 中經 <code>predicate</code> 判斷為真值的屬性。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2341,7 +2341,7 @@ if (!doNotTrack) {
 </span></code></pre></td></tr></table>
 </div>
 </div><p><a href="https://www.lodashjs.com/docs/lodash.omitBy"><code>_.omitBy</code></a> 為反向版的 <code>_.pickBy</code>。</p>
-<h4 id="_defaults"><code>_.defaults()</code></h4>
+<h4 id="_defaults">_.defaults()</h4>
 <p>安全的合併物件，遇到重複的屬性則忽略。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2379,7 +2379,7 @@ if (!doNotTrack) {
 </span></code></pre></td></tr></table>
 </div>
 </div><h3 id="4-lang">4. Lang</h3>
-<h4 id="_clonedeep"><code>_.cloneDeep()</code></h4>
+<h4 id="_clonedeep">_.cloneDeep()</h4>
 <p>資料的深拷貝。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2413,7 +2413,7 @@ if (!doNotTrack) {
 </a></li>
 <li><a href="https://github.com/yygmind/blog/issues/31">Lodash 是如何實現深拷貝的</a></li>
 </ul>
-<h4 id="_isequal"><code>_.isEqual()</code></h4>
+<h4 id="_isequal">_.isEqual()</h4>
 <p>執行深比較來確定兩者的值是否相等。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2450,7 +2450,7 @@ if (!doNotTrack) {
 </span></code></pre></td></tr></table>
 </div>
 </div><h3 id="5-number">5. Number</h3>
-<h4 id="_clamp"><code>_.clamp()</code></h4>
+<h4 id="_clamp">_.clamp()</h4>
 <p>設定數值上下限，超出範圍，回傳上限或下限，否則回傳數值本身。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2490,7 +2490,7 @@ if (!doNotTrack) {
 </span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">_</span><span class="p">.</span><span class="nx">clamp</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// 0
 </span></code></pre></td></tr></table>
 </div>
-</div><h4 id="_random"><code>_.random()</code></h4>
+</div><h4 id="_random">_.random()</h4>
 <p>隨機產生一個包括 <code>lower</code> 與 <code>upper</code> 之間的數，如果只設置一個參數則回傳 <code>0</code> 到該數之間的數值。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2535,7 +2535,7 @@ if (!doNotTrack) {
 <span class="c1">// a floating-point number between 1.2 and 5.2
 </span></code></pre></td></tr></table>
 </div>
-</div><h4 id="_inrange"><code>_.inRange()</code></h4>
+</div><h4 id="_inrange">_.inRange()</h4>
 <p>檢查 <code>number</code> 是否在 <code>start</code> 與 <code>end</code> 之間（但不包括 <code>end</code>）。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2597,7 +2597,7 @@ if (!doNotTrack) {
 </span></code></pre></td></tr></table>
 </div>
 </div><h3 id="6-util">6. Util</h3>
-<h4 id="_range"><code>_.range()</code></h4>
+<h4 id="_range">_.range()</h4>
 <p>建立一個指定範圍的數值陣列。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2632,7 +2632,7 @@ if (!doNotTrack) {
 </span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">_</span><span class="p">.</span><span class="nx">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="p">);</span>   <span class="c1">// [1, 1, 1]
 </span></code></pre></td></tr></table>
 </div>
-</div><h4 id="_times"><code>_.times()</code></h4>
+</div><h4 id="_times">_.times()</h4>
 <p>呼叫 <code>iteratee</code> 函式 <code>n</code> 次，並將結果存到陣列中，並回傳該陣列。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2660,7 +2660,7 @@ if (!doNotTrack) {
 <span class="c1">// [0, 1, 4]
 </span></code></pre></td></tr></table>
 </div>
-</div><h4 id="_uniqueid"><code>_.uniqueId()</code></h4>
+</div><h4 id="_uniqueid">_.uniqueId()</h4>
 <p>生成唯一 ID，可以添加前綴。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2687,7 +2687,7 @@ if (!doNotTrack) {
 </span></code></pre></td></tr></table>
 </div>
 </div><h3 id="7-math">7. Math</h3>
-<h4 id="_sum"><code>_.sum()</code></h4>
+<h4 id="_sum">_.sum()</h4>
 <p>陣列的總和。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">

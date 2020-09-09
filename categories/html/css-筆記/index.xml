@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>HTML/CSS 筆記 on 竹白記事本</title>
+    <link>https://chupai.github.io/categories/html/css-%E7%AD%86%E8%A8%98/</link>
+    <description>Recent content in HTML/CSS 筆記 on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    
+        <atom:link href="https://chupai.github.io/categories/html/css-%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>CSS筆記 - Flexbox</title>
+        <link>https://chupai.github.io/posts/200220_flex/</link>
+        <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Thu, 20 Feb 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/200220_flex/</guid>
+        <description>&lt;p&gt;這週是 &lt;strong&gt;六角鼠年鐵人賽&lt;/strong&gt; 第三週，不知道要寫啥，就重新整理了一下 Flexbox 的筆記。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Flex</category>
+            
+          
+            
+              <category>CSS排版</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>HTML/CSS 筆記</category>
+            
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1652,7 +1652,6 @@ if (!doNotTrack) {
 </ul>
 <p>由此可知，總金額 <code>100</code> 的最佳解為 3 種解法的其中一種，因此我們可以得到：<code>dp[100] = Math.min(dp[99] + 1, dp[97] + 1, dp[96] + 1)</code>。</p>
 <p>推導出：<code>dp[i] = Math.min(dp[i - coins[0]] + 1, dp[i - coins[1]] + 1, ...)</code></p>
-<p>因此我們需要將 <code>coins</code> 中的所有面額，從 1 ~ <code>amount</code> 去比較。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -1687,7 +1686,7 @@ if (!doNotTrack) {
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">coinChange</span><span class="p">(</span><span class="nx">COINS</span><span class="p">,</span> <span class="mi">6</span><span class="p">));</span> <span class="c1">// 2
 </span></code></pre></td></tr></table>
 </div>
-</div><p>先建立 <code>amount + 1</code> 陣列（<code>+1</code> 是為了對應總金額），將預設值設為 <code>Infinity</code>（便於與最小值的判斷）。<code>d[0] = 0</code> 總金為 <code>0</code> 解法為 <code>0</code>。</p>
+</div><p>先建立 <code>amount + 1</code> 陣列（<code>+1</code> 是為了對應總金額），將預設值設為 <code>Infinity</code>（便於與最小值的判斷）。</p>
 <p>接下來遍歷每種面額對應的金額，並判斷是否為最小解。</p>
     </article>
     

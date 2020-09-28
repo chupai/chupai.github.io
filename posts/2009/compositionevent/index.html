@@ -1535,7 +1535,7 @@ if (!doNotTrack) {
 <div class="single__infos">
   <time class="single__info" title="創建日期">📅&nbsp;2020年09月27日 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="閱讀時長"> ☕&nbsp;2&nbsp;分鐘 </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="閱讀時長"> ☕&nbsp;3&nbsp;分鐘 </span>
   
   <span class="single__info">
     
@@ -1547,15 +1547,15 @@ if (!doNotTrack) {
   🏷️
   
 
-  <li><a href="https://chupai.github.io/tags/compositionevent/" class="single__tag" title="CompositionEvent">#CompositionEvent</a></li>
-
   <li><a href="https://chupai.github.io/tags/w3hexschool/" class="single__tag" title="w3HexSchool">#w3HexSchool</a></li>
+
+  <li><a href="https://chupai.github.io/tags/compositionevent/" class="single__tag" title="CompositionEvent">#CompositionEvent</a></li>
 
 </ul>
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <p>這週是六角鼠年鐵人賽第三十三週。</p>
+      <p>這週是六角鼠年鐵人賽第三十四週。</p>
 
 
 
@@ -1669,8 +1669,8 @@ if (!doNotTrack) {
 </code></pre></td></tr></table>
 </div>
 </div><ul>
-<li>當 <code>compositionstart</code> 觸發，<code>isComposing</code> 為 <code>true</code>；</li>
-<li>當 <code>compositionend</code> 觸發，<code>isComposing</code> 為 <code>false</code> 並呼叫 <code>inputHandler</code>。</li>
+<li>當 <code>compositionstart</code> 觸發，<code>isComposing</code> 設為 <code>true</code>；</li>
+<li>當 <code>compositionend</code> 觸發，<code>isComposing</code> 設為 <code>false</code> 並呼叫 <code>inputHandler</code>。</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1708,12 +1708,11 @@ if (!doNotTrack) {
 </iframe>
 <h2 id="iscomposing-事件屬性">isComposing 事件屬性</h2>
 <p>另外，KeyboardEvent 和 InputEvent 有 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/isComposing"><code>KeyboardEvent.isComposing</code></a>、 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/InputEvent/isComposing"><code>InputEvent.isComposing</code></a>。<code>isComposing</code> 屬性在 <code>compositonstart</code> 和 <code>compositionend</code> 之間其值為 <code>true</code>。</p>
-<p>但是某些瀏覽器不支援。</p>
+<p>但是 Safari（WebKit）瀏覽器不支援。</p>
 <h2 id="應用">應用</h2>
 <p>使用 CompositionEvent 來判斷輸入法狀態，可以有效避免 input 監聽事件在拼字時一直觸發。</p>
-<p>也可以在使用 <code>Enter</code> 鍵送出資料時，避免誤觸。</p>
-<p>舉例來說，在某些瀏覽器下使用 <code>@keyup.enter=&quot;submit&quot;</code> 送出資料在選字時，就會觸發事件：</p>
-<p>因此我們可以加上輸入法狀態判斷：</p>
+<p>也可以在用在使用 Enter 鍵送出資料時的優化。舉例來說，在某些瀏覽器下，如果使用 <code>@keyup.enter=&quot;submit&quot;</code> 送出資料，當我們在選字時所按下 Enter 鍵，就會觸發事件：</p>
+<p>因此我們可以加上輸入法狀態判斷避免誤觸：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1814,7 +1813,7 @@ if (!doNotTrack) {
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>但是 <code>isComposing</code> 事件屬性某些瀏覽器不支援。</p>
+</div><p>但是 <code>isComposing</code> 事件屬性 Safari（WebKit）瀏覽器不支援。</p>
     </article>
     
     <script>
@@ -1945,6 +1944,13 @@ if (!doNotTrack) {
       </a>
     
     <div class="grow"></div>
+    
+      <a href="https://chupai.github.io/posts/2009/backtracking/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">JavaScript 學演算法（二十五）- 回溯法</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
     
   
 </nav>

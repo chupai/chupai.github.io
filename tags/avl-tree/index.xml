@@ -29,7 +29,8 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Mon, 06 Jul 2020 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/2007/ds_avl-tree/</guid>
-        <description>這週是六角鼠年鐵人賽第二十三週。 二元搜尋樹最大的問題就是，它會出現極端情況，傾斜某一邊，因此它的新增、搜尋、刪除操作最差時間複雜度為 $O(n</description>
+        <description>&lt;p&gt;這週是六角鼠年鐵人賽第二十三週。&lt;/p&gt;
+&lt;p&gt;二元搜尋樹最大的問題就是，它會出現極端情況，傾斜某一邊，因此它的新增、搜尋、刪除操作最差時間複雜度為 $O(n)$。為了實現更高效的查詢，因此就有人發明了「平衡樹」。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
         <media:content url="https://chupai.github.ioimages/covers/200706_ds_avl-tree.png" medium="image"><media:title type="html">featured image</media:title></media:content>

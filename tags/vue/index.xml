@@ -14,13 +14,323 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/vue/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Vue - 基礎</title>
+        <link>https://chupai.github.io/posts/2010/vue_base/</link>
+        <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sun, 11 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2010/vue_base/</guid>
+        <description>&lt;p&gt;Vue 基礎篇&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2010/vue_base.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>資料無法響應</title>
+        <link>https://chupai.github.io/posts/vue/base/norespond/</link>
+        <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sun, 11 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/base/norespond/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Vue 資料無法響應的情況。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/base/noRespond.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue 生命週期</title>
+        <link>https://chupai.github.io/posts/vue/base/lifecycle/</link>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sat, 10 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/base/lifecycle/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Vue 的實體（Instance）是 Vue.js 的核心，每個 Vue App 都是從建立實體開始。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/base/lifeCycle.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue生命週期</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>計算 &amp; 監聽</title>
+        <link>https://chupai.github.io/posts/vue/base/computedwatch/</link>
+        <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Fri, 09 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/base/computedwatch/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/base/computed&amp;watch.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>computed</category>
+            
+          
+            
+              <category>watch</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>資料渲染</title>
+        <link>https://chupai.github.io/posts/vue/base/datarender/</link>
+        <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Thu, 08 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/base/datarender/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/base/dataRender.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>資料 &amp; 方法</title>
+        <link>https://chupai.github.io/posts/vue/base/datamethods/</link>
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Wed, 07 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/base/datamethods/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Vue 的資料與方法。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/base/instance.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue 實體</title>
+        <link>https://chupai.github.io/posts/vue/base/instance/</link>
+        <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Tue, 06 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/base/instance/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Vue 的實體（Instance）是 Vue.js 的核心，每個 Vue App 都是從建立實體開始。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/base/instance.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue實體</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue 免費學習資源</title>
+        <link>https://chupai.github.io/posts/vue/freelearn/</link>
+        <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 05 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/freelearn/</guid>
+        <description>&lt;p&gt;Vue 免費學習資源&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>免費學習資源</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>竹白的 Vue 記事本 目錄</title>
+        <link>https://chupai.github.io/posts/vue/menu/</link>
+        <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 05 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/menu/</guid>
+        <description>&lt;p&gt;目前筆記以 Vue 2 為主，之後會新增 Vue 3。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/menu.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Vue筆記 - 表單驗證套件 VeeValidate</title>

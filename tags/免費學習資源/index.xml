@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>免費學習資源 on 竹白記事本</title>
+    <link>https://chupai.github.io/tags/%E5%85%8D%E8%B2%BB%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90/</link>
+    <description>Recent content in 免費學習資源 on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://chupai.github.io/tags/%E5%85%8D%E8%B2%BB%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Vue 免費學習資源</title>
+        <link>https://chupai.github.io/posts/vue/freelearn/</link>
+        <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 05 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/freelearn/</guid>
+        <description>&lt;p&gt;Vue 免費學習資源&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>免費學習資源</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

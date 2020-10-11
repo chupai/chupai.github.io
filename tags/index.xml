@@ -14,7 +14,7 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Mon, 28 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,12 +23,120 @@
 
       
       <item>
+        <title>Vue</title>
+        <link>https://chupai.github.io/tags/vue/</link>
+        <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/vue/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>w3HexSchool</title>
         <link>https://chupai.github.io/tags/w3hexschool/</link>
-        <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/w3hexschool/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Vue生命週期</title>
+        <link>https://chupai.github.io/tags/vue%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F/</link>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/vue%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>computed</title>
+        <link>https://chupai.github.io/tags/computed/</link>
+        <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/computed/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>watch</title>
+        <link>https://chupai.github.io/tags/watch/</link>
+        <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/watch/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Vue實體</title>
+        <link>https://chupai.github.io/tags/vue%E5%AF%A6%E9%AB%94/</link>
+        <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/vue%E5%AF%A6%E9%AB%94/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>免費學習資源</title>
+        <link>https://chupai.github.io/tags/%E5%85%8D%E8%B2%BB%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90/</link>
+        <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/%E5%85%8D%E8%B2%BB%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -1091,24 +1199,6 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/veevalidate/</guid>
-        <description></description>
-        
-        <dc:creator>竹白</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Vue</title>
-        <link>https://chupai.github.io/tags/vue/</link>
-        <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-        <author>chupaiwang@gmail.com (竹白)</author>
-        
-        <guid>https://chupai.github.io/tags/vue/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>

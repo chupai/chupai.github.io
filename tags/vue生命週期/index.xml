@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Vue生命週期 on 竹白記事本</title>
+    <link>https://chupai.github.io/tags/vue%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F/</link>
+    <description>Recent content in Vue生命週期 on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://chupai.github.io/tags/vue%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Vue 生命週期</title>
+        <link>https://chupai.github.io/posts/vue/base/lifecycle/</link>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sat, 10 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/base/lifecycle/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Vue 的實體（Instance）是 Vue.js 的核心，每個 Vue App 都是從建立實體開始。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/base/lifeCycle.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue生命週期</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

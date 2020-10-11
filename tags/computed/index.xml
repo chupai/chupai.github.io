@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>computed on 竹白記事本</title>
+    <link>https://chupai.github.io/tags/computed/</link>
+    <description>Recent content in computed on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://chupai.github.io/tags/computed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>計算 &amp; 監聽</title>
+        <link>https://chupai.github.io/posts/vue/base/computedwatch/</link>
+        <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Fri, 09 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/base/computedwatch/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/base/computed&amp;watch.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>computed</category>
+            
+          
+            
+              <category>watch</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

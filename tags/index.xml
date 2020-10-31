@@ -14,7 +14,7 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,7 +25,7 @@
       <item>
         <title>Vue</title>
         <link>https://chupai.github.io/tags/vue/</link>
-        <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/vue/</guid>
@@ -43,10 +43,28 @@
       <item>
         <title>w3HexSchool</title>
         <link>https://chupai.github.io/tags/w3hexschool/</link>
-        <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/w3hexschool/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Vuex</title>
+        <link>https://chupai.github.io/tags/vuex/</link>
+        <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/vuex/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>

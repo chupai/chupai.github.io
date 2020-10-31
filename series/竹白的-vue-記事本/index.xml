@@ -14,13 +14,157 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/series/%E7%AB%B9%E7%99%BD%E7%9A%84-vue-%E8%A8%98%E4%BA%8B%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Vuex - 注意事項</title>
+        <link>https://chupai.github.io/posts/vue/vuex/warning/</link>
+        <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Thu, 29 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/vuex/warning/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/vuex/warning.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vuex</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vuex - Module</title>
+        <link>https://chupai.github.io/posts/vue/vuex/module/</link>
+        <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Wed, 28 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/vuex/module/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/vuex/module.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vuex</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vuex - 核心概念</title>
+        <link>https://chupai.github.io/posts/vue/vuex/coreconcepts/</link>
+        <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Tue, 27 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/vuex/coreconcepts/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/vuex/coreConcepts.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vuex</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vuex - 起手式</title>
+        <link>https://chupai.github.io/posts/vue/vuex/introduction/</link>
+        <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 26 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/vuex/introduction/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/vuex/introduction.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vuex</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Vue元件 - Slot 插槽</title>

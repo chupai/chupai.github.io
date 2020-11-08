@@ -14,13 +14,443 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/vue/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Vue - Router</title>
+        <link>https://chupai.github.io/posts/2011/vue_vuex/</link>
+        <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sun, 08 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2011/vue_vuex/</guid>
+        <description>&lt;p&gt;Vue Router篇&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2011/vue_router.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Vue Router - 模組化管理</title>
+        <link>https://chupai.github.io/posts/vue/router/module/</link>
+        <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sat, 07 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/router/module/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/router/module.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue Router</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue Router - 滾動行為</title>
+        <link>https://chupai.github.io/posts/vue/router/scroll/</link>
+        <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Fri, 06 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/router/scroll/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/router/scroll.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue Router</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue Router - 權限控制</title>
+        <link>https://chupai.github.io/posts/vue/router/accesscontrol/</link>
+        <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Thu, 05 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/router/accesscontrol/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/router/accessControl.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue Router</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue Router - 導航守衛</title>
+        <link>https://chupai.github.io/posts/vue/router/navigationguards/</link>
+        <pubDate>Wed, 04 Nov 2020 05:00:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Wed, 04 Nov 2020 05:00:00 +0800</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/router/navigationguards/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/router/navigationGuards.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue Router</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue Router - 路由元件傳遞</title>
+        <link>https://chupai.github.io/posts/vue/router/passingprops/</link>
+        <pubDate>Wed, 04 Nov 2020 04:00:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Wed, 04 Nov 2020 04:00:00 +0800</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/router/passingprops/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/router/passingProps.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue Router</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue Router - 重新導向 &amp; 別名</title>
+        <link>https://chupai.github.io/posts/vue/router/redirectalias/</link>
+        <pubDate>Tue, 03 Nov 2020 05:00:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Tue, 03 Nov 2020 05:00:00 +0800</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/router/redirectalias/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/router/redirect&amp;Alias.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue Router</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue Router - 命名路由 &amp; 命名視圖</title>
+        <link>https://chupai.github.io/posts/vue/router/named/</link>
+        <pubDate>Tue, 03 Nov 2020 04:00:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Tue, 03 Nov 2020 04:00:00 +0800</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/router/named/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/router/named.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue Router</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue Router - 程式控制</title>
+        <link>https://chupai.github.io/posts/vue/router/programmaticnavigation/</link>
+        <pubDate>Mon, 02 Nov 2020 05:00:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 02 Nov 2020 05:00:00 +0800</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/router/programmaticnavigation/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/router/programmaticNavigation.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue Router</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue Router - 巢狀路由</title>
+        <link>https://chupai.github.io/posts/vue/router/nestedroutes/</link>
+        <pubDate>Mon, 02 Nov 2020 04:00:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Mon, 02 Nov 2020 04:00:00 +0800</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/router/nestedroutes/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/router/nestedRoutes.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue Router</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue Router - 動態路由匹配</title>
+        <link>https://chupai.github.io/posts/vue/router/dynamicroutematching/</link>
+        <pubDate>Sun, 01 Nov 2020 05:00:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sun, 01 Nov 2020 05:00:00 +0800</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/router/dynamicroutematching/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/router/dynamicRouteMatching.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue Router</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue Router - 基礎</title>
+        <link>https://chupai.github.io/posts/vue/router/base/</link>
+        <pubDate>Sun, 01 Nov 2020 04:00:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sun, 01 Nov 2020 04:00:00 +0800</atom:modified>
+        <guid>https://chupai.github.io/posts/vue/router/base/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/vue/menu/&#34;&gt;竹白的 Vue 記事本 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/vue/router/base.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>Vue Router</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>竹白的 Vue 記事本</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Vue - Vuex</title>

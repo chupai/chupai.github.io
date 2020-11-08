@@ -14,13 +14,47 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/w3hexschool/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Vue - Router</title>
+        <link>https://chupai.github.io/posts/2011/vue_vuex/</link>
+        <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sun, 08 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2011/vue_vuex/</guid>
+        <description>&lt;p&gt;Vue Router篇&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2011/vue_router.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue</category>
+            
+          
+            
+              <category>w3HexSchool</category>
+            
+          
+        
+        
+          
+            
+              <category>w3HexSchool六角鼠年鐵人賽</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Vue - Vuex</title>

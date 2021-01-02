@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://chupai.github.io/</loc>
-    <lastmod>2020-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,8 +18,23 @@
   </url>
   
   <url>
+    <loc>https://chupai.github.io/tags/css-grid/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/posts/2101/css_grid/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/css%E6%8E%92%E7%89%88/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chupai.github.io/tags/</loc>
-    <lastmod>2020-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -30,6 +45,11 @@
                 hreflang="zh-tw"
                 href="https://chupai.github.io/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/posts/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -65,11 +85,6 @@
                 hreflang="zh-tw"
                 href="https://chupai.github.io/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/posts/</loc>
-    <lastmod>2020-11-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -965,11 +980,6 @@
   <url>
     <loc>https://chupai.github.io/tags/tweenmax/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/tags/css%E6%8E%92%E7%89%88/</loc>
-    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>

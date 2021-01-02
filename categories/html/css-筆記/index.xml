@@ -22,6 +22,40 @@
 
       
       <item>
+        <title>CSS Grid</title>
+        <link>https://chupai.github.io/posts/2101/css_grid/</link>
+        <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sat, 02 Jan 2021 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2101/css_grid/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2101/css_grid.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>CSS Grid</category>
+            
+          
+            
+              <category>CSS排版</category>
+            
+          
+        
+        
+          
+            
+              <category>HTML/CSS 筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
         <title>CSS筆記 - Flexbox</title>
         <link>https://chupai.github.io/posts/200220_flex/</link>
         <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>

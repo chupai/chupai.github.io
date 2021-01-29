@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>HTML/CSS 筆記 on 竹白記事本</title>
+    <link>https://chupai.github.io/tags/html/css-%E7%AD%86%E8%A8%98/</link>
+    <description>Recent content in HTML/CSS 筆記 on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    
+        <atom:link href="https://chupai.github.io/tags/html/css-%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>表單元素 - 下拉選單</title>
+        <link>https://chupai.github.io/posts/2009/htmlcss_select/</link>
+        <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Thu, 03 Sep 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2009/htmlcss_select/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/2009/htmlcss_menu/&#34;&gt;HTML/CSS 筆記 - 目錄&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/htmlcss/select.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HTML/CSS 筆記</category>
+            
+          
+            
+              <category>下拉選單</category>
+            
+          
+            
+              <category>表單元素</category>
+            
+          
+        
+        
+          
+            
+              <category>HTML/CSS 筆記</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>HTML/CSS 筆記 - 目錄</title>
+        <link>https://chupai.github.io/posts/2009/htmlcss_menu/</link>
+        <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Wed, 02 Sep 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2009/htmlcss_menu/</guid>
+        <description>&lt;p&gt;用 Hackmd 寫筆記也好一段時間了，最近會花時間將筆記庫存慢慢搬過來。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/htmlcss/menu.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HTML/CSS 筆記</category>
+            
+          
+        
+        
+          
+            
+              <category>HTML/CSS 筆記</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

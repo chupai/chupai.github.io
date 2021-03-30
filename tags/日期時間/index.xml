@@ -14,7 +14,7 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sat, 16 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/%E6%97%A5%E6%9C%9F%E6%99%82%E9%96%93/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,9 +25,9 @@
       <item>
         <title>日期時間</title>
         <link>https://chupai.github.io/posts/200516_js_date/</link>
-        <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
-        <atom:modified>Sat, 16 May 2020 00:00:00 +0000</atom:modified>
+        <atom:modified>Wed, 31 Mar 2021 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/200516_js_date/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://chupai.github.io/posts/190620_javascript&#34;&gt;JavaScript筆記 目錄&lt;/a&gt;&lt;/p&gt;
@@ -49,6 +49,10 @@
           
             
               <category>Date 物件</category>
+            
+          
+            
+              <category>Day.js</category>
             
           
         

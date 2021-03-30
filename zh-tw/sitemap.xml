@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://chupai.github.io/</loc>
-    <lastmod>2021-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,8 +18,28 @@
   </url>
   
   <url>
+    <loc>https://chupai.github.io/tags/date-%E7%89%A9%E4%BB%B6/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/day.js/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/javascript/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/categories/javascript%E7%AD%86%E8%A8%98/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chupai.github.io/tags/</loc>
-    <lastmod>2021-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -30,6 +50,36 @@
                 hreflang="zh-tw"
                 href="https://chupai.github.io/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/categories/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chupai.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://chupai.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/posts/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/tags/%E6%97%A5%E6%9C%9F%E6%99%82%E9%96%93/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chupai.github.io/posts/200516_js_date/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -49,11 +99,6 @@
   
   <url>
     <loc>https://chupai.github.io/series/vue3-%E7%AD%86%E8%A8%98/</loc>
-    <lastmod>2021-03-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/posts/</loc>
     <lastmod>2021-03-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -103,38 +148,13 @@
   </url>
   
   <url>
-    <loc>https://chupai.github.io/tags/javascript/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chupai.github.io/posts/2102/comments/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/categories/javascript%E7%AD%86%E8%A8%98/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chupai.github.io/tags/jsdoc/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/categories/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chupai.github.io/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://chupai.github.io/categories/"
-                />
   </url>
   
   <url>
@@ -880,21 +900,6 @@
   <url>
     <loc>https://chupai.github.io/tags/%E9%9B%86%E5%90%88/</loc>
     <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/tags/date-%E7%89%A9%E4%BB%B6/</loc>
-    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/tags/%E6%97%A5%E6%9C%9F%E6%99%82%E9%96%93/</loc>
-    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chupai.github.io/posts/200516_js_date/</loc>
-    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>

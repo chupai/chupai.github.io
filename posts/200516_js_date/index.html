@@ -1195,16 +1195,16 @@
 
 
     
-<meta name="description" content="JavaScript 沒有日期資料型態，但是它有提供 Date 物件，使用內件的日期物件與方法、可以取得與操作日期時間。" />
+<meta name="description" content="JavaScript 沒有日期資料型態，但是它有提供 Date 物件。" />
 
 <meta name="keywords" content="JavaScript,日期時間,竹白">
 
 
-<meta name="keywords" content="JavaScript,日期時間,Date 物件">
+<meta name="keywords" content="JavaScript,日期時間,Date 物件,Day.js">
 
-<meta name="created" content="2020-05-16T00:00:00&#43;0000">
-<meta name="modified" content="2020-05-16T00:00:00&#43;0000">
-<meta property="article:published_time" content="2020-05-16T00:00:00&#43;0000">
+<meta name="created" content="2021-03-31T00:00:00&#43;0000">
+<meta name="modified" content="2021-03-31T00:00:00&#43;0000">
+<meta property="article:published_time" content="2021-03-31T00:00:00&#43;0000">
 
 <meta name="author" content="竹白">
 
@@ -1213,7 +1213,7 @@
 <meta property="og:title" content="日期時間">
 <meta property="og:url" content="https://chupai.github.io/posts/200516_js_date/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="JavaScript 沒有日期資料型態，但是它有提供 Date 物件，使用內件的日期物件與方法、可以取得與操作日期時間。">
+<meta property="og:description" content="JavaScript 沒有日期資料型態，但是它有提供 Date 物件。">
 
   
     <meta property="og:image" content="https://chupai.github.io/images/covers/200516_js_date.png">
@@ -1221,7 +1221,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="竹白記事本">
     <meta property="twitter:title" content="日期時間">
-    <meta property="twitter:description" content="JavaScript 沒有日期資料型態，但是它有提供 Date 物件，使用內件的日期物件與方法、可以取得與操作日期時間。">
+    <meta property="twitter:description" content="JavaScript 沒有日期資料型態，但是它有提供 Date 物件。">
   
 
 <meta name="generator" content="Hugo 0.67.0" />
@@ -1248,11 +1248,11 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "headline": "日期時間",
-    "datePublished": "2020-05-16T00:00:00Z",
-    "dateModified": "2020-05-16T00:00:00Z",
+    "datePublished": "2021-03-31T00:00:00Z",
+    "dateModified": "2021-03-31T00:00:00Z",
     "url" : "https://chupai.github.io/posts/200516_js_date/",
-    "description": "JavaScript 沒有日期資料型態，但是它有提供 Date 物件，使用內件的日期物件與方法、可以取得與操作日期時間。",
-    "keywords": ["JavaScript","日期時間","Date 物件"],
+    "description": "JavaScript 沒有日期資料型態，但是它有提供 Date 物件。",
+    "keywords": ["JavaScript","日期時間","Date 物件","Day.js"],
     "image" : "https://chupai.github.io/images/covers/200516_js_date.png",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -1533,9 +1533,9 @@ if (!doNotTrack) {
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="創建日期">📅&nbsp;2020年05月16日 </time>
+  <time class="single__info" title="創建日期">📅&nbsp;2021年03月31日 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="閱讀時長"> ☕&nbsp;5&nbsp;分鐘 </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="閱讀時長"> ☕&nbsp;10&nbsp;分鐘 </span>
   
   <span class="single__info">
     
@@ -1547,9 +1547,11 @@ if (!doNotTrack) {
   🏷️
   
 
-  <li><a href="https://chupai.github.io/tags/javascript/" class="single__tag" title="JavaScript">#JavaScript</a></li>
-
   <li><a href="https://chupai.github.io/tags/date-%E7%89%A9%E4%BB%B6/" class="single__tag" title="Date 物件">#Date 物件</a></li>
+
+  <li><a href="https://chupai.github.io/tags/day.js/" class="single__tag" title="Day.js">#Day.js</a></li>
+
+  <li><a href="https://chupai.github.io/tags/javascript/" class="single__tag" title="JavaScript">#JavaScript</a></li>
 
   <li><a href="https://chupai.github.io/tags/%E6%97%A5%E6%9C%9F%E6%99%82%E9%96%93/" class="single__tag" title="日期時間">#日期時間</a></li>
 
@@ -1572,32 +1574,78 @@ if (!doNotTrack) {
     <img src="/images/covers/200516_js_date.png" alt="Featured Image" class="featured-image" style="width: ;height: ;">
   </div>
 
+<div class="notices info" >
+  2021.03.31 更新
+</div>
 <h2 id="date-物件">Date 物件</h2>
-<p>JavaScript 沒有日期資料型態，但是它有提供 <a href="https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Date">Date 物件</a>，使用內件的日期物件與方法、可以取得與操作日期時間。</p>
-<p>Date 物件以世界標準時間（UTC） 1970 年 1 月 1 日為零點，範圍為前後各 1 億天（+-100,000,000），單位為毫秒。</p>
-<p>Date 物件只能由 <code>new Date()</code> 作為建構器來產生，如果 <code>Date()</code> 作為普通函式直接呼叫，會回傳當前時間的字串，而非 Date 物件：</p>
+<p>JavaScript 沒有日期資料型別，但它有內建物件 <strong><a href="https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a> 物件</strong>，可以用來處理日期與時間。Date 物件是以世界標準時間（UTC） 1970 年 1 月 1 日為零點，範圍為前後各 1 億天（+-100,000,000），單位為毫秒（ms）。</p>
+<p>Date 物件只能由 <code>new Date()</code> 作為建構器來產生，不帶參數使用將會建立當前時間的 Date 物件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Date 實體求值時，與其他物件預設呼叫 <code>valueOf</code> 方法不同，它預設會呼叫 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toString"><code>toString</code></a> 方法，因此求值時會回傳完整日期時間格式的字串：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// 承接上段程式碼
+</span><span class="c1"></span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">);</span>
+<span class="c1">// 等同於
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>
+
+<span class="c1">// &#34;Sun Mar 28 2021 14:12:01 GMT+0800 (台北標準時間)&#34;
+</span></code></pre></td></tr></table>
+</div>
+</div><p>若是作為普通函式直接呼叫 <code>Date</code>，會回傳完整日期時間格式的字串，而非 Date 物件，無法使用 Date 物件方法：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nb">Date</span> <span class="p">);</span>
-<span class="c1">// &#34;Sat Jan 11 2020 06:49:39 GMT+0800 (台北標準時間)&#34;
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nb">Date</span><span class="p">());</span>
+<span class="c1">// &#34;Sun Mar 28 2021 14:12:01 GMT+0800 (台北標準時間)&#34;
 </span></code></pre></td></tr></table>
 </div>
-</div><h3 id="1-多時區">1. 多時區</h3>
+</div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/OJWXbpG?editors=101">JavaScript 日期時間 - Date 物件</a></p>
+<h2 id="基礎概念">基礎概念</h2>
+<h3 id="1-時間標準">1. 時間標準</h3>
 <ul>
-<li>UTC 指的是世界協調時間（Coordinated Universal Time）。</li>
-<li>GTM 指格林威治標準時間（Greenwich Mean Time）。</li>
+<li><a href="https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%9E%97%E5%B0%BC%E6%B2%BB%E6%A8%99%E6%BA%96%E6%99%82%E9%96%93"><strong>GTM（Greenwich Mean Time）</strong></a>格林威治標準時間，已經被原子鐘報時的世界協調時間（UTC）所取代。</li>
+<li><a href="https://zh.wikipedia.org/wiki/%E5%8D%8F%E8%B0%83%E4%B8%96%E7%95%8C%E6%97%B6"><strong>UTC（Coordinated Universal Time）</strong></a>世界協調時間，是最主要的世界時間標準。</li>
+<li><a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E9%9A%9B%E5%8E%9F%E5%AD%90%E6%99%82"><strong>TAI（International Atomic Time）</strong></a>國際原子時，是根據以下秒的定義的一種國際參照時標。</li>
 </ul>
-<p>GMT 和 UTC 在一般使用的情況下沒有差別，你要說台灣的時區是 UTC+8 或是 GMT+8 都可以。</p>
+<p>由於地球自轉是稍微不規則的（緩慢減速），因此格林威治標準時間已經被原子鐘報時的世界協調時間所取代。但 GMT 和 UTC 在一般使用的情況下（不需要非常精確的情況）並沒有差異，所以通常將 GMT 和 UTC 視為等同，舉例來說：台灣時區可以標示為 GMT+8 或 UTC+8  。</p>
+<h3 id="2-時區">2. 時區</h3>
+<p><strong>時區</strong> 是地球上的區域使用同一個時間定義。</p>
 <ul>
-<li><strong>偏移（offset）</strong> 指的是某地區與 UTC 偏移的時間，例如 <code>+08:00</code> 表示該地區的時間比 UTC 快了 8 小時。</li>
-<li>夏日時間（Daylight Saving Time, DST）</li>
+<li><strong>時差</strong>，世界各國位於地球不同位置上，因此不同國家，特別是東西跨度大的國家日出、日落時間必定有所偏差。這些偏差就是所謂的時差。</li>
+<li><strong>偏移（offset）</strong>，指的是某地區與 GTM/UTC 偏移的時間，例如 <code>+08:00</code> 表示該地區的時間比 GTM/UTC 快了 8 小時。</li>
+<li><strong>理論時區</strong>，指的是以被 15 整除的經線為中心，向東西兩側延伸 7.5°，即每 15° 劃分一個時區。</li>
+<li><strong>法定時區</strong>，指的是為了避開國界線，有的時區的形狀並不規則，而且比較大的國家以國家內部行政分界線為時區界線，這是實際時區。</li>
+<li><strong>夏令時間（Daylight Saving Time, DST）</strong>，指的是一種在夏季將時間調快一小時的做法。</li>
 </ul>
 <h2 id="建立-date-物件">建立 Date 物件</h2>
-<p><code>new Date()</code> 的使用方法基本為四種：</p>
+<p><code>new Date()</code> 語法基本為四種形式的參數：</p>
+<ol>
+<li>空值（不帶參數）</li>
+<li>毫秒</li>
+<li>日期時間字串</li>
+<li>時間單位</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1609,46 +1657,38 @@ if (!doNotTrack) {
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
 <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">milliseconds</span><span class="p">);</span>
 <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">dateString</span><span class="p">);</span>
-<span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">year</span><span class="p">,</span> <span class="nx">month</span><span class="p">,</span> <span class="nx">date</span><span class="p">,</span> <span class="p">[</span><span class="nx">hours</span><span class="p">,</span> <span class="nx">minutes</span><span class="p">,</span> <span class="nx">seconds</span><span class="p">,</span> <span class="nx">ms</span><span class="p">]);</span>
+<span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">year</span><span class="p">,</span> <span class="nx">monthIndex</span> <span class="p">[,</span> <span class="nx">day</span> <span class="p">[,</span> <span class="nx">hours</span> <span class="p">[,</span> <span class="nx">minutes</span> <span class="p">[,</span> <span class="nx">seconds</span> <span class="p">[,</span> <span class="nx">milliseconds</span><span class="p">]]]]]);</span>
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="1-不帶參數">1. 不帶參數</h3>
-<p><code>new Date()</code> 不帶參數，表示當前日期和時間的 Date 物件。</p>
+<p><code>new Date()</code> 不帶參數，表示當前日期時間的 Date 物件。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
-</span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">now</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
-
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">now</span> <span class="p">);</span>
-<span class="c1">// Sat Jan 11 2020 06:41:55 GMT+0800 (台北標準時間)
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">now</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">now</span><span class="p">);</span>
+<span class="c1">// &#34;Sun Mar 28 2021 17:50:30 GMT+0800 (台北標準時間)&#34;
 </span></code></pre></td></tr></table>
 </div>
-</div><h3 id="2-milliseconds">2. milliseconds</h3>
+</div><h3 id="2-毫秒">2. 毫秒</h3>
 <p><code>new Date(milliseconds)</code>，<code>milliseconds</code> 表示從 <code>1970-01-01 00:00:00 UTC+0</code> 開始所經過的毫秒數。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="p">);</span>
-<span class="c1">// Thu Jan 01 1970 08:00:00 GMT+0800 (台北標準時間)
-</span><span class="c1"></span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">24</span> <span class="o">*</span> <span class="mi">3600</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">)</span> <span class="p">);</span>  <span class="c1">// 增加 24 小時
-</span><span class="c1">// Fri Jan 02 1970 08:00:00 GMT+0800 (台北標準時間)
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">);</span>
+<span class="c1">// &#34;Thu Jan 01 1970 08:00:00 GMT+0800 (台北標準時間)&#34;
 </span></code></pre></td></tr></table>
 </div>
-</div><h3 id="3-datestring">3. datestring</h3>
-<p><code>new Date(datestring)</code>，<code>datestring</code> 表示一個日期或時間格式的字串，該參數會通過 <code>Date.parse</code> 算法解析字串。</p>
-<p>注意時間格式，你可以發現，不同的時間格式，會有不同的結果：</p>
+</div><p>經過一百天：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1658,30 +1698,56 @@ if (!doNotTrack) {
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="s1">&#39;2020/01/01&#39;</span><span class="p">));</span>
-<span class="c1">// Wed Jan 01 2020 00:00:00 GMT+0800 (台北標準時間)
-</span><span class="c1"></span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="s1">&#39;2020-01-01&#39;</span><span class="p">));</span>  <span class="c1">// 多了8小時
-</span><span class="c1">// Wed Jan 01 2020 08:00:00 GMT+0800 (台北標準時間) 
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">dayms</span> <span class="o">=</span> <span class="mi">24</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">;</span>
+<span class="kr">const</span> <span class="nx">d100</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">dayms</span> <span class="o">*</span> <span class="mi">100</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">d100</span><span class="p">);</span>
+<span class="c1">// &#34;Sat Apr 11 1970 08:00:00 GMT+0800 (台北標準時間)&#34;
 </span></code></pre></td></tr></table>
 </div>
-</div><p>這是因為 <code>2020-01-01</code> 方式建立的 Date 物件，會被瀏覽器解析為格林威治標準時間的日期，但台灣本地時間會多 8 個小時，因此顯示上會自動加上。</p>
-<p>日期或時間格式字串定義，其實有特定要求（<a href="https://zh.wikipedia.org/zh-tw/ISO_8601">ISO8601</a>）：</p>
+</div><h3 id="3-日期時間字串">3. 日期時間字串</h3>
+<p><code>new Date(datestring)</code>，<code>datestring</code> 表示一個日期或時間格式的字串，該參數會通過 <code>Date.parse</code> 算法解析字串。</p>
+<p>日期時間格式字串定義（<a href="https://zh.wikipedia.org/zh-tw/ISO_8601">ISO8601</a>）：</p>
 <pre><code>YYYY-MM-DDTHH:mm:ss.sssZ
-</code></pre><p>遵循上述規格是最安全的用法。</p>
-<ul>
-<li>日期 <code>YYYY-MM-DD</code>：年-月-日</li>
-<li>字串 <code>&quot;T&quot;</code>：是一個分隔符</li>
-<li>時間 <code>HH:mm:ss.sss</code>：小時、分鐘、秒、毫秒</li>
-<li>可選字串 <code>&quot;Z&quot;</code>：代表時區，單個字符 Z 代表 UTC+0</li>
+</code></pre><ul>
+<li>日期 <code>YYYY-MM-DD</code>：<code>年-月-日</code></li>
+<li>字串 <code>T</code>：是一個分隔符號</li>
+<li>時間 <code>HH:mm:ss.sss</code>：<code>小時:分鐘:秒.毫秒</code></li>
+<li>時區：UTC+8 使用 <code>+08:00</code> 表示，若時區為 UTC+0 可使用 <code>Z</code> 表示。</li>
 </ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">d1</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="s1">&#39;2021-03-28T10:30:55.000Z&#39;</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">d1</span><span class="p">);</span>
+<span class="c1">// &#34;Sun Mar 28 2021 18:30:55 GMT+0800 (台北標準時間)&#34;
+</span><span class="c1"></span>
+<span class="kr">const</span> <span class="nx">d2</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="s1">&#39;2021-03-28T10:30:55.000+08:00&#39;</span><span class="p">);</span> 
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">d2</span><span class="p">);</span>
+<span class="c1">// &#34;Sun Mar 28 2021 10:30:55 GMT+0800 (台北標準時間)&#34;
+</span></code></pre></td></tr></table>
+</div>
+</div><p>:::warning<br />
+若輸入非標準日期字串，會根據各家瀏覽器的實現方式，而有不同的結果。詳細可以參考 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/parse#%E5%BC%95%E6%93%8E%E7%9B%B8%E5%85%B3%E7%9A%84%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F"><strong>MDN</strong></a> 說明。<br />
+:::</p>
+<p>:::warning<br />
+另外要注意，Date 物件在建立時，會將日期時間轉成本地時區（作業系統設定的時區）輸出，並不支持指定時區輸出。<br />
+:::</p>
 <h3 id="4-時間單位">4. 時間單位</h3>
 <p><code>new Date(year, month, [date, hours, minutes, seconds, ms])</code></p>
 <ul>
 <li>必要參數：年、月
 <ul>
 <li>年（必須是四位數）</li>
-<li>月（月份是從 <code>0</code>（一月）開始到 <code>11</code>（十二月））</li>
+<li>月 <strong>（<code>0</code> ~ <code>11</code>）</strong></li>
 </ul>
 </li>
 <li>選擇性的參數：日、時、分、秒、毫秒
@@ -1691,14 +1757,17 @@ if (!doNotTrack) {
 </ul>
 </li>
 </ul>
+<p>預設的時區為本地時區（作業系統設定的時區）：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
+</span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2020</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span> <span class="p">);</span>
-<span class="c1">// Wed Jan 01 2020 00:00:00 GMT+0800 (台北標準時間) 
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">d2021</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">d2021</span><span class="p">);</span>
+<span class="c1">// &#34;Fri Jan 01 2021 00:00:00 GMT+0800 (台北標準時間)&#34;
 </span></code></pre></td></tr></table>
 </div>
 </div><p>如果超出正確範圍內的數字會自動轉換成對應時間：</p>
@@ -1706,24 +1775,161 @@ if (!doNotTrack) {
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
+</span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2020</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">31</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span> <span class="p">);</span>
-<span class="c1">// Sat Feb 01 2020 01:00:00 GMT+0800 (台北標準時間) 
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">12</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">);</span>
+<span class="c1">// &#34;Sat Jan 01 2022 00:00:00 GMT+0800 (台北標準時間)&#34;
 </span></code></pre></td></tr></table>
 </div>
-</div><h2 id="獲取設定">獲取/設定</h2>
+</div><h2 id="獲取--設定">獲取 &amp; 設定</h2>
 <h3 id="1-獲取">1. 獲取</h3>
-<p>從 Date 物件取的相對應的時間數值（<code>number</code>）：</p>
+<p>從 Date 物件取的相對應的時間數值（<code>number</code>），可以使用 Date 提供的方法：</p>
 <ul>
-<li><code>getFullYear()</code>：年份（四位數）</li>
-<li><code>getMonth()</code>：月份從 <code>0</code> 到 <code>11</code></li>
-<li><code>getDate()</code>：當月的日期，從 <code>1</code> 到 <code>31</code></li>
-<li><code>getHours()</code>：時</li>
-<li><code>getMinutes()</code>：分</li>
-<li><code>getSeconds()</code>：秒</li>
-<li><code>getMilliseconds()</code>：毫秒</li>
-<li><code>getDay()</code>：獲取一週中的第幾天，<code>0</code>（星期天）到 <code>6</code>（星期六）</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear"><code>getFullYear()</code></a>：年份（四位數）</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth"><code>getMonth()</code></a>：月份從 <code>0</code> 到 <code>11</code></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate"><code>getDate()</code></a>：當月的日期，從 <code>1</code> 到 <code>31</code></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours"><code>getHours()</code></a>：時</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes"><code>getMinutes()</code></a>：分</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getSeconds"><code>getSeconds()</code></a>：秒</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMilliseconds"><code>getMilliseconds()</code></a>：毫秒</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay"><code>getDay()</code></a>：獲取一週中的第幾天，<code>0</code> 到 <code>6</code>（起始為星期日）</li>
+</ul>
+<p>以上所有的方法回傳的訊息都是基於當地時區的。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">getDate</span><span class="p">(</span><span class="nx">date</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">{</span>
+    <span class="nx">year</span><span class="o">:</span> <span class="nx">date</span><span class="p">.</span><span class="nx">getFullYear</span><span class="p">(),</span>
+    <span class="nx">month</span><span class="o">:</span> <span class="nx">date</span><span class="p">.</span><span class="nx">getMonth</span><span class="p">(),</span>
+    <span class="nx">date</span><span class="o">:</span> <span class="nx">date</span><span class="p">.</span><span class="nx">getDate</span><span class="p">(),</span>
+    <span class="nx">hour</span><span class="o">:</span> <span class="nx">date</span><span class="p">.</span><span class="nx">getHours</span><span class="p">(),</span>
+    <span class="nx">min</span><span class="o">:</span> <span class="nx">date</span><span class="p">.</span><span class="nx">getMinutes</span><span class="p">(),</span>
+    <span class="nx">sec</span><span class="o">:</span> <span class="nx">date</span><span class="p">.</span><span class="nx">getSeconds</span><span class="p">(),</span>
+    <span class="nx">msec</span><span class="o">:</span> <span class="nx">date</span><span class="p">.</span><span class="nx">getMilliseconds</span><span class="p">(),</span>
+    <span class="nx">day</span><span class="o">:</span> <span class="nx">date</span><span class="p">.</span><span class="nx">getDay</span><span class="p">(),</span>
+  <span class="p">};</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>如果要獲取標準時間，則可以使用對應的 <code>UTC</code> 版本，例如 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCFullYear"><code>getUTCFullYear()</code></a>、<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMonth"><code>getUTCMonth()</code></a> 等等。</p>
+<h3 id="2-設定">2. 設定</h3>
+<p>以下方法可以設置時間訊息：</p>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/setFullYear"><code>setFullYear(year [, month, date])</code></a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/setMonth"><code>setMonth(month [, date])</code></a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/setDate"><code>setDate(date)</code></a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/setHours"><code>setHours(hour [, min, sec, ms])</code></a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/setMinutes"><code>setMinutes(min [, sec, ms])</code></a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/setSeconds"><code>setSeconds(sec [, ms])</code></a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/setMilliseconds"><code>setMilliseconds(ms)</code></a></li>
+</ul>
+<p>以上方法會回傳改變後的時間戳，另外，也都有對應的 <code>UTC</code> 版本，例如 <code>setUTCHours()</code>。</p>
+<h3 id="3-結合使用">3. 結合使用</h3>
+<p>兩者方法結合使用，可以得到相對時間：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
+
+<span class="c1">// 將日期向後推1000天
+</span><span class="c1"></span><span class="nx">date</span><span class="p">.</span><span class="nx">setDate</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">getDate</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1000</span><span class="p">);</span>
+
+<span class="c1">// 將時間設為6小時後
+</span><span class="c1"></span><span class="nx">date</span><span class="p">.</span><span class="nx">setHours</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">getHours</span><span class="p">()</span> <span class="o">+</span> <span class="mi">6</span><span class="p">);</span>
+
+<span class="c1">// 將年份設為去年
+</span><span class="c1"></span><span class="nx">date</span><span class="p">.</span><span class="nx">setFullYear</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">getFullYear</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="時間戳timestamp">時間戳（Timestamp）</h2>
+<p>時間戳（Timestamp）指的是從 <code>1970-1-1 00:00:00 UTC+0</code> 開始的毫秒數。</p>
+<h3 id="1-靜態方法">1. 靜態方法</h3>
+<p>Date 的靜態方法：</p>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/now"><code>Date.now()</code></a>：回傳當前時間的數值時間戳。</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/parse"><code>Date.parse()</code></a>：解析日期或時間格式的字串，回傳該時間的數值時間戳（<strong>由於瀏覽器之間的不同與差異，不建議使用</strong>）。</li>
+<li><a href="https://https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/UTC"><code>Date.UTC()</code></a>：需要傳入與建構器相同的參數（即年月日等等參數），回傳該時間的數值時間戳。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">ms</span> <span class="o">=</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">now</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">ms</span><span class="p">);</span>
+<span class="c1">// 1616939369617
+</span><span class="c1"></span>
+<span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">ms</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">);</span>
+<span class="c1">// &#34;Sun Mar 28 2021 21:49:29 GMT+0800 (台北標準時間)&#34;
+</span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">ms</span> <span class="o">=</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">UTC</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">ms</span><span class="p">);</span>
+<span class="c1">// 1609459200000
+</span><span class="c1"></span>
+<span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">ms</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">);</span>
+<span class="c1">// &#34;Fri Jan 01 2021 08:00:00 GMT+0800 (台北標準時間)&#34;
+</span><span class="c1"></span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">0</span><span class="p">));</span>
+<span class="c1">// &#34;Fri Jan 01 2021 00:00:00 GMT+0800 (台北標準時間)&#34;
+</span></code></pre></td></tr></table>
+</div>
+</div><p>:::warning<br />
+輸入的參數會視為世界標準時間，而非本地時間，與建構器不同。<br />
+:::</p>
+<h3 id="2-時間戳轉換">2. 時間戳轉換</h3>
+<p>Date 物件轉時間戳的方法：</p>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime"><code>getTime()</code></a>：回傳日期的時間戳。</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1738,164 +1944,108 @@ if (!doNotTrack) {
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">today</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
-
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">today</span><span class="p">.</span><span class="nx">getFullYear</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// 2020
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">today</span><span class="p">.</span><span class="nx">getMonth</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// 0
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">today</span><span class="p">.</span><span class="nx">getDate</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// 11
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">today</span><span class="p">.</span><span class="nx">getHours</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// 8
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">today</span><span class="p">.</span><span class="nx">getSeconds</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// 35
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">today</span><span class="p">.</span><span class="nx">getMilliseconds</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// 111
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">today</span><span class="p">.</span><span class="nx">getDay</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// 6
-</span></code></pre></td></tr></table>
-</div>
-</div><p>以上所有的方法回傳的訊息都是基於當地時區的。</p>
-<p>如果要獲取標準時間，則可以加上 <code>UTC</code>，例如 <code>getUTCHours()</code>：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">today</span><span class="p">.</span><span class="nx">getUTCHours</span><span class="p">()</span> <span class="p">);</span>  <span class="c1">// 0
-</span></code></pre></td></tr></table>
-</div>
-</div><h3 id="2-設定">2. 設定</h3>
-<p>以下方法可以設置時間訊息：</p>
-<ul>
-<li><code>setFullYear(year [, month, date])</code></li>
-<li><code>setMonth(month [, date])</code></li>
-<li><code>setDate(date)</code></li>
-<li><code>setHours(hour [, min, sec, ms])</code></li>
-<li><code>setMinutes(min [, sec, ms])</code></li>
-<li><code>setSeconds(sec [, ms])</code></li>
-<li><code>setMilliseconds(ms)</code></li>
-</ul>
-<p>以上方法會回傳改變後的時間戳，另外，也都有對應的 <code>UTC</code> 版本，例如 <code>setUTCHours()</code>。</p>
-<h3 id="3-結合使用">3. 結合使用</h3>
-<p><strong>獲取/設定</strong> 方法結合使用，得到相對時間：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">d</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
-
-<span class="c1">// 將日期向後推1000天
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">d</span><span class="p">.</span><span class="nx">setDate</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">getDate</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1000</span><span class="p">)</span> <span class="p">);</span>
-<span class="c1">// 將時間設為6小時後
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">d</span><span class="p">.</span><span class="nx">setHours</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">getHours</span><span class="p">()</span> <span class="o">+</span> <span class="mi">6</span><span class="p">)</span> <span class="p">);</span>
-<span class="c1">// 將年份設為去年
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">d</span><span class="p">.</span><span class="nx">setFullYear</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">getFullYear</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="p">);</span>
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="時間戳timestamp">時間戳（Timestamp）</h2>
-<p>時間戳（Timestamp）從 <code>1970-1-1 00:00:00 UTC+0</code> 開始的毫秒數。</p>
-<p>Date 的靜態方法：</p>
-<ul>
-<li><code>Date.now()</code>：回傳當前時間的時間戳。</li>
-<li><code>Date.parse()</code>：解析日期或時間格式的字串，回傳該時間的時間戳。</li>
-<li><code>Date.UTC()</code>：需要傳入與建構器相同的參數（即年月日等等參數），回傳該時間的時間戳。</li>
-</ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">now</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// 1578705450196
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="s1">&#39;2020-01-01&#39;</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// 1577836800000
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="s1">&#39;2020/01/01&#39;</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// 1577808000000
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">UTC</span><span class="p">(</span><span class="mi">2020</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="p">);</span> 
-</code></pre></td></tr></table>
-</div>
-</div><p>Date 物件轉時間戳的方法：</p>
-<ul>
-<li><code>getTime()</code>：回傳日期的時間戳</li>
-</ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">time</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2020</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
-
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">time</span><span class="p">.</span><span class="nx">getTime</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// 1577808000000
-</span></code></pre></td></tr></table>
-</div>
-</div><p>如果將 Date 物件轉成數值（呼叫 <code>valueOf()</code>），相當於 <code>getTime()</code> 方法：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nb">Number</span><span class="p">(</span><span class="nx">time</span><span class="p">)</span> <span class="p">);</span>  <span class="c1">// 1577808000000
-</span></code></pre></td></tr></table>
-</div>
-</div><h3 id="1-unix-時間戳">1. Unix 時間戳</h3>
-<p>一般來說，後端給的時間會是以秒為單位的 Unix 時間戳，而 JavaScript 的時間戳為毫秒。</p>
-<p>目前取得 <strong>Unix 時間戳</strong> 最簡單和快速的方式是：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">dateTime</span> <span class="o">=</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">now</span><span class="p">();</span>
-<span class="kr">const</span> <span class="nx">timestamp</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nx">dateTime</span> <span class="o">/</span> <span class="mi">1000</span><span class="p">);</span>
-
-<span class="c1">// 或是
-</span><span class="c1"></span><span class="kr">const</span> <span class="nx">dateTime</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">getTime</span><span class="p">();</span>
-<span class="kr">const</span> <span class="nx">timestamp</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nx">dateTime</span> <span class="o">/</span> <span class="mi">1000</span><span class="p">);</span>
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="日期加減">日期加減</h2>
-<p>首先必須先將時間轉換成成毫秒：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">hour</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">;</span>
-<span class="kr">const</span> <span class="nx">min</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">;</span>
-<span class="kr">const</span> <span class="nx">sec</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>減法運算：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="s1">&#39;2020/3/30&#39;</span><span class="p">);</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">);</span>
-<span class="c1">// Mon Mar 30 2020 00:00:00 GMT+0800 (台北標準時間)
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">time</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">time</span><span class="p">.</span><span class="nx">getTime</span><span class="p">());</span>
+<span class="c1">// 1609430400000
 </span><span class="c1"></span>
-<span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">date</span> <span class="o">-</span> <span class="nx">hour</span><span class="p">);</span>
+<span class="c1">// 等同
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">time</span><span class="p">.</span><span class="nx">valueOf</span><span class="p">());</span>
+<span class="c1">// 1609430400000
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nb">Number</span><span class="p">(</span><span class="nx">time</span><span class="p">));</span>
+<span class="c1">// 1609430400000
+</span></code></pre></td></tr></table>
+</div>
+</div><p>如果將 Date 物件轉成數值（呼叫 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/valueOf"><code>valueOf()</code></a>），相當於 <code>getTime()</code> 方法。</p>
+<h3 id="1-unix-時間戳">1. Unix 時間戳</h3>
+<p>一般來說，後端給的時間會是以秒為單位的 Unix 時間戳，但 JavaScript 的時間戳單位為毫秒。</p>
+<p>如果我們有一個 <strong>Unix 時間戳</strong>，可以透過乘 1000 取得 Date 物件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">unixtimestamp</span> <span class="o">=</span> <span class="mi">1609430400</span><span class="p">;</span>
+<span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">unixtimestamp</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">);</span>
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">);</span>
-<span class="c1">// Sun Mar 29 2020 14:00:00 GMT+0800 (台北標準時間)
+<span class="c1">// &#34;Fri Jan 01 2021 00:00:00 GMT+0800 (台北標準時間)&#34;
+</span></code></pre></td></tr></table>
+</div>
+</div><p>反之，如果要將時間戳轉 <strong>Unix 時間戳</strong> 就是除 1000：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">timestamp</span> <span class="o">=</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">now</span><span class="p">();</span>
+<span class="kr">const</span> <span class="nx">unixtimestamp</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nx">timestamp</span> <span class="o">/</span> <span class="mi">1000</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">unixtimestamp</span><span class="p">);</span>
+<span class="c1">// 1616940562
+</span></code></pre></td></tr></table>
+</div>
+</div><h2 id="運算">運算</h2>
+<p>如果對 Date 物件進行減法運算，會自動轉換成對應的毫秒數：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">d1</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<span class="kr">const</span> <span class="nx">d2</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">d2</span> <span class="o">-</span> <span class="nx">d1</span><span class="p">);</span>
+<span class="c1">// 2678400000
+</span></code></pre></td></tr></table>
+</div>
+</div><p>若是加法運算則是字串連接：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// 承接上段程式碼
+</span><span class="c1"></span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">d2</span> <span class="o">+</span> <span class="nx">d1</span><span class="p">);</span>
+<span class="c1">// &#34;Thu Apr 01 2021 00:00:00 GMT+0800 (台北標準時間)Mon Mar 01 2021 00:00:00 GMT+0800 (台北標準時間)&#34;
+</span></code></pre></td></tr></table>
+</div>
+</div><p>因此我們可以先將時間轉換成成毫秒，再進行運算：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">sec</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">;</span>
+<span class="kr">const</span> <span class="nx">min</span> <span class="o">=</span> <span class="nx">sec</span> <span class="o">*</span> <span class="mi">60</span><span class="p">;</span>
+<span class="kr">const</span> <span class="nx">hour</span> <span class="o">=</span> <span class="nx">min</span> <span class="o">*</span> <span class="mi">60</span><span class="p">;</span>
+
+<span class="kd">let</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">);</span>
+<span class="c1">// &#34;Sat Jan 02 2021 00:00:00 GMT+0800 (台北標準時間)&#34;
+</span><span class="c1"></span>
+<span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">date</span> <span class="o">-</span> <span class="nx">hour</span> <span class="o">*</span> <span class="mi">10</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">);</span>
+<span class="c1">// &#34;Fri Jan 01 2021 14:00:00 GMT+0800 (台北標準時間)&#34;
 </span></code></pre></td></tr></table>
 </div>
 </div><p>減法運算可以直接相減，但加法運算必須使用 <code>getTime()</code> 轉毫秒再運算：</p>
@@ -1908,21 +2058,63 @@ if (!doNotTrack) {
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="s1">&#39;2020/3/30&#39;</span><span class="p">);</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">);</span> <span class="c1">// Mon Mar 30 2020 00:00:00 GMT+0800 (台北標準時間)
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// 承接上段程式碼
 </span><span class="c1"></span>
-<span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">getTime</span><span class="p">()</span> <span class="o">+</span> <span class="nx">hour</span><span class="p">);</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">);</span> <span class="c1">// Mon Mar 30 2020 10:00:00 GMT+0800 (台北標準時間)
+<span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">getTime</span><span class="p">()</span> <span class="o">+</span> <span class="nx">hour</span> <span class="o">*</span> <span class="mi">10</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">);</span>
+<span class="c1">// &#34;Sat Jan 02 2021 00:00:00 GMT+0800 (台北標準時間)&#34;
 </span></code></pre></td></tr></table>
 </div>
 </div><h2 id="轉換格式">轉換格式</h2>
+<h3 id="1-基本格式字串">1. 基本格式字串</h3>
 <ul>
-<li><code>toString()</code>：回傳完整的日期字串。</li>
-<li><code>toUTCString()</code>：回傳 UTC 時間。</li>
-<li><code>toISOString()</code>：回傳 ISO8601 格式。</li>
-<li><code>toJSON()</code>：回傳符合 JSON 格式的 ISO 日期字串，與 <code>toISOString()</code> 回傳結果相同。</li>
-<li><code>toDateString()</code>：回傳日期字串，不含小時、分和秒</li>
-<li><code>toTimeString()</code>：回傳時間字串，不含年月日</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/toString"><code>toString()</code></a>：回傳完整的日期時間字串。</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString"><code>toUTCString()</code></a>：回傳 UTC 格式字串。</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString"><code>toISOString()</code></a>：回傳 ISO8601 格式字串。</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/toJSON"><code>toJSON()</code></a>：與 <code>toISOString()</code> 回傳結果相同。</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/toDateString"><code>toDateString()</code></a>：回傳日期字串，不含小時、分和秒。</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/toTimeString"><code>toTimeString()</code></a>：回傳時間字串，不含年月日。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>
+<span class="c1">// &#34;Fri Jan 01 2021 00:00:00 GMT+0800 (台北標準時間)&#34;
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">toUTCString</span><span class="p">());</span>
+<span class="c1">// &#34;Thu, 31 Dec 2020 16:00:00 GMT&#34;
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">toISOString</span><span class="p">());</span>
+<span class="c1">// &#34;2020-12-31T16:00:00.000Z&#34;
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">toJSON</span><span class="p">());</span>
+<span class="c1">// &#34;2020-12-31T16:00:00.000Z
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">toDateString</span><span class="p">());</span>
+<span class="c1">// &#34;Fri Jan 01 2021&#34;
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">toTimeString</span><span class="p">());</span>
+<span class="c1">// &#34;00:00:00 GMT+0800 (台北標準時間)&#34;
+</span></code></pre></td></tr></table>
+</div>
+</div><h3 id="2-本地格式字串">2. 本地格式字串</h3>
+<p>本地格式字串，會因不同語言而有不同的輸出格式：</p>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString"><code>toLocaleString()</code></a>：完整的日期時間字串。</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString"><code>toLocaleDateString()</code></a>：日期，不含小時、分和秒。</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString"><code>toLocaleTimeString()</code></a>：時間，不含年月日。</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1936,22 +2128,532 @@ if (!doNotTrack) {
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">d</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2020</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">d</span><span class="p">.</span><span class="nx">toString</span><span class="p">()</span> <span class="p">);</span>     <span class="c1">// &#34;Wed Jan 01 2020 00:00:00 GMT+0800 (台北標準時間) &#34;
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">d</span><span class="p">.</span><span class="nx">toUTCString</span><span class="p">()</span> <span class="p">);</span>  <span class="c1">// &#34;Tue, 31 Dec 2019 16:00:00 GMT&#34;
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">d</span><span class="p">.</span><span class="nx">toISOString</span><span class="p">()</span> <span class="p">);</span>  <span class="c1">// &#34;2019-12-31T16:00:00.000Z&#34;
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">d</span><span class="p">.</span><span class="nx">toJSON</span><span class="p">()</span> <span class="p">);</span>       <span class="c1">// &#34;2019-12-31T16:00:00.000Z&#34;
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">d</span><span class="p">.</span><span class="nx">toDateString</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// &#34;Wed Jan 01 2020&#34;
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">d</span><span class="p">.</span><span class="nx">toTimeString</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// &#34;00:00:00 GMT+0800 (台北標準時間)&#34;
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">toLocaleString</span><span class="p">());</span>
+<span class="c1">// &#34;2021/1/1 上午12:00:00&#34;
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">toLocaleDateString</span><span class="p">());</span>
+<span class="c1">// &#34;2021/1/1&#34;
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">toLocaleTimeString</span><span class="p">());</span>
+<span class="c1">// &#34;上午12:00:00&#34;
 </span></code></pre></td></tr></table>
 </div>
-</div><p>本地時間：</p>
-<ul>
-<li><code>toLocaleString()</code>：完整的本地日期時間</li>
-<li><code>toLocaleDateString()</code>：本地日期，不含小時、分和秒</li>
-<li><code>toLocaleTimeString()</code>：本地時間，不含年月日</li>
+</div><h3 id="3-本地格式參數">3. 本地格式參數</h3>
+<p>上述三個本地格式字串方法都有兩個可選的參數：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">date</span><span class="p">.</span><span class="nx">toLocaleString</span><span class="p">([</span><span class="nx">locales</span><span class="p">[,</span> <span class="nx">options</span><span class="p">]]);</span>
+<span class="nx">date</span><span class="p">.</span><span class="nx">toLocaleDateString</span><span class="p">([</span><span class="nx">locales</span><span class="p">[,</span> <span class="nx">options</span><span class="p">]]);</span>
+<span class="nx">date</span><span class="p">.</span><span class="nx">toLocaleTimeString</span><span class="p">([</span><span class="nx">locales</span><span class="p">[,</span> <span class="nx">options</span><span class="p">]]);</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><code>locales</code>：字串，指定所用語言。值可參考 <a href="https://zh.wikipedia.org/wiki/%E5%8C%BA%E5%9F%9F%E8%AE%BE%E7%BD%AE">地區設定 - 列表</a>，中文為 <code>&quot;zh&quot;</code>、台灣為 <code>&quot;zh-TW&quot;</code>。</li>
+<li><code>options</code>：選項物件，設定格式化規則。</li>
 </ul>
+<blockquote>
+<p>詳細用法可以參考 <strong><a href="https://elijahmanor.com/blog/format-js-dates-and-times?fbclid=IwAR3Igt5puOfHL0c3HjOIJqrvmFw1lvZ56KV5aERXulDN8JpNsVnk1casfak">Natively Format JavaScript Dates and Times</a></strong> 文章。</p>
+</blockquote>
+<h2 id="第三方函式庫">第三方函式庫</h2>
+<h3 id="1-momentjs">1. Moment.js</h3>
+<p><a href="https://momentjs.com/">Moment.js</a> 是處理 JavaScript 日期時間熱門函式庫。</p>
+<p>不過，官方已宣佈停止開發，進入維護狀態，<a href="https://momentjs.com/docs/">官方公告</a>。</p>
+<p>官方總結了兩大問題：</p>
+<ol>
+<li>Moment 物件是可變物件；</li>
+<li>體積過大。</li>
+</ol>
+<p>替代方案：</p>
+<ol>
+<li>使用 Date 物件 + <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Intl">Intl API</a> 即可。</li>
+<li>改用 <a href="https://day.js.org/">Day.js</a> 函式庫，體積小、API 設計與 Moment.js 相同。</li>
+</ol>
+<h3 id="2-dayjs">2. Day.js</h3>
+<p><a href="https://day.js.org/">Day.js</a> 函式庫是 Moment.js 輕量化替代方案，API 設計與 Moment.js 相同。</p>
+<p>Day.js 沒有對 <code>Date.prototype</code> 做任何修改，而是對 Date 物件做了一層封裝。Day.js 物件是不可變的，所有的 API 操作都將回傳一個全新的實體，避免修改到原始資料。</p>
+<h2 id="dayjs">Day.js</h2>
+<h3 id="1-解析">1. 解析</h3>
+<p>呼叫 <code>dayjs()</code>，建立 Day.js 物件</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// 當前時間
+</span><span class="c1"></span><span class="nx">dayjs</span><span class="p">();</span> <span class="c1">// 等同 dayjs(new Date()), dayjs(undefined)
+</span><span class="c1"></span>
+<span class="c1">// ISO 8601 格式字串
+</span><span class="c1"></span><span class="nx">dayjs</span><span class="p">(</span><span class="s1">&#39;2018-04-04T16:00:00.000Z&#39;</span><span class="p">);</span>
+
+<span class="c1">// 時間戳
+</span><span class="c1"></span><span class="nx">dayjs</span><span class="p">(</span><span class="mi">1318781876406</span><span class="p">);</span>
+
+<span class="c1">// Unix 時間戳
+</span><span class="c1"></span><span class="nx">dayjs</span><span class="p">.</span><span class="nx">unix</span><span class="p">(</span><span class="mi">1318781876</span><span class="p">);</span>
+
+<span class="c1">// Date 物件
+</span><span class="c1"></span><span class="nx">dayjs</span><span class="p">(</span><span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2018</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">18</span><span class="p">));</span>
+
+<span class="c1">// 複製 使用 clone()，或傳入 Day.js 物件
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">d1</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">();</span>
+
+<span class="kr">const</span> <span class="nx">d2</span> <span class="o">=</span> <span class="nx">d1</span><span class="p">.</span><span class="nx">clone</span><span class="p">();</span>
+<span class="kr">const</span> <span class="nx">d3</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">(</span><span class="nx">d1</span><span class="p">);</span>
+
+<span class="c1">// 驗證是否為有校時間，回傳 boolean
+</span><span class="c1"></span><span class="nx">dayjs</span><span class="p">().</span><span class="nx">isValid</span><span class="p">();</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="2-獲取--設置">2. 獲取 &amp; 設置</h3>
+<p>不傳參數為 getter、傳參數為 setter，取得的值為本地時間：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">(</span><span class="mi">0</span><span class="p">).</span><span class="nx">hour</span><span class="p">(</span><span class="mi">12</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">hour</span><span class="p">());</span>  <span class="c1">// 12
+</span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><a href="https://day.js.org/docs/zh-CN/get-set/millisecond"><code>millisecond()</code></a> 毫秒</li>
+<li><a href="https://day.js.org/docs/zh-CN/get-set/second"><code>second()</code></a> 秒</li>
+<li><a href="https://day.js.org/docs/zh-CN/get-set/minute"><code>minute()</code></a> 分鐘</li>
+<li><a href="https://day.js.org/docs/zh-CN/get-set/hour"><code>hour()</code></a> 小時（<code>0</code> ~ <code>23</code> 超過會進位到天數）</li>
+<li><a href="https://day.js.org/docs/zh-CN/get-set/day"><code>date()</code></a> 日期（<code>1</code> ~ <code>31</code> 超過會進位到月份）</li>
+<li><a href="https://day.js.org/docs/zh-CN/get-set/day"><code>day()</code></a> 星期（<code>0</code> ~ <code>6</code> 超過會進位到下週）</li>
+<li><a href="https://day.js.org/docs/zh-CN/get-set/month"><code>month()</code></a> 月份（<code>0</code> ~ <code>11</code> 超過會進位到年份）</li>
+<li><a href="https://day.js.org/docs/zh-CN/get-set/year"><code>year()</code></a> 年份</li>
+</ul>
+<p>另外，還有 <a href="https://day.js.org/docs/zh-CN/get-set/get"><code>get</code></a> 和 <a href="https://day.js.org/docs/zh-CN/get-set/get#list-of-all-available-units"><code>set</code></a> 方法，可傳入單位字串：</p>
+<table>
+<thead>
+<tr>
+<th>單位字串</th>
+<th>縮寫</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>date</code></td>
+<td><code>D</code></td>
+<td>月份裡的日期</td>
+</tr>
+<tr>
+<td><code>day</code></td>
+<td><code>d</code></td>
+<td>星期幾（<code>0</code> ~ <code>6</code>）</td>
+</tr>
+<tr>
+<td><code>month</code></td>
+<td><code>M</code></td>
+<td>月份（<code>0</code> ~ <code>11</code>）</td>
+</tr>
+<tr>
+<td><code>year</code></td>
+<td><code>y</code></td>
+<td>年份</td>
+</tr>
+<tr>
+<td><code>hour</code></td>
+<td><code>h</code></td>
+<td>小時</td>
+</tr>
+<tr>
+<td><code>minute</code></td>
+<td><code>m</code></td>
+<td>分鐘</td>
+</tr>
+<tr>
+<td><code>second</code></td>
+<td><code>s</code></td>
+<td>秒</td>
+</tr>
+<tr>
+<td><code> millisecond</code></td>
+<td><code>ms</code></td>
+<td>毫秒</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">(</span><span class="mi">0</span><span class="p">).</span><span class="nx">set</span><span class="p">(</span><span class="s1">&#39;year&#39;</span><span class="p">,</span> <span class="mi">2021</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;year&#39;</span><span class="p">));</span>  <span class="c1">// 2021
+</span></code></pre></td></tr></table>
+</div>
+</div><h3 id="3-操作">3. 操作</h3>
+<p>Day.js 支持像這樣的鏈式呼叫一些方法來操作 Day.js 物件。</p>
+<p>加減操作：</p>
+<ul>
+<li><a href="https://day.js.org/docs/zh-CN/manipulate/add"><code>add()</code></a></li>
+<li><a href="https://day.js.org/docs/zh-CN/manipulate/subtract"><code>subtract()</code></a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>單位字串</th>
+<th>縮寫</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>day</code></td>
+<td><code>d</code></td>
+<td>星期幾（<code>0</code> ~ <code>6</code>）</td>
+</tr>
+<tr>
+<td><code>week</code></td>
+<td><code>w</code></td>
+<td>周</td>
+</tr>
+<tr>
+<td><code>month</code></td>
+<td><code>M</code></td>
+<td>月份（<code>0</code> ~ <code>11</code>）</td>
+</tr>
+<tr>
+<td><code>year</code></td>
+<td><code>y</code></td>
+<td>年份</td>
+</tr>
+<tr>
+<td><code>hour</code></td>
+<td><code>h</code></td>
+<td>小時</td>
+</tr>
+<tr>
+<td><code>minute</code></td>
+<td><code>m</code></td>
+<td>分鐘</td>
+</tr>
+<tr>
+<td><code>second</code></td>
+<td><code>s</code></td>
+<td>秒</td>
+</tr>
+<tr>
+<td><code> millisecond</code></td>
+<td><code>ms</code></td>
+<td>毫秒</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">(</span><span class="mi">0</span><span class="p">).</span><span class="nx">add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;day&#39;</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">$d</span><span class="p">);</span>
+<span class="c1">// &#34;Fri Jan 02 1970 08:00:00 GMT+0800 (台北標準時間)&#34;
+</span></code></pre></td></tr></table>
+</div>
+</div><p>時間開頭、末尾操作：</p>
+<ul>
+<li><a href="https://day.js.org/docs/zh-CN/manipulate/start-of"><code>startOf()</code></a></li>
+<li><a href="https://day.js.org/docs/zh-CN/manipulate/end-of"><code>endOf()</code></a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>單位字串</th>
+<th>縮寫</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>year</code></td>
+<td><code>y</code></td>
+<td>今年一月一日零時</td>
+</tr>
+<tr>
+<td><code>month</code></td>
+<td><code>M</code></td>
+<td>本月一日零時</td>
+</tr>
+<tr>
+<td><code>week</code></td>
+<td><code>w</code></td>
+<td>當周第一日零時</td>
+</tr>
+<tr>
+<td><code>day</code></td>
+<td><code>d</code></td>
+<td>當日零時</td>
+</tr>
+<tr>
+<td><code>date</code></td>
+<td><code>d</code></td>
+<td>當日零時</td>
+</tr>
+<tr>
+<td><code>hour</code></td>
+<td><code>h</code></td>
+<td>當前時間零分零秒零毫秒</td>
+</tr>
+<tr>
+<td><code>minute</code></td>
+<td><code>m</code></td>
+<td>當前時間零秒零毫秒</td>
+</tr>
+<tr>
+<td><code>second</code></td>
+<td><code>s</code></td>
+<td>當前時間零毫秒</td>
+</tr>
+</tbody>
+</table>
+<p>末尾則相反。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">$d</span><span class="p">);</span>
+<span class="c1">// &#34;Mon Mar 29 2021 23:49:30 GMT+0800 (台北標準時間)&#34;
+</span><span class="c1"></span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">startOf</span><span class="p">(</span><span class="s1">&#39;month&#39;</span><span class="p">).</span><span class="nx">$d</span><span class="p">);</span>
+<span class="c1">// &#34;Mon Mar 01 2021 00:00:00 GMT+0800 (台北標準時間)&#34;
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">endOf</span><span class="p">(</span><span class="s1">&#39;month&#39;</span><span class="p">).</span><span class="nx">$d</span><span class="p">);</span>
+<span class="c1">// &#34;Wed Mar 31 2021 23:59:59 GMT+0800 (台北標準時間)&#34;
+</span></code></pre></td></tr></table>
+</div>
+</div><h3 id="4-顯示">4. 顯示</h3>
+<p>呈現 Day.js 物件的方法。</p>
+<p>格式化 <a href="https://day.js.org/docs/zh-CN/display/format"><code>format()</code></a>：</p>
+<table>
+<thead>
+<tr>
+<th>佔位符號</th>
+<th>輸出</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>YY</code></td>
+<td>18</td>
+<td>兩位數的年份</td>
+</tr>
+<tr>
+<td><code>YYYY</code></td>
+<td>2018</td>
+<td>四位數的年份</td>
+</tr>
+<tr>
+<td><code>M</code></td>
+<td>1-12</td>
+<td>月份，從 1 開始</td>
+</tr>
+<tr>
+<td><code>MM</code></td>
+<td>01-12</td>
+<td>月份，兩位數</td>
+</tr>
+<tr>
+<td><code>MMM</code></td>
+<td>Jan-Dec</td>
+<td>縮寫的月份名稱</td>
+</tr>
+<tr>
+<td><code>MMMM</code></td>
+<td>January-December</td>
+<td>完整的月份名稱</td>
+</tr>
+<tr>
+<td><code>D</code></td>
+<td>1-31</td>
+<td>月份裡的一天</td>
+</tr>
+<tr>
+<td><code>DD</code></td>
+<td>01-31</td>
+<td>月份裡的一天，兩位數</td>
+</tr>
+<tr>
+<td><code>d</code></td>
+<td>0-6</td>
+<td>一週中的一天，星期天是 0</td>
+</tr>
+<tr>
+<td><code>dd</code></td>
+<td>Su-Sa</td>
+<td>最簡寫的星期幾</td>
+</tr>
+<tr>
+<td><code>ddd</code></td>
+<td>Sun-Sat</td>
+<td>簡寫的星期幾</td>
+</tr>
+<tr>
+<td><code>dddd</code></td>
+<td>Sunday-Saturday</td>
+<td>星期幾</td>
+</tr>
+<tr>
+<td><code>H</code></td>
+<td>0-23</td>
+<td>小時</td>
+</tr>
+<tr>
+<td><code>HH</code></td>
+<td>00-23</td>
+<td>小時，兩位數</td>
+</tr>
+<tr>
+<td><code>h</code></td>
+<td>1-12</td>
+<td>小時, 12 小時制</td>
+</tr>
+<tr>
+<td><code>hh</code></td>
+<td>01-12</td>
+<td>小時, 12 小時制，兩位數</td>
+</tr>
+<tr>
+<td><code>m</code></td>
+<td>0-59</td>
+<td>分鐘</td>
+</tr>
+<tr>
+<td><code>mm</code></td>
+<td>00-59</td>
+<td>分鐘，兩位數</td>
+</tr>
+<tr>
+<td><code>s</code></td>
+<td>0-59</td>
+<td>秒</td>
+</tr>
+<tr>
+<td><code>ss</code></td>
+<td>00-59</td>
+<td>秒 兩位數</td>
+</tr>
+<tr>
+<td><code>SSS</code></td>
+<td>000-999</td>
+<td>毫秒 三位數</td>
+</tr>
+<tr>
+<td><code>Z</code></td>
+<td>+05:00</td>
+<td>UTC 的偏移量，±HH:mm</td>
+</tr>
+<tr>
+<td><code>ZZ</code></td>
+<td>+0500</td>
+<td>UTC 的偏移量，±HHmm</td>
+</tr>
+<tr>
+<td><code>A</code></td>
+<td>AM PM</td>
+<td></td>
+</tr>
+<tr>
+<td><code>a</code></td>
+<td>am pm</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">$d</span><span class="p">);</span>
+<span class="c1">// &#34;Tue Mar 30 2021 00:14:21 GMT+0800 (台北標準時間)&#34;
+</span><span class="c1"></span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">format</span><span class="p">(</span><span class="s1">&#39;YYYY/MM/DD HH:mm&#39;</span><span class="p">));</span>
+<span class="c1">// &#34;2021/03/30 00:14&#34;
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">format</span><span class="p">(</span><span class="s1">&#39;YY-M-D dddd&#39;</span><span class="p">));</span>
+<span class="c1">// &#34;21-3-30 Tuesday&#34;
+</span></code></pre></td></tr></table>
+</div>
+</div><p>時間差 <a href="https://day.js.org/docs/zh-CN/display/difference"><code>diff()</code></a>：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date1</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">(</span><span class="s1">&#39;2019-01-25&#39;</span><span class="p">);</span>
+<span class="kr">const</span> <span class="nx">date2</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">(</span><span class="s1">&#39;2018-06-05&#39;</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date1</span><span class="p">.</span><span class="nx">diff</span><span class="p">(</span><span class="nx">date2</span><span class="p">));</span> <span class="c1">// 20217600000
+</span></code></pre></td></tr></table>
+</div>
+</div><p>預設單位是毫秒，第二個參數可更改單位（預設取整數），第三參數可以取得浮點數：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// 承接上段程式碼
+</span><span class="c1"></span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date1</span><span class="p">.</span><span class="nx">diff</span><span class="p">(</span><span class="nx">date2</span><span class="p">,</span> <span class="s1">&#39;month&#39;</span><span class="p">));</span> <span class="c1">// 7
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date1</span><span class="p">.</span><span class="nx">diff</span><span class="p">(</span><span class="nx">date2</span><span class="p">,</span> <span class="s1">&#39;month&#39;</span><span class="p">,</span> <span class="kc">true</span><span class="p">));</span> <span class="c1">// 7.645161290322581
+</span></code></pre></td></tr></table>
+</div>
+</div><p>取得實體時間戳：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1961,19 +2663,116 @@ if (!doNotTrack) {
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">d</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="mi">2020</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">t1</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">(</span><span class="s1">&#39;2019-01-25&#39;</span><span class="p">).</span><span class="nx">valueOf</span><span class="p">();</span>
+<span class="kr">const</span> <span class="nx">t2</span> <span class="o">=</span> <span class="o">+</span><span class="nx">dayjs</span><span class="p">(</span><span class="s1">&#39;2019-01-25&#39;</span><span class="p">);</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">toLocaleString</span><span class="p">());</span>     <span class="c1">// &#34;2020-1-1 00:00:00&#34;
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">toLocaleDateString</span><span class="p">());</span> <span class="c1">// &#34;2020-1-1&#34;
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">toLocaleTimeString</span><span class="p">());</span> <span class="c1">// &#34;00:00:00&#34;
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">t1</span><span class="p">);</span> <span class="c1">// 1548345600000
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">t2</span><span class="p">);</span> <span class="c1">// 1548345600000
 </span></code></pre></td></tr></table>
 </div>
-</div><p>這三個方法都有兩個可選的參數</p>
+</div><p>取得實體 Unix 時間戳：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">t</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">(</span><span class="s1">&#39;2019-01-25&#39;</span><span class="p">).</span><span class="nx">unix</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">t</span><span class="p">);</span> <span class="c1">// 1548345600
+</span></code></pre></td></tr></table>
+</div>
+</div><p>取得當月份天數：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">dayjs</span><span class="p">().</span><span class="nx">daysInMonth</span><span class="p">();</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>取得原生 Date 物件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">dayjs</span><span class="p">().</span><span class="nx">toDate</span><span class="p">();</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>取得日期時間字串：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// 完整格式
+</span><span class="c1"></span><span class="nx">dayjs</span><span class="p">().</span><span class="nx">toString</span><span class="p">();</span>
+
+<span class="c1">// ISO 8601 格式
+</span><span class="c1"></span><span class="nx">dayjs</span><span class="p">().</span><span class="nx">toJSON</span><span class="p">();</span>
+<span class="nx">dayjs</span><span class="p">().</span><span class="nx">toISOString</span><span class="p">();</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="5-查詢">5. 查詢</h3>
+<p>Day.js 物件的查詢方法。</p>
+<p>比較：</p>
 <ul>
-<li><code>locales</code>：字串，指定所用語言</li>
-<li><code>options</code>：選項物件，設定格式化規則</li>
+<li>是否在之前 <a href="https://day.js.org/docs/zh-CN/query/is-before"><code>isBefore()</code></a></li>
+<li>是否在之後 <a href="https://day.js.org/docs/zh-CN/query/is-after"><code>isAfter()</code></a></li>
+<li>使否相同 <a href="https://day.js.org/docs/zh-CN/query/is-same"><code>isSame()</code></a></li>
 </ul>
-<p>格式化規則的詳細參數可以參考 <a href="https://elijahmanor.com/format-js-dates-and-times?fbclid=IwAR3Igt5puOfHL0c3HjOIJqrvmFw1lvZ56KV5aERXulDN8JpNsVnk1casfak">Natively Format JavaScript Dates and Times</a>。</p>
+<p>回傳 Boolean，第二參數可選，指定比較單位。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">date1</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">(</span><span class="s1">&#39;2021-01-01&#39;</span><span class="p">);</span>
+<span class="kr">const</span> <span class="nx">date2</span> <span class="o">=</span> <span class="nx">dayjs</span><span class="p">(</span><span class="s1">&#39;2021-08-01&#39;</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date1</span><span class="p">.</span><span class="nx">isBefore</span><span class="p">(</span><span class="nx">date2</span><span class="p">));</span> <span class="c1">// true
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date1</span><span class="p">.</span><span class="nx">isAfter</span><span class="p">(</span><span class="nx">date2</span><span class="p">));</span>  <span class="c1">// false
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date1</span><span class="p">.</span><span class="nx">isSame</span><span class="p">(</span><span class="nx">date2</span><span class="p">));</span>   <span class="c1">// false
+</span><span class="c1"></span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date1</span><span class="p">.</span><span class="nx">isBefore</span><span class="p">(</span><span class="nx">date2</span><span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">));</span> <span class="c1">// false
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date1</span><span class="p">.</span><span class="nx">isAfter</span><span class="p">(</span><span class="nx">date2</span><span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">));</span>  <span class="c1">// false
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">date1</span><span class="p">.</span><span class="nx">isSame</span><span class="p">(</span><span class="nx">date2</span><span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">));</span>   <span class="c1">// true
+</span></code></pre></td></tr></table>
+</div>
+</div><p><a href="https://day.js.org/docs/zh-CN/query/is-a-dayjs"><code>dayjs.isDayjs()</code></a> 可以判斷是否為 Day.js 物件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">dayjs</span><span class="p">.</span><span class="nx">isDayjs</span><span class="p">(</span><span class="nx">dayjs</span><span class="p">());</span>
+
+<span class="c1">// 等同使用 instanceof
+</span><span class="c1"></span><span class="nx">dayjs</span><span class="p">()</span> <span class="k">instanceof</span> <span class="nx">dayjs</span><span class="p">;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="6-國際化-i18n">6. 國際化 i18n</h3>
+<p>Day.js 完美支持國際化，但需要加載，支持語言列表可以參考 <a href="https://github.com/iamkun/dayjs/tree/dev/src/locale"><code>locale</code> 資料夾</a>。</p>
+<blockquote>
+<p>詳細可以參考 <strong><a href="https://day.js.org/docs/zh-CN/i18n/i18n">官方文件</a></strong> 說明。</p>
+</blockquote>
     </article>
     
     <script>
@@ -2096,21 +2895,14 @@ if (!doNotTrack) {
 <nav class="pagination-single">
   
     
-      <a href="https://chupai.github.io/posts/200515_js_object_literal_extension/" class="pagination-single__left">
+      <a href="https://chupai.github.io/posts/2103/removedapi/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">物件字面值擴充功能</div>      
+        <div class="pagination-single__left-title">移除 API</div>      
       </a>
     
     <div class="grow"></div>
-    
-      <a href="https://chupai.github.io/posts/200517_ds_set_map/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">JavaScript 學演算法（七）- 集合 &amp; 映射</div>
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
-        </div>
-      </a>
     
   
 </nav>
@@ -3207,20 +3999,22 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="toc toc__outer " data-dir="ltr" data-folding="false" data-ani="true">
           <nav id="TableOfContents">
   <ul>
-    <li><a href="#date-物件">Date 物件</a>
+    <li><a href="#date-物件">Date 物件</a></li>
+    <li><a href="#基礎概念">基礎概念</a>
       <ul>
-        <li><a href="#1-多時區">1. 多時區</a></li>
+        <li><a href="#1-時間標準">1. 時間標準</a></li>
+        <li><a href="#2-時區">2. 時區</a></li>
       </ul>
     </li>
     <li><a href="#建立-date-物件">建立 Date 物件</a>
       <ul>
         <li><a href="#1-不帶參數">1. 不帶參數</a></li>
-        <li><a href="#2-milliseconds">2. milliseconds</a></li>
-        <li><a href="#3-datestring">3. datestring</a></li>
+        <li><a href="#2-毫秒">2. 毫秒</a></li>
+        <li><a href="#3-日期時間字串">3. 日期時間字串</a></li>
         <li><a href="#4-時間單位">4. 時間單位</a></li>
       </ul>
     </li>
-    <li><a href="#獲取設定">獲取/設定</a>
+    <li><a href="#獲取--設定">獲取 &amp; 設定</a>
       <ul>
         <li><a href="#1-獲取">1. 獲取</a></li>
         <li><a href="#2-設定">2. 設定</a></li>
@@ -3229,11 +4023,35 @@ document.addEventListener('DOMContentLoaded', function () {
     </li>
     <li><a href="#時間戳timestamp">時間戳（Timestamp）</a>
       <ul>
+        <li><a href="#1-靜態方法">1. 靜態方法</a></li>
+        <li><a href="#2-時間戳轉換">2. 時間戳轉換</a></li>
         <li><a href="#1-unix-時間戳">1. Unix 時間戳</a></li>
       </ul>
     </li>
-    <li><a href="#日期加減">日期加減</a></li>
-    <li><a href="#轉換格式">轉換格式</a></li>
+    <li><a href="#運算">運算</a></li>
+    <li><a href="#轉換格式">轉換格式</a>
+      <ul>
+        <li><a href="#1-基本格式字串">1. 基本格式字串</a></li>
+        <li><a href="#2-本地格式字串">2. 本地格式字串</a></li>
+        <li><a href="#3-本地格式參數">3. 本地格式參數</a></li>
+      </ul>
+    </li>
+    <li><a href="#第三方函式庫">第三方函式庫</a>
+      <ul>
+        <li><a href="#1-momentjs">1. Moment.js</a></li>
+        <li><a href="#2-dayjs">2. Day.js</a></li>
+      </ul>
+    </li>
+    <li><a href="#dayjs">Day.js</a>
+      <ul>
+        <li><a href="#1-解析">1. 解析</a></li>
+        <li><a href="#2-獲取--設置">2. 獲取 &amp; 設置</a></li>
+        <li><a href="#3-操作">3. 操作</a></li>
+        <li><a href="#4-顯示">4. 顯示</a></li>
+        <li><a href="#5-查詢">5. 查詢</a></li>
+        <li><a href="#6-國際化-i18n">6. 國際化 i18n</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
         </div>

@@ -14,13 +14,51 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Vue 3 - Composition API</title>
+        <link>https://chupai.github.io/posts/2104/compositionapi/</link>
+        <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Tue, 13 Apr 2021 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2104/compositionapi/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2104/compositionAPI.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue3</category>
+            
+          
+            
+              <category>Composition API</category>
+            
+          
+            
+              <category>Vue 3 全新功能</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>Vue3 筆記</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>日期時間</title>

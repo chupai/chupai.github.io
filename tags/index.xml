@@ -14,13 +14,85 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Composition API</title>
+        <link>https://chupai.github.io/tags/composition-api/</link>
+        <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/composition-api/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Vue</title>
+        <link>https://chupai.github.io/tags/vue/</link>
+        <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/vue/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Vue 3 全新功能</title>
+        <link>https://chupai.github.io/tags/vue-3-%E5%85%A8%E6%96%B0%E5%8A%9F%E8%83%BD/</link>
+        <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/vue-3-%E5%85%A8%E6%96%B0%E5%8A%9F%E8%83%BD/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Vue3</title>
+        <link>https://chupai.github.io/tags/vue3/</link>
+        <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/vue3/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Date 物件</title>
@@ -95,48 +167,12 @@
       </item>
       
       <item>
-        <title>Vue</title>
-        <link>https://chupai.github.io/tags/vue/</link>
-        <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
-        <author>chupaiwang@gmail.com (竹白)</author>
-        
-        <guid>https://chupai.github.io/tags/vue/</guid>
-        <description></description>
-        
-        <dc:creator>竹白</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>Vue2.x 與 Vue3.x 差異</title>
         <link>https://chupai.github.io/tags/vue2.x-%E8%88%87-vue3.x-%E5%B7%AE%E7%95%B0/</link>
         <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/vue2.x-%E8%88%87-vue3.x-%E5%B7%AE%E7%95%B0/</guid>
-        <description></description>
-        
-        <dc:creator>竹白</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Vue3</title>
-        <link>https://chupai.github.io/tags/vue3/</link>
-        <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
-        <author>chupaiwang@gmail.com (竹白)</author>
-        
-        <guid>https://chupai.github.io/tags/vue3/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>

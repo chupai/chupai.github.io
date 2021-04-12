@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Vue 3 全新功能 on 竹白記事本</title>
+    <link>https://chupai.github.io/tags/vue-3-%E5%85%A8%E6%96%B0%E5%8A%9F%E8%83%BD/</link>
+    <description>Recent content in Vue 3 全新功能 on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://chupai.github.io/tags/vue-3-%E5%85%A8%E6%96%B0%E5%8A%9F%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Vue 3 - Composition API</title>
+        <link>https://chupai.github.io/posts/2104/compositionapi/</link>
+        <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Tue, 13 Apr 2021 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2104/compositionapi/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2104/compositionAPI.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue3</category>
+            
+          
+            
+              <category>Composition API</category>
+            
+          
+            
+              <category>Vue 3 全新功能</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>Vue3 筆記</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

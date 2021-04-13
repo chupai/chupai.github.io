@@ -1970,35 +1970,17 @@ if (!doNotTrack) {
 <h3 id="1-ref">1. ref</h3>
 <p><code>ref</code> 可以用來取得 DOM 元素，也就是將元素註冊在 <code>$refs</code> 物件。詳細可以參考 <strong><a href="https://cn.vuejs.org/v2/api/#ref">Vue2.x API ref</a></strong>。</p>
 <p>若是在使用 <code>v-for</code> 指令元素上使用 <code>ref</code>，將會建立包含所有元素的陣列。但當使用巢狀 <code>v-for</code> 時，<code>$refs</code> 的結構就會變得相當不直覺，元素陣列是分開的：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!-- Vue 2.x --&gt;</span>
-<span class="p">&lt;</span><span class="nt">div</span> <span class="na">v-for</span><span class="o">=</span><span class="s">&#34;x of 3&#34;</span> <span class="na">ref</span><span class="o">=</span><span class="s">&#34;x&#34;</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">v-for</span><span class="o">=</span><span class="s">&#34;y of 3&#34;</span> <span class="na">ref</span><span class="o">=</span><span class="s">&#34;y&#34;</span><span class="p">&gt;</span>{{ x * y }}<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p><img src="https://i.imgur.com/F3luM1V.png" alt="" /></p>
+<pre><code class="language-htmlmixed" data-lang="htmlmixed">&lt;!-- Vue 2.x --&gt;
+&lt;div v-for=&quot;x of 3&quot; ref=&quot;xDoms&quot;&gt;
+  &lt;div v-for=&quot;y of 3&quot; ref=&quot;yDoms&quot;&gt;{{ x * y }}&lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p><img src="https://i.imgur.com/8Ym4R6h.png" alt="" /></p>
 <p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/vYyQKEj">Vue2.x - 巢狀 ref</a></p>
 <h3 id="2-3x-語法-4">2. 3.x 語法</h3>
 <p>因此 Vue 3.x 將不再自動建立陣列，需要搭配 <code>v-bind</code> 指令將 <code>ref</code> 綁定到一個更靈活的函式上。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!-- Vue 3.x --&gt;</span>
-<span class="p">&lt;</span><span class="nt">div</span> <span class="na">v-for</span><span class="o">=</span><span class="s">&#34;item in list&#34;</span> <span class="na">:ref</span><span class="o">=</span><span class="s">&#34;setItemRef&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><div class="highlight"><div class="chroma">
+<pre><code class="language-htmlmixed" data-lang="htmlmixed">&lt;!-- Vue 3.x --&gt;
+&lt;div v-for=&quot;n of 10&quot; :ref=&quot;setDoms&quot;&gt;n&lt;/div&gt;
+</code></pre><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -2021,23 +2003,37 @@ if (!doNotTrack) {
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// Vue 3.x
 </span><span class="c1"></span><span class="nx">data</span><span class="p">()</span> <span class="p">{</span>
   <span class="k">return</span> <span class="p">{</span>
-    <span class="nx">itemRefs</span><span class="o">:</span> <span class="p">[],</span>
+    <span class="nx">doms</span><span class="o">:</span> <span class="p">[],</span>
   <span class="p">};</span>
 <span class="p">},</span>
 <span class="nx">methods</span><span class="o">:</span> <span class="p">{</span>
-  <span class="nx">setItemRef</span><span class="p">(</span><span class="nx">el</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">setDoms</span><span class="p">(</span><span class="nx">el</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">if</span> <span class="p">(</span><span class="nx">el</span><span class="p">)</span> <span class="p">{</span>
-      <span class="k">this</span><span class="p">.</span><span class="nx">itemRefs</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">el</span><span class="p">);</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">doms</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">el</span><span class="p">);</span>
     <span class="p">}</span>
   <span class="p">},</span>
-  <span class="nx">handler</span><span class="p">(</span><span class="nx">el</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">itemRefs</span><span class="p">);</span>
-  <span class="p">},</span>
+<span class="p">},</span>
+<span class="nx">mounted</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">doms</span><span class="p">);</span>
 <span class="p">},</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>我們可以透過該函式將取得的元素迭代放置在一個陣列或物件中。</p>
 <p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/KKNrMmd">Vue3.x - ref</a></p>
+<p>如果 v-for 的元素是動態的，要確保在每次更新之前重置容器：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">beforeUpdate</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">doms</span> <span class="o">=</span> <span class="p">[];</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/YzNaarO">Vue3.x - ref 更新</a></p>
     </article>
     
     <script>

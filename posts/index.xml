@@ -14,13 +14,51 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Vue 3 - Teleport</title>
+        <link>https://chupai.github.io/posts/2104/teleport/</link>
+        <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sat, 17 Apr 2021 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2104/teleport/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2104/teleport.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue3</category>
+            
+          
+            
+              <category>Teleport</category>
+            
+          
+            
+              <category>Vue 3 全新功能</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>Vue3 筆記</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Vue 3 - Composition API</title>
@@ -111,17 +149,7 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Tue, 16 Mar 2021 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/2103/removedapi/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;本篇為官方文件 &lt;strong&gt;&lt;a href=&#34;https://v3.vuejs.org/guide/migration/introduction.html&#34;&gt;Migration from Vue 2&lt;/a&gt;&lt;/strong&gt; 筆記。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/globalapi/&#34;&gt;全域 API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/templatedirectives/&#34;&gt;模板指令&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/componentsrenderfunction/&#34;&gt;元件 &amp;amp; 渲染函數&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/customelements/&#34;&gt;自定義元素&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/other&#34;&gt;其他小改變&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/removedapi/&#34;&gt;移除 API&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+        <description></description>
         
         <dc:creator>竹白</dc:creator>
         <media:content url="https://chupai.github.ioimages/covers/2103/removedAPI.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -155,17 +183,7 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Mon, 15 Mar 2021 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/2103/other/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;本篇為官方文件 &lt;strong&gt;&lt;a href=&#34;https://v3.vuejs.org/guide/migration/introduction.html&#34;&gt;Migration from Vue 2&lt;/a&gt;&lt;/strong&gt; 筆記。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/globalapi/&#34;&gt;全域 API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/templatedirectives/&#34;&gt;模板指令&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/componentsrenderfunction/&#34;&gt;元件 &amp;amp; 渲染函數&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/customelements/&#34;&gt;自定義元素&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/other&#34;&gt;其他小改變&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/removedapi/&#34;&gt;移除 API&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+        <description></description>
         
         <dc:creator>竹白</dc:creator>
         <media:content url="https://chupai.github.ioimages/covers/2103/other.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -199,17 +217,7 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Sun, 14 Mar 2021 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/2103/customelements/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;本篇為官方文件 &lt;strong&gt;&lt;a href=&#34;https://v3.vuejs.org/guide/migration/introduction.html&#34;&gt;Migration from Vue 2&lt;/a&gt;&lt;/strong&gt; 筆記。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/globalapi/&#34;&gt;全域 API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/templatedirectives/&#34;&gt;模板指令&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/componentsrenderfunction/&#34;&gt;元件 &amp;amp; 渲染函數&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/customelements/&#34;&gt;自定義元素&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/other&#34;&gt;其他小改變&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/removedapi/&#34;&gt;移除 API&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+        <description></description>
         
         <dc:creator>竹白</dc:creator>
         <media:content url="https://chupai.github.ioimages/covers/2103/customElements.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -243,17 +251,7 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Sat, 13 Mar 2021 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/2103/componentsrenderfunction/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;本篇為官方文件 &lt;strong&gt;&lt;a href=&#34;https://v3.vuejs.org/guide/migration/introduction.html&#34;&gt;Migration from Vue 2&lt;/a&gt;&lt;/strong&gt; 筆記。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/globalapi/&#34;&gt;全域 API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/templatedirectives/&#34;&gt;模板指令&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/componentsrenderfunction/&#34;&gt;元件 &amp;amp; 渲染函數&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/customelements/&#34;&gt;自定義元素&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/other&#34;&gt;其他小改變&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/removedapi/&#34;&gt;移除 API&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+        <description></description>
         
         <dc:creator>竹白</dc:creator>
         <media:content url="https://chupai.github.ioimages/covers/2103/components&amp;renderFunction.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -287,17 +285,7 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Fri, 12 Mar 2021 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/2103/templatedirectives/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;本篇為官方文件 &lt;strong&gt;&lt;a href=&#34;https://v3.vuejs.org/guide/migration/introduction.html&#34;&gt;Migration from Vue 2&lt;/a&gt;&lt;/strong&gt; 筆記。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/globalapi/&#34;&gt;全域 API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/templatedirectives/&#34;&gt;模板指令&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/componentsrenderfunction/&#34;&gt;元件 &amp;amp; 渲染函數&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/customelements/&#34;&gt;自定義元素&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/other&#34;&gt;其他小改變&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/removedapi/&#34;&gt;移除 API&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+        <description></description>
         
         <dc:creator>竹白</dc:creator>
         <media:content url="https://chupai.github.ioimages/covers/2103/templateDirectives.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -331,17 +319,7 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Thu, 11 Mar 2021 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/2103/globalapi/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;本篇為官方文件 &lt;strong&gt;&lt;a href=&#34;https://v3.vuejs.org/guide/migration/introduction.html&#34;&gt;Migration from Vue 2&lt;/a&gt;&lt;/strong&gt; 筆記。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/globalapi/&#34;&gt;全域 API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/templatedirectives/&#34;&gt;模板指令&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/componentsrenderfunction/&#34;&gt;元件 &amp;amp; 渲染函數&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/customelements/&#34;&gt;自定義元素&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/other&#34;&gt;其他小改變&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chupai.github.io/posts/2103/removedapi/&#34;&gt;移除 API&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+        <description></description>
         
         <dc:creator>竹白</dc:creator>
         <media:content url="https://chupai.github.ioimages/covers/2103/globalAPI.png" medium="image"><media:title type="html">featured image</media:title></media:content>

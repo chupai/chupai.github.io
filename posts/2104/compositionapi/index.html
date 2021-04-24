@@ -1535,7 +1535,7 @@ if (!doNotTrack) {
 <div class="single__infos">
   <time class="single__info" title="創建日期">📅&nbsp;2021年04月13日 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="閱讀時長"> ☕&nbsp;8&nbsp;分鐘 </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="閱讀時長"> ☕&nbsp;9&nbsp;分鐘 </span>
   
   <span class="single__info">
     
@@ -1844,6 +1844,7 @@ if (!doNotTrack) {
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
@@ -1851,13 +1852,11 @@ if (!doNotTrack) {
   <span class="nx">setup</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">props</span><span class="p">.</span><span class="nx">msg</span><span class="p">);</span>
   <span class="p">},</span>
-<span class="p">};</span>
+  <span class="c1">// ...
+</span><span class="c1"></span><span class="p">};</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/poRpbpW">Vue 3.x  - props 參數</a></p>
-<blockquote>
-<p>在模板中雖然可以直接取得 prop，但使用 Composition API 時，會建議在 <code>setup()</code> 中回傳，這樣可以清楚明白資料的來源。</p>
-</blockquote>
+</div><p>響應式物件無法直接使用 ES6 的解構，會直接失去響應式特性。因此 Vue 3.x 提供了 <a href="https://v3.cn.vuejs.org/api/refs-api.html#torefs"><code>toRefs</code></a> 方法，它會將響應式物件轉成普通物件並將每個 property 轉成指向原始物件相應 property 的 Ref 物件。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -1870,41 +1869,6 @@ if (!doNotTrack) {
 </span><span class="lnt"> 8
 </span><span class="lnt"> 9
 </span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-vue" data-lang="vue"><span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
-  <span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
-    <span class="nx">props</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;msg&#39;</span><span class="p">],</span>
-    <span class="nx">setup</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
-      <span class="k">return</span> <span class="p">{</span> <span class="nx">props</span> <span class="p">};</span>
-    <span class="p">},</span>
-  <span class="p">};</span>
-<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-
-<span class="p">&lt;</span><span class="nt">template</span><span class="p">&gt;</span> 
-  <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;{{</span> <span class="nx">props</span><span class="p">.</span><span class="nx">msg</span> <span class="p">}}&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">template</span><span class="p">&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>注意，如果想要使用 ES6 的解構 <code>props</code> 取 prop，會失去響應性。</p>
-<p>響應式物件無法直接使用 ES6 的解構，會直接失去響應式特性。因此 Vue 3.x 提供了 <a href="https://v3.cn.vuejs.org/api/refs-api.html#torefs"><code>toRefs</code></a> 方法，它會將響應式物件轉成普通物件並將每個 property 轉成指向原始物件相應 property 的 Ref 物件。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span> <span class="nx">toRef</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;vue&#39;</span><span class="p">;</span>
@@ -1912,10 +1876,11 @@ if (!doNotTrack) {
 <span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
   <span class="nx">props</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;msg&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">],</span>
   <span class="nx">setup</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="p">{</span> <span class="nx">name</span><span class="o">:</span> <span class="nx">propsMsg</span><span class="p">,</span> <span class="nx">msg</span><span class="o">:</span> <span class="nx">propsName</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">toRefs</span><span class="p">(</span><span class="nx">props</span><span class="p">);</span>
-    <span class="k">return</span> <span class="p">{</span> <span class="nx">propsMsg</span><span class="p">,</span> <span class="nx">propsName</span> <span class="p">};</span>
+    <span class="kr">const</span> <span class="p">{</span> <span class="nx">name</span><span class="p">,</span> <span class="nx">msg</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">toRefs</span><span class="p">(</span><span class="nx">props</span><span class="p">);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">.</span><span class="nx">value</span><span class="p">,</span> <span class="nx">msg</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
   <span class="p">},</span>
-<span class="p">};</span>
+  <span class="c1">// ...
+</span><span class="c1"></span><span class="p">};</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/VwPQLNd">Vue 3.x  - toRefs</a></p>
@@ -1937,6 +1902,7 @@ if (!doNotTrack) {
 </span><span class="lnt">12
 </span><span class="lnt">13
 </span><span class="lnt">14
+</span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span> <span class="nx">toRef</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;vue&#39;</span><span class="p">;</span>
@@ -1950,9 +1916,10 @@ if (!doNotTrack) {
   <span class="p">},</span>
   <span class="nx">setup</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
     <span class="kr">const</span> <span class="nx">msg</span> <span class="o">=</span> <span class="nx">toRef</span><span class="p">(</span><span class="nx">props</span><span class="p">,</span> <span class="s1">&#39;msg&#39;</span><span class="p">);</span>
-    <span class="k">return</span> <span class="p">{</span> <span class="nx">msg</span> <span class="p">};</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">msg</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
   <span class="p">},</span>
-<span class="p">};</span>
+  <span class="c1">// ...
+</span><span class="c1"></span><span class="p">};</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/bGgLVLp">Vue 3.x  - toRef</a></p>
@@ -2700,7 +2667,116 @@ if (!doNotTrack) {
 <span class="p">};</span>
 </code></pre></td></tr></table>
 </div>
+</div><h2 id="vueusevue-composition-api-的實用工具集合">VueUse：Vue Composition API 的實用工具集合</h2>
+<h3 id="1-簡介">1. 簡介</h3>
+<blockquote>
+<p><a href="https://vueuse.org/">VueUse</a><br />
+VueUse 是一個 Vue Composition API 的實用工具集合。</p>
+</blockquote>
+<p>本文撰寫時，<a href="https://github.com/vueuse/vueuse">github</a> 上已擁有 3.7k 以上的 star。</p>
+<p>特點：</p>
+<ul>
+<li>互動式的 Docs 和 Demos。</li>
+<li>Vue 2 和 Vue 3 都支持。</li>
+<li>tree shaking 結構，只會打包引入的程式碼。</li>
+<li>使用 TypeScript 編寫，帶有 TS 檔案。</li>
+<li>可通過 CDN 使用。</li>
+<li>可配置事件過濾器和目標。</li>
+<li>支持各種套件，例如 Router、Firebase、RxJS 等。</li>
+</ul>
+<h3 id="安裝">安裝</h3>
+<h4 id="cdn">CDN</h4>
+<p>CDN：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!-- shared 一定要在前--&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://unpkg.com/@vueuse/shared&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://unpkg.com/@vueuse/core&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
 </div>
+</div><p>使用 <code>window.VueUse</code>：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="p">{</span> <span class="nx">useMouse</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">VueUse</span><span class="p">;</span>
+
+<span class="kr">const</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">Vue</span><span class="p">.</span><span class="nx">createApp</span><span class="p">({</span>
+  <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// tracks mouse position
+</span><span class="c1"></span>    <span class="kr">const</span> <span class="p">{</span> <span class="nx">x</span><span class="p">,</span> <span class="nx">y</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">useMouse</span><span class="p">();</span>
+    <span class="k">return</span> <span class="p">{</span> <span class="nx">x</span><span class="p">,</span> <span class="nx">y</span> <span class="p">};</span>
+  <span class="p">},</span>
+<span class="p">});</span>
+<span class="nx">app</span><span class="p">.</span><span class="nx">mount</span><span class="p">(</span><span class="s1">&#39;#app&#39;</span><span class="p">);</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/eYgjraG">VueUse Demo - Vue3</a></p>
+<h4 id="npm">NPM</h4>
+<p>安裝：</p>
+<pre><code># npm
+npm i @vueuse/core
+
+# yarn
+yarn add @vueuse/core
+</code></pre><p>從 <code>@vueuse/core</code> 引入：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span> <span class="nx">useMouse</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@vueuse/core&#39;</span><span class="p">;</span>
+
+<span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
+  <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;App&#39;</span><span class="p">,</span>
+  <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// tracks mouse position
+</span><span class="c1"></span>    <span class="kr">const</span> <span class="p">{</span> <span class="nx">x</span><span class="p">,</span> <span class="nx">y</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">useMouse</span><span class="p">();</span>
+    <span class="k">return</span> <span class="p">{</span> <span class="nx">x</span><span class="p">,</span> <span class="nx">y</span> <span class="p">};</span>
+  <span class="p">},</span>
+<span class="p">};</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="3-核心功能">3. 核心功能</h3>
+<blockquote>
+<p><a href="https://vueuse.org/functions.html#core-functions">VueUse - Core Functions</a><br />
+官方文件有完整說明與範例。</p>
+</blockquote>
+<ul>
+<li>Animation 動畫</li>
+<li>Browser 瀏覽器</li>
+<li>Component 元件</li>
+<li>Formatters 格式化</li>
+<li>Misc 其他</li>
+<li>Sensors 感測器</li>
+<li>State 狀態</li>
+<li>Utilities 實用工具</li>
+<li>Watch 監聽</li>
+</ul>
     </article>
     
     <script>
@@ -4003,6 +4079,13 @@ document.addEventListener('DOMContentLoaded', function () {
       <ul>
         <li><a href="#1-簡易拆分">1. 簡易拆分</a></li>
         <li><a href="#2-抽離成模組">2. 抽離成模組</a></li>
+      </ul>
+    </li>
+    <li><a href="#vueusevue-composition-api-的實用工具集合">VueUse：Vue Composition API 的實用工具集合</a>
+      <ul>
+        <li><a href="#1-簡介">1. 簡介</a></li>
+        <li><a href="#安裝">安裝</a></li>
+        <li><a href="#3-核心功能">3. 核心功能</a></li>
       </ul>
     </li>
   </ul>

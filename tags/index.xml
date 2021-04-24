@@ -14,13 +14,67 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>ES6</title>
+        <link>https://chupai.github.io/tags/es6/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/es6/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>ES6 Module</title>
+        <link>https://chupai.github.io/tags/es6-module/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/es6-module/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>JavaScript</title>
+        <link>https://chupai.github.io/tags/javascript/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/javascript/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Teleport</title>
@@ -137,24 +191,6 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/day.js/</guid>
-        <description></description>
-        
-        <dc:creator>竹白</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>JavaScript</title>
-        <link>https://chupai.github.io/tags/javascript/</link>
-        <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
-        <author>chupaiwang@gmail.com (竹白)</author>
-        
-        <guid>https://chupai.github.io/tags/javascript/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -839,24 +875,6 @@
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/window.location/</guid>
-        <description></description>
-        
-        <dc:creator>竹白</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>ES6</title>
-        <link>https://chupai.github.io/tags/es6/</link>
-        <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-        <author>chupaiwang@gmail.com (竹白)</author>
-        
-        <guid>https://chupai.github.io/tags/es6/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>

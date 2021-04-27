@@ -14,13 +14,51 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/sass/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>BEM，CSS 設計模式</title>
+        <link>https://chupai.github.io/posts/2104/bem/</link>
+        <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Wed, 28 Apr 2021 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2104/bem/</guid>
+        <description>&lt;p&gt;BEM 是一種模組化元件 CSS 命名規範，最初由 Yandex 團隊所提出。能夠幫助你在開發過程中，增加 &lt;code&gt;class&lt;/code&gt; 名稱的複用性與命名上的衝突。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2104/BEM.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>舊文章搬運</category>
+            
+          
+            
+              <category>SASS</category>
+            
+          
+            
+              <category>BEM</category>
+            
+          
+        
+        
+          
+            
+              <category>舊文章搬運</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>甜點電商 - 切版練習</title>

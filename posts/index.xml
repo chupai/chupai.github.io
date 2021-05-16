@@ -14,13 +14,37 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 May 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>如何逛 GitHub</title>
+        <link>https://chupai.github.io/posts/2105/search-github/</link>
+        <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sun, 16 May 2021 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2105/search-github/</guid>
+        <description>&lt;p&gt;GitHub 是巨大的開源寶庫，如果你只會丟程式碼上去，就太浪費了。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2105/search-github.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>GitHub</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>BEM，CSS 設計模式</title>
@@ -2127,12 +2151,6 @@
             
           
         
-        
-          
-            
-              <category>JavaScript 學演算法</category>
-            
-          
         
       </item>
       

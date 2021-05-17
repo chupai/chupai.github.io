@@ -14,13 +14,67 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sun, 16 May 2021 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Vue</title>
+        <link>https://chupai.github.io/tags/vue/</link>
+        <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/vue/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Vue3</title>
+        <link>https://chupai.github.io/tags/vue3/</link>
+        <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/vue3/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>學習資源</title>
+        <link>https://chupai.github.io/tags/%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90/</link>
+        <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>GitHub 筆記</title>
@@ -203,48 +257,12 @@
       </item>
       
       <item>
-        <title>Vue</title>
-        <link>https://chupai.github.io/tags/vue/</link>
-        <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
-        <author>chupaiwang@gmail.com (竹白)</author>
-        
-        <guid>https://chupai.github.io/tags/vue/</guid>
-        <description></description>
-        
-        <dc:creator>竹白</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>Vue 3 全新功能</title>
         <link>https://chupai.github.io/tags/vue-3-%E5%85%A8%E6%96%B0%E5%8A%9F%E8%83%BD/</link>
         <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/vue-3-%E5%85%A8%E6%96%B0%E5%8A%9F%E8%83%BD/</guid>
-        <description></description>
-        
-        <dc:creator>竹白</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Vue3</title>
-        <link>https://chupai.github.io/tags/vue3/</link>
-        <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
-        <author>chupaiwang@gmail.com (竹白)</author>
-        
-        <guid>https://chupai.github.io/tags/vue3/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>

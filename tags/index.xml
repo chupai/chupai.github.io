@@ -14,7 +14,7 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,7 +25,7 @@
       <item>
         <title>Tailwind CSS</title>
         <link>https://chupai.github.io/tags/tailwind-css/</link>
-        <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 21 May 2021 00:00:00 +0800</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/tailwind-css/</guid>

@@ -14,13 +14,31 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Tailwind CSS</title>
+        <link>https://chupai.github.io/tags/tailwind-css/</link>
+        <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/tailwind-css/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Vue</title>
@@ -473,12 +491,12 @@
       </item>
       
       <item>
-        <title>TailwindCSS</title>
-        <link>https://chupai.github.io/tags/tailwindcss/</link>
+        <title>Vue CLI</title>
+        <link>https://chupai.github.io/tags/vue-cli/</link>
         <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>https://chupai.github.io/tags/tailwindcss/</guid>
+        <guid>https://chupai.github.io/tags/vue-cli/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>

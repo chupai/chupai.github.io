@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Tailwind CSS on 竹白記事本</title>
+    <link>https://chupai.github.io/tags/tailwind-css/</link>
+    <description>Recent content in Tailwind CSS on 竹白記事本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
+    <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
+    <copyright>Copyright © {year} 竹白記事本</copyright>
+    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://chupai.github.io/tags/tailwind-css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Tailwind CSS v2.1</title>
+        <link>https://chupai.github.io/posts/2105/tailwindcss_v2.1/</link>
+        <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Fri, 21 May 2021 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2105/tailwindcss_v2.1/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2105/tailwindcss_v2.1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Tailwind CSS</category>
+            
+          
+        
+        
+          
+            
+              <category>Tailwind CSS</category>
+            
+          
+        
+        
+          
+            
+              <category>Tailwind CSS</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue CLI 安裝 TailwindCSS v2.0</title>
+        <link>https://chupai.github.io/posts/2011/tailwindcss/</link>
+        <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Sat, 28 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2011/tailwindcss/</guid>
+        <description>&lt;p&gt;Vue CLI 安裝 Tailwind CSS v2.0。&lt;/p&gt;</description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2011/tailwindcss.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue CLI</category>
+            
+          
+            
+              <category>Tailwind CSS</category>
+            
+          
+        
+        
+          
+            
+              <category>Tailwind CSS</category>
+            
+          
+        
+        
+          
+            
+              <category>Tailwind CSS</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -23,40 +23,6 @@
 
       
       <item>
-        <title>Vue CLI 安裝 TailwindCSS v2.0</title>
-        <link>https://chupai.github.io/posts/2011/tailwindcss/</link>
-        <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
-        <author>chupaiwang@gmail.com (竹白)</author>
-        <atom:modified>Sat, 28 Nov 2020 00:00:00 +0000</atom:modified>
-        <guid>https://chupai.github.io/posts/2011/tailwindcss/</guid>
-        <description>&lt;p&gt;Vue CLI 安裝 Tailwind CSS v2.0。&lt;/p&gt;</description>
-        
-        <dc:creator>竹白</dc:creator>
-        <media:content url="https://chupai.github.ioimages/covers/2011/tailwindcss.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Vue</category>
-            
-          
-            
-              <category>TailwindCSS</category>
-            
-          
-        
-        
-          
-            
-              <category>TailwindCSS</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
         <title>Vue - Router</title>
         <link>https://chupai.github.io/posts/2011/vue_vuex/</link>
         <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>

@@ -14,7 +14,7 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -44,13 +44,49 @@
 
       
       <item>
+        <title>Tailwind CSS v2.1</title>
+        <link>https://chupai.github.io/posts/2105/tailwindcss_v2.1/</link>
+        <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Fri, 21 May 2021 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2105/tailwindcss_v2.1/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2105/tailwindcss_v2.1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Tailwind CSS</category>
+            
+          
+        
+        
+          
+            
+              <category>Tailwind CSS</category>
+            
+          
+        
+        
+          
+            
+              <category>Tailwind CSS</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Vue 3 - 學習資源</title>
         <link>https://chupai.github.io/posts/2105/vue3/</link>
         <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         <atom:modified>Tue, 18 May 2021 00:00:00 +0000</atom:modified>
         <guid>https://chupai.github.io/posts/2105/vue3/</guid>
-        <description>&lt;p&gt;Vue 3 習資源，偶爾更新。&lt;/p&gt;</description>
+        <description>&lt;p&gt;Vue 3 學習資源，偶爾更新。&lt;/p&gt;</description>
         
         <dc:creator>竹白</dc:creator>
         <media:content url="https://chupai.github.ioimages/covers/2105/vue3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -669,21 +705,27 @@
         
           
             
-              <category>Vue</category>
+              <category>Vue CLI</category>
             
           
             
-              <category>TailwindCSS</category>
+              <category>Tailwind CSS</category>
+            
+          
+        
+        
+          
+            
+              <category>Tailwind CSS</category>
             
           
         
         
           
             
-              <category>TailwindCSS</category>
+              <category>Tailwind CSS</category>
             
           
-        
         
       </item>
       

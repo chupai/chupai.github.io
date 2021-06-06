@@ -1824,9 +1824,8 @@ if (!doNotTrack) {
 </div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/VwPQmEQ">Vue 3.0 - 自動解構</a></p>
 <h3 id="4-reactive-vs-ref">4. Reactive vs Ref</h3>
 <p>基本型別，肯定只能使用 <code>ref()</code> 宣告，那麼複雜型別呢？究竟是要使用 <code>ref()</code> 還是 <code>reactive()</code>？</p>
-<p>有些人認為複雜型別就用 <code>reactive()</code> 就好了啊，少一層 <code>.value</code> 多方便。但當你遇到需要清空物件時，你無法直接指定空物件，這時你只能改用 <code>ref()</code> 宣告。</p>
 <blockquote>
-<p>為了風格統一，我個人是建議全部使用 <code>ref()</code> 宣告響應式資料。不過如果你有其他看法，可以留言討論。</p>
+<p>可以參考 <a href="https://www.bilibili.com/video/BV1x54y1V7H6"><strong>VUE CONF 21 - VueUse 作者 Anthony Fu 分享可組合的 Vue</strong></a></p>
 </blockquote>
 <h2 id="setup-參數">setup 參數</h2>
 <p>執行 <code>setup</code> 函式時，元件實體尚未被建立，在 <code>setup</code> 函式內的 <code>this</code> 不是實體的引用，若要訪問 <code>props</code>、<code>attrs</code>、<code>slots</code>、<code>emit</code> 可以透過 <code>setup</code> 函式提供的兩個參數來訪問：</p>
@@ -1871,7 +1870,7 @@ if (!doNotTrack) {
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span> <span class="nx">toRef</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;vue&#39;</span><span class="p">;</span>
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span> <span class="nx">toRefs</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;vue&#39;</span><span class="p">;</span>
 
 <span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
   <span class="nx">props</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;msg&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">],</span>

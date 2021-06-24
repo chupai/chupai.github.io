@@ -1883,45 +1883,8 @@ if (!doNotTrack) {
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/VwPQLNd">Vue 3.x  - toRefs</a></p>
-<p>如果 prop 是可選的，那麼傳入的 <code>props</code> 中可能會沒有該 prop，<code>toRefs()</code> 不會為不存在的 prop 建立一個 Ref 物件，這種情況下，可以改使用 <a href="https://v3.cn.vuejs.org/api/refs-api.html#toref"><code>toRef</code></a> 方法處理。</p>
-<p><code>toRef()</code> 與 <code>ref()</code> 雖然都是用建立響應式資料，但 <code>ref</code> 會複製一份新的資料，而 <code>toRef()</code> 會保持對其源 property 的響應式連接。即使源 property 不存在，<code>toRef()</code> 也會回傳一個可用的 Ref 物件。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span> <span class="nx">toRef</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;vue&#39;</span><span class="p">;</span>
-
-<span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
-  <span class="nx">props</span><span class="o">:</span> <span class="p">{</span>
-    <span class="nx">msg</span><span class="o">:</span> <span class="p">{</span>
-      <span class="nx">type</span><span class="o">:</span> <span class="nb">String</span><span class="p">,</span>
-      <span class="k">default</span><span class="o">:</span> <span class="s1">&#39;Hi!&#39;</span><span class="p">,</span>
-    <span class="p">},</span>
-  <span class="p">},</span>
-  <span class="nx">setup</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="nx">msg</span> <span class="o">=</span> <span class="nx">toRef</span><span class="p">(</span><span class="nx">props</span><span class="p">,</span> <span class="s1">&#39;msg&#39;</span><span class="p">);</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">msg</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
-  <span class="p">},</span>
-  <span class="c1">// ...
-</span><span class="c1"></span><span class="p">};</span>
-</code></pre></td></tr></table>
-</div>
-</div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/bGgLVLp">Vue 3.x  - toRef</a></p>
+<p>如果 prop 是可選的，且沒有設置預設值，那麼 <code>props</code> 可能會沒有該 prop 的 Ref 物件，這種情況下，不能使用 <code>toRefs()</code>，需要改用 <a href="https://v3.cn.vuejs.org/api/refs-api.html#toref"><code>toRef</code></a> 方法處理</p>
+<p><code>toRef()</code> 與 <code>ref()</code> 雖然都是用建立響應式資料，但 <code>ref</code> 會複製一份新的資料，而 <code>toRef()</code> 會保持對其源 property 的響應式連接。即使 prop 不存在，<code>toRef()</code> 也會回傳一個 Ref 物件。</p>
 <h3 id="2-context">2. Context</h3>
 <p><code>context</code> 是一個普通的物件，它暴露三個元件的 property：</p>
 <ul>

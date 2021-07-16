@@ -14,7 +14,7 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,12 +23,30 @@
 
       
       <item>
-        <title>Tailwind CSS</title>
-        <link>https://chupai.github.io/tags/tailwind-css/</link>
-        <pubDate>Fri, 21 May 2021 00:00:00 +0800</pubDate>
+        <title> WindiCSS</title>
+        <link>https://chupai.github.io/tags/windicss/</link>
+        <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
-        <guid>https://chupai.github.io/tags/tailwind-css/</guid>
+        <guid>https://chupai.github.io/tags/windicss/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Vite2</title>
+        <link>https://chupai.github.io/tags/vite2/</link>
+        <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/vite2/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>
@@ -43,7 +61,7 @@
       <item>
         <title>Vue</title>
         <link>https://chupai.github.io/tags/vue/</link>
-        <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/vue/</guid>
@@ -61,10 +79,28 @@
       <item>
         <title>Vue3</title>
         <link>https://chupai.github.io/tags/vue3/</link>
-        <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
         <author>chupaiwang@gmail.com (竹白)</author>
         
         <guid>https://chupai.github.io/tags/vue3/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Tailwind CSS</title>
+        <link>https://chupai.github.io/tags/tailwind-css/</link>
+        <pubDate>Fri, 21 May 2021 00:00:00 +0800</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        
+        <guid>https://chupai.github.io/tags/tailwind-css/</guid>
         <description></description>
         
         <dc:creator>竹白</dc:creator>

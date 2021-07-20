@@ -1607,7 +1607,7 @@ if (!doNotTrack) {
 <li>這個階段元素一樣尚未被掛載；</li>
 <li><code>data</code>、<code>computed</code>、 <code>methods</code>、<code>watch</code> 等等已可取得。</li>
 </ul>
-<p>資料操作至少要等到 <code>created</code> 階段，因此通常我們用 AJAX 取得資料操作會在這裡執行，但不建議過多的請求，避免網頁無畫面的時間過長，可以考慮在 <code>mounted</code> 階段做出讀取畫面再打操作。</p>
+<p>資料操作至少要等到 <code>created</code> 階段。</p>
 <h2 id="模板編譯階段">模板編譯階段</h2>
 <p><img src="https://i.imgur.com/RM4XRNJ.png" alt="" /></p>
 <p><code>created</code> 鉤子到 <code>beforeMount</code> 鉤子之間的階段叫做模板編譯階段，主要目的為將模板編譯為 <code>render</code> 函式。</p>

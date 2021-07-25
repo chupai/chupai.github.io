@@ -1825,9 +1825,9 @@ if (!doNotTrack) {
 <h3 id="4-reactive-vs-ref">4. Reactive vs Ref</h3>
 <p>基本型別，肯定只能使用 <code>ref()</code> 宣告，那麼複雜型別呢？究竟是要使用 <code>ref()</code> 還是 <code>reactive()</code>？</p>
 <blockquote>
-<p>可以參考 <a href="https://www.bilibili.com/video/BV1x54y1V7H6"><strong>VUE CONF 21 - VueUse 作者 Anthony Fu 分享可組合的 Vue</strong></a></p>
+<p>可以參考 <a href="https://www.youtube.com/watch?v=84tk3XlS71c">VUE CONF 21 - VueUse 作者 Anthony Fu 分享可組合的 Vue</a>。</p>
 </blockquote>
-<h2 id="setup-參數">setup 參數</h2>
+<h2 id="setup-參數">Setup 參數</h2>
 <p>執行 <code>setup</code> 函式時，元件實體尚未被建立，在 <code>setup</code> 函式內的 <code>this</code> 不是實體的引用，若要訪問 <code>props</code>、<code>attrs</code>、<code>slots</code>、<code>emit</code> 可以透過 <code>setup</code> 函式提供的兩個參數來訪問：</p>
 <ul>
 <li><code>props</code></li>
@@ -1855,7 +1855,9 @@ if (!doNotTrack) {
 </span><span class="c1"></span><span class="p">};</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>響應式物件無法直接使用 ES6 的解構，會直接失去響應式特性。因此 Vue 3.x 提供了 <a href="https://v3.cn.vuejs.org/api/refs-api.html#torefs"><code>toRefs</code></a> 方法，它會將響應式物件轉成普通物件並將每個 property 轉成指向原始物件相應 property 的 Ref 物件。</p>
+</div><h4 id="torefs">toRefs</h4>
+<p>注意，如果想要使用 ES6 的解構 <code>const { msg } = props</code>，會失去響應性。</p>
+<p>因此 Vue 3.x 提供了 <a href="https://v3.cn.vuejs.org/api/refs-api.html#torefs"><code>toRefs</code></a> 方法。它會將響應式物件轉成普通物件並將每個 property 轉成指向原始物件相應 property 的 Ref 物件。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -1870,7 +1872,7 @@ if (!doNotTrack) {
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span> <span class="nx">toRefs</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;vue&#39;</span><span class="p">;</span>
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span> <span class="nx">toRef</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;vue&#39;</span><span class="p">;</span>
 
 <span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
   <span class="nx">props</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;msg&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">],</span>
@@ -1883,8 +1885,56 @@ if (!doNotTrack) {
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/VwPQLNd">Vue 3.x  - toRefs</a></p>
-<p>如果 prop 是可選的，且沒有設置預設值，那麼 <code>props</code> 可能會沒有該 prop 的 Ref 物件，這種情況下，不能使用 <code>toRefs()</code>，需要改用 <a href="https://v3.cn.vuejs.org/api/refs-api.html#toref"><code>toRef</code></a> 方法處理</p>
-<p><code>toRef()</code> 與 <code>ref()</code> 雖然都是用建立響應式資料，但 <code>ref</code> 會複製一份新的資料，而 <code>toRef()</code> 會保持對其源 property 的響應式連接。即使 prop 不存在，<code>toRef()</code> 也會回傳一個 Ref 物件。</p>
+<h4 id="toref">toRef</h4>
+<p>如果 prop 是可選的，那麼傳入的 <code>props</code> 可能會沒有不存在，使用 <code>toRefs()</code> 將無法得到 Ref 物件。這種情況下，可以改使用 <a href="https://v3.cn.vuejs.org/api/refs-api.html#toref"><code>toRef</code></a> 方法處理。</p>
+<p><code>toRef()</code> 與 <code>ref()</code> 雖然都是用建立響應式資料，但 <code>ref</code> 會複製一份新的資料，而 <code>toRef()</code> 會保持對其源 property 的響應式連接。即使源 property 不存在，<code>toRef()</code> 也會回傳一個可用的 Ref 物件。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span> <span class="nx">toRef</span><span class="p">,</span> <span class="nx">toRefs</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;vue&#39;</span><span class="p">;</span>
+
+<span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
+  <span class="nx">props</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">msg</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">type</span><span class="o">:</span> <span class="nb">String</span><span class="p">,</span>
+    <span class="p">},</span>
+    <span class="nx">name</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">type</span><span class="o">:</span> <span class="nb">String</span><span class="p">,</span>
+    <span class="p">},</span>
+  <span class="p">},</span>
+  <span class="nx">setup</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">msg</span> <span class="o">=</span> <span class="nx">toRef</span><span class="p">(</span><span class="nx">props</span><span class="p">,</span> <span class="s1">&#39;msg&#39;</span><span class="p">);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">msg</span><span class="p">);</span> <span class="c1">// Ref {}
+</span><span class="c1"></span>    
+    <span class="kr">const</span> <span class="p">{</span> <span class="nx">name</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">toRefs</span><span class="p">(</span><span class="nx">props</span><span class="p">);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">);</span> <span class="c1">// undefined
+</span><span class="c1"></span>  <span class="p">},</span>
+  <span class="c1">// ...
+</span><span class="c1"></span><span class="p">};</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/bGgLVLp">Vue 3.x  - toRef</a></p>
 <h3 id="2-context">2. Context</h3>
 <p><code>context</code> 是一個普通的物件，它暴露三個元件的 property：</p>
 <ul>
@@ -2177,7 +2227,7 @@ if (!doNotTrack) {
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="provide--inject">Provide / Inject</h2>
-<p>在 Composition API 中使用 <a href="https://v3.cn.vuejs.org/api/options-composition.html#provide-inject"><code>provide/inject</code></a>。</p>
+<p>在 Composition API 中使用 <a href="https://v3.cn.vuejs.org/guide/component-provide-inject.html">Provide / Inject</a> 依賴注入。</p>
 <h3 id="1-provide">1. Provide</h3>
 <p>在 <code>setup()</code> 中使用 <code>provide</code> 時，需要使用到 <code>provide</code> 方法。</p>
 <p><code>provide()</code> 接受兩個參數，用來定義要傳遞的資料：</p>
@@ -2260,7 +2310,7 @@ if (!doNotTrack) {
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="4-操作響應式">4. 操作響應式</h3>
-<p><code>provide/inject</code> 不像 Vuex 一樣可以追蹤狀態改變，如果資料狀態操作分散在多個後代元件中，會很難維護。</p>
+<p><code>provide/inject</code> 不像 Vuex 可以追蹤狀態改變，如果資料狀態操作分散在多個後代元件中，會很難維護。</p>
 <blockquote>
 <p>因此，建議盡可能在定義 <code>provide</code> 的元件上操作 響應式的 <code>provide/inject</code> 資料。</p>
 </blockquote>
@@ -2361,9 +2411,7 @@ if (!doNotTrack) {
 </div>
 </div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/PoWROqx">Vue 3.x  - Composition API 模板引用</a></p>
 <h3 id="2-v-for-的處理">2. v-for 的處理</h3>
-<blockquote>
 <p><code>v-for</code> 模板引用 Vue 2.x 與 Vue 3.x 的差異可以參考 <a href="https://chupai.github.io/posts/2103/templatedirectives/"><strong>模板指令：v-for 中的 Ref 陣列</strong></a>。</p>
-</blockquote>
 <p>Composition API：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2437,8 +2485,37 @@ if (!doNotTrack) {
 </div>
 </div><p><strong>CodePen Demo：</strong><a href="https://codepen.io/CHUPAIWANG/pen/BaprroM">Vue 3.0  - 模板引用 v-for 的處理</a></p>
 <h2 id="邏輯拆分">邏輯拆分</h2>
+<h3 id="1-應用範例">1. 應用範例</h3>
 <p>Composition API 最主要的目的就是將邏輯功能拆分出來，並在入口函式 <code>setup</code> 中組合使用。</p>
-<p>舉個例子，下面為一個簡單的 TodoAdd 元件，用來新增 TodoList 資料狀態。</p>
+<blockquote>
+<p><strong>假設要實現一個色系切換的功能</strong></p>
+</blockquote>
+<p>透過 JavaScript 判斷目前系統主題色是否為深色，需要用到 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Window/matchMedia"><code>Window.matchMedia()</code></a> 和 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/@media/prefers-color-scheme"><code>prefers-color-scheme</code></a>：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// 判斷當前系統主題色是否為深色
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">prefersColorSchemeMedia</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">matchMedia</span><span class="p">(</span><span class="s1">&#39;(prefers-color-scheme: dark)&#39;</span><span class="p">);</span>
+<span class="kd">let</span> <span class="nx">preferredDark</span> <span class="o">=</span> <span class="nx">prefersColorSchemeMedia</span><span class="p">.</span><span class="nx">matches</span><span class="p">;</span>
+
+<span class="c1">// 監聽系統主題色是否有改變
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">handler</span> <span class="o">=</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+  <span class="nx">preferredDark</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">matches</span><span class="p">;</span>
+<span class="p">};</span>
+<span class="nx">prefersColorSchemeMedia</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;change&#39;</span><span class="p">,</span> <span class="nx">handler</span><span class="p">);</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Vue Options API：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -2464,31 +2541,31 @@ if (!doNotTrack) {
 </span><span class="lnt">21
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// TodoAdd.vue
-</span><span class="c1"></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">ref</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;vue&#39;</span><span class="p">;</span>
-
-<span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
-  <span class="nx">emits</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;addTodo&#39;</span><span class="p">],</span>
-  <span class="nx">setup</span><span class="p">(</span><span class="nx">props</span><span class="p">,</span> <span class="p">{</span> <span class="nx">emit</span> <span class="p">})</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="nx">content</span> <span class="o">=</span> <span class="nx">ref</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">);</span>
-    <span class="kd">function</span> <span class="nx">emitAddTodo</span><span class="p">()</span> <span class="p">{</span>
-      <span class="kr">const</span> <span class="nx">todo</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="nx">id</span><span class="o">:</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">getTime</span><span class="p">(),</span>
-        <span class="nx">content</span><span class="o">:</span> <span class="nx">content</span><span class="p">.</span><span class="nx">value</span><span class="p">,</span>
-        <span class="nx">isCompleted</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
-      <span class="p">};</span>
-      <span class="k">if</span> <span class="p">(</span><span class="nx">content</span><span class="p">.</span><span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">emit</span><span class="p">(</span><span class="s1">&#39;addTodo&#39;</span><span class="p">,</span> <span class="nx">todo</span><span class="p">);</span>
-      <span class="p">}</span>
-      <span class="nx">content</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
-    <span class="p">}</span>
-    <span class="k">return</span> <span class="p">{</span> <span class="nx">content</span><span class="p">,</span> <span class="nx">emitAddTodo</span> <span class="p">};</span>
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
+  <span class="nx">data</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="p">{</span>
+      <span class="nx">preferredDark</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+      <span class="nx">prefersColorSchemeMedia</span><span class="o">:</span> <span class="kc">undefined</span><span class="p">,</span>
+    <span class="p">};</span>
+  <span class="p">},</span>
+  <span class="nx">created</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">prefersColorSchemeMedia</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">matchMedia</span><span class="p">(</span><span class="s1">&#39;(prefers-color-scheme: dark)&#39;</span><span class="p">);</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">preferredDark</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">prefersColorSchemeMedia</span><span class="p">.</span><span class="nx">matches</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">prefersColorSchemeMedia</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;change&#39;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">prefersColorSchemeUpdate</span><span class="p">);</span>
+  <span class="p">},</span>
+  <span class="nx">unmounted</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">prefersColorSchemeMedia</span><span class="p">.</span><span class="nx">removeEventListener</span><span class="p">(</span><span class="s1">&#39;change&#39;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">prefersColorSchemeUpdate</span><span class="p">);</span>
+  <span class="p">},</span>
+  <span class="nx">methods</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">prefersColorSchemeUpdate</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">preferredDark</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">matches</span><span class="p">;</span>
+    <span class="p">},</span>
   <span class="p">},</span>
 <span class="p">};</span>
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="1-簡易拆分">1. 簡易拆分</h3>
-<p>將程式碼根據邏輯功能抽離成函式：</p>
+</div><p>Options API 若需要對其進行抽離，會使用 mixins 方式，但 mixins 的缺點很明顯，就是如果引入大量的 mixins 會不知道變數來自哪個，且存在命名稱衝突的問題。</p>
+<p>Vue Composition API，可以讓我們將功能脫離元件：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -2510,127 +2587,51 @@ if (!doNotTrack) {
 </span><span class="lnt">17
 </span><span class="lnt">18
 </span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// TodoAdd.vue
-</span><span class="c1"></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">ref</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;vue&#39;</span><span class="p">;</span>
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// usePreferredDark.js
+</span><span class="c1"></span>
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">ref</span><span class="p">,</span> <span class="nx">onUnmounted</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;vue&#39;</span><span class="p">;</span>
 
-<span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
-  <span class="nx">emits</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;addTodo&#39;</span><span class="p">],</span>
-  <span class="nx">setup</span><span class="p">(</span><span class="nx">props</span><span class="p">,</span> <span class="p">{</span> <span class="nx">emit</span> <span class="p">})</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="p">{</span> <span class="nx">content</span><span class="p">,</span> <span class="nx">emitAddTodo</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">useEmitAddTodo</span><span class="p">(</span><span class="nx">emit</span><span class="p">);</span>
-    <span class="k">return</span> <span class="p">{</span> <span class="nx">content</span><span class="p">,</span> <span class="nx">emitAddTodo</span> <span class="p">};</span>
-  <span class="p">},</span>
-<span class="p">};</span>
+<span class="kr">export</span> <span class="k">default</span> <span class="kd">function</span> <span class="nx">usePreferredDark</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="nx">preferredDark</span> <span class="o">=</span> <span class="nx">ref</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+  <span class="kr">const</span> <span class="nx">prefersColorSchemeMedia</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">matchMedia</span><span class="p">(</span><span class="s1">&#39;(prefers-color-scheme: dark)&#39;</span><span class="p">);</span>
+  <span class="nx">preferredDark</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">prefersColorSchemeMedia</span><span class="p">.</span><span class="nx">matches</span><span class="p">;</span>
 
-<span class="kd">function</span> <span class="nx">useEmitAddTodo</span><span class="p">(</span><span class="nx">emit</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kr">const</span> <span class="nx">content</span> <span class="o">=</span> <span class="nx">ref</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">);</span>
-  <span class="kd">function</span> <span class="nx">emitAddTodo</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="nx">todo</span> <span class="o">=</span> <span class="p">{</span>
-      <span class="nx">id</span><span class="o">:</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">getTime</span><span class="p">(),</span>
-      <span class="nx">content</span><span class="o">:</span> <span class="nx">content</span><span class="p">.</span><span class="nx">value</span><span class="p">,</span>
-      <span class="nx">isCompleted</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
-    <span class="p">};</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">content</span><span class="p">.</span><span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nx">emit</span><span class="p">(</span><span class="s1">&#39;addTodo&#39;</span><span class="p">,</span> <span class="nx">todo</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="nx">content</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
-  <span class="p">}</span>
+  <span class="kr">const</span> <span class="nx">handler</span> <span class="o">=</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="nx">preferredDark</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">matches</span><span class="p">;</span>
+  <span class="p">};</span>
+  <span class="nx">prefersColorSchemeMedia</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;change&#39;</span><span class="p">,</span> <span class="nx">handler</span><span class="p">);</span>
 
-  <span class="k">return</span> <span class="p">{</span> <span class="nx">content</span><span class="p">,</span><span class="nx">emitAddTodo</span> <span class="p">};</span>
+  <span class="nx">onUnmounted</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="nx">prefersColorSchemeMedia</span><span class="p">.</span><span class="nx">removeEventListener</span><span class="p">(</span><span class="s1">&#39;change&#39;</span><span class="p">,</span> <span class="nx">handler</span><span class="p">);</span>
+  <span class="p">});</span>
+  <span class="k">return</span> <span class="nx">preferredDark</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="2-抽離成模組">2. 抽離成模組</h3>
-<p>也可將程式碼抽離成模組，讓其他元件使用。</p>
-<p>建立一個 composables 資料夾，用來放置功能程式碼。</p>
+</div><p>在元件中使用：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// addTodo.js
-</span><span class="c1"></span>
-<span class="kr">import</span> <span class="p">{</span> <span class="nx">ref</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;vue&#39;</span><span class="p">;</span>
-
-<span class="kr">const</span> <span class="nx">addTodo</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">emit</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kr">const</span> <span class="nx">content</span> <span class="o">=</span> <span class="nx">ref</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">);</span>
-  <span class="kd">function</span> <span class="nx">emitAddTodo</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="nx">todo</span> <span class="o">=</span> <span class="p">{</span>
-      <span class="nx">id</span><span class="o">:</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">getTime</span><span class="p">(),</span>
-      <span class="nx">content</span><span class="o">:</span> <span class="nx">content</span><span class="p">.</span><span class="nx">value</span><span class="p">,</span>
-      <span class="nx">isCompleted</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
-    <span class="p">};</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">content</span><span class="p">.</span><span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nx">emit</span><span class="p">(</span><span class="s1">&#39;addTodo&#39;</span><span class="p">,</span> <span class="nx">todo</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="nx">content</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
-  <span class="p">}</span>
-
-  <span class="k">return</span> <span class="p">{</span> <span class="nx">content</span><span class="p">,</span> <span class="nx">emitAddTodo</span> <span class="p">};</span>
-<span class="p">};</span>
-
-<span class="kr">export</span> <span class="k">default</span> <span class="nx">addTodo</span><span class="p">;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>在元件中引用：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// TodoAdd.vue
-</span><span class="c1"></span><span class="kr">import</span> <span class="nx">addTodo</span> <span class="nx">from</span> <span class="s1">&#39;@/composables/useTodo.js&#39;</span><span class="p">;</span>
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="nx">usePreferredDark</span> <span class="nx">from</span> <span class="s1">&#39;./usePreferredDark.js&#39;</span><span class="p">;</span>
 
 <span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
-  <span class="nx">emits</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;addTodo&#39;</span><span class="p">],</span>
-  <span class="nx">setup</span><span class="p">(</span><span class="nx">props</span><span class="p">,</span> <span class="p">{</span> <span class="nx">emit</span> <span class="p">})</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="p">{</span> <span class="nx">content</span><span class="p">,</span> <span class="nx">emitAddTodo</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">addTodo</span><span class="p">(</span><span class="nx">emit</span><span class="p">);</span>
-    <span class="k">return</span> <span class="p">{</span> <span class="nx">content</span><span class="p">,</span> <span class="nx">emitAddTodo</span> <span class="p">};</span>
+  <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">isDark</span> <span class="o">=</span> <span class="nx">usePreferredDark</span><span class="p">();</span>
   <span class="p">},</span>
 <span class="p">};</span>
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="vueusevue-composition-api-的實用工具集合">VueUse：Vue Composition API 的實用工具集合</h2>
-<h3 id="1-簡介">1. 簡介</h3>
+</div><h3 id="2-composition-api-的實用工具集合vueuse">2. Composition API 的實用工具集合：VueUse</h3>
 <blockquote>
 <p><a href="https://vueuse.org/">VueUse</a><br />
 VueUse 是一個 Vue Composition API 的實用工具集合。</p>
@@ -2646,7 +2647,6 @@ VueUse 是一個 Vue Composition API 的實用工具集合。</p>
 <li>可配置事件過濾器和目標。</li>
 <li>支持各種套件，例如 Router、Firebase、RxJS 等。</li>
 </ul>
-<h3 id="2-安裝">2. 安裝</h3>
 <p>CDN：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2721,11 +2721,7 @@ yarn add @vueuse/core
 <span class="p">};</span>
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="3-核心功能">3. 核心功能</h3>
-<blockquote>
-<p><a href="https://vueuse.org/functions.html#core-functions">VueUse - Core Functions</a><br />
-官方文件有完整說明與範例。</p>
-</blockquote>
+</div><p>核心功能：</p>
 <ul>
 <li>Animation 動畫</li>
 <li>Browser 瀏覽器</li>
@@ -2737,6 +2733,9 @@ yarn add @vueuse/core
 <li>Utilities 實用工具</li>
 <li>Watch 監聽</li>
 </ul>
+<blockquote>
+<p><a href="https://vueuse.org/functions.html#core-functions">官方文件有完整說明與範例</a></p>
+</blockquote>
     </article>
     
     <script>
@@ -4007,7 +4006,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <li><a href="#4-reactive-vs-ref">4. Reactive vs Ref</a></li>
       </ul>
     </li>
-    <li><a href="#setup-參數">setup 參數</a>
+    <li><a href="#setup-參數">Setup 參數</a>
       <ul>
         <li><a href="#1-props">1. Props</a></li>
         <li><a href="#2-context">2. Context</a></li>
@@ -4037,15 +4036,8 @@ document.addEventListener('DOMContentLoaded', function () {
     </li>
     <li><a href="#邏輯拆分">邏輯拆分</a>
       <ul>
-        <li><a href="#1-簡易拆分">1. 簡易拆分</a></li>
-        <li><a href="#2-抽離成模組">2. 抽離成模組</a></li>
-      </ul>
-    </li>
-    <li><a href="#vueusevue-composition-api-的實用工具集合">VueUse：Vue Composition API 的實用工具集合</a>
-      <ul>
-        <li><a href="#1-簡介">1. 簡介</a></li>
-        <li><a href="#2-安裝">2. 安裝</a></li>
-        <li><a href="#3-核心功能">3. 核心功能</a></li>
+        <li><a href="#1-應用範例">1. 應用範例</a></li>
+        <li><a href="#2-composition-api-的實用工具集合vueuse">2. Composition API 的實用工具集合：VueUse</a></li>
       </ul>
     </li>
   </ul>

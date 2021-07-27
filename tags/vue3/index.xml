@@ -14,13 +14,81 @@
     <managingEditor>chupaiwang@gmail.com (竹白)</managingEditor>
     <webMaster>chupaiwang@gmail.com (竹白)</webMaster>
     <copyright>Copyright © {year} 竹白記事本</copyright>
-    <lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jul 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://chupai.github.io/tags/vue3/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Vue3 自定義指令應用 - Ripple Effect</title>
+        <link>https://chupai.github.io/posts/2107/vue3_directives_ripple/</link>
+        <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Wed, 28 Jul 2021 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2107/vue3_directives_ripple/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2107/vue3_directives_ripple.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue3</category>
+            
+          
+            
+              <category>自定義指令</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>Vue3 筆記</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Vue3 - 自定義指令</title>
+        <link>https://chupai.github.io/posts/2107/vue3_directives/</link>
+        <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+        <author>chupaiwang@gmail.com (竹白)</author>
+        <atom:modified>Tue, 27 Jul 2021 00:00:00 +0000</atom:modified>
+        <guid>https://chupai.github.io/posts/2107/vue3_directives/</guid>
+        <description></description>
+        
+        <dc:creator>竹白</dc:creator>
+        <media:content url="https://chupai.github.ioimages/covers/2107/vue3_directives.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Vue3</category>
+            
+          
+            
+              <category>自定義指令</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>Vue3 筆記</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Vite2 &#43; Vue 3 &#43; TypeScript &#43; WindiCSS</title>
